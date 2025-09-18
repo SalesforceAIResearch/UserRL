@@ -1,0 +1,4202 @@
+[
+    {
+        "id": 0,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 66,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 68,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 71,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 72,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 74,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 76,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 77,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 79,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 80,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 81,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 82,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 84,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 85,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 86,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 87,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 88,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 89,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 90,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 91,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 92,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 93,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 94,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 95,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 96,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 97,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 98,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 99,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 100,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 101,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 102,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 103,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 104,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 105,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 106,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 107,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 108,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 109,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 110,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 111,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 112,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 113,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 114,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 115,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 116,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 117,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 118,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 119,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 120,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 121,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 122,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 123,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 124,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 125,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 126,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 127,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 128,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 130,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 131,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 132,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 133,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 134,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 135,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 136,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 137,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 138,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    },
+    {
+        "id": 139,
+        "obs": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some spraybottle on toilet.",
+        "info": {
+            "extra.gamefile": [
+                "/fsx/home/cqian/projects/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl"
+            ],
+            "admissible_commands": [
+                [
+                    "go to cabinet 1",
+                    "go to cabinet 2",
+                    "go to cabinet 3",
+                    "go to countertop 1",
+                    "go to garbagecan 1",
+                    "go to handtowelholder 1",
+                    "go to handtowelholder 2",
+                    "go to sinkbasin 1",
+                    "go to toilet 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "help",
+                    "inventory",
+                    "look"
+                ]
+            ],
+            "won": [
+                false
+            ]
+        }
+    }
+]

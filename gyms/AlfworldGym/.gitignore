@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.so
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# API Keys
+secret.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# customized
+test_human.py
+
+alfworldgym/config/eval_config.yaml
+alfworldgym/config/base_config.yaml
+alfworldgym/data/json_2.1.1
+alfworldgym/data/logic
+alfworldgym/data/detectors

@@ -1,0 +1,4 @@
+gymnasium>=0.26.0
+numpy>=1.21.0
+pyyaml>=6.0
+alfworld 
