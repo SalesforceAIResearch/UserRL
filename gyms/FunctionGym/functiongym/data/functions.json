@@ -1,0 +1,5920 @@
+[
+    {
+        "id": "func-1",
+        "rule": "c * (a * b) * d",
+        "test_case": [
+            3,
+            5,
+            5,
+            3
+        ],
+        "expected_result": 225.0
+    },
+    {
+        "id": "func-2",
+        "rule": "(a + c * b) + d",
+        "test_case": [
+            8,
+            8,
+            8,
+            5
+        ],
+        "expected_result": 77.0
+    },
+    {
+        "id": "func-3",
+        "rule": "(b * c) - a + d",
+        "test_case": [
+            10,
+            6,
+            9,
+            5
+        ],
+        "expected_result": 49.0
+    },
+    {
+        "id": "func-4",
+        "rule": "d / a - c + b",
+        "test_case": [
+            3,
+            10,
+            4,
+            9
+        ],
+        "expected_result": 9.0
+    },
+    {
+        "id": "func-5",
+        "rule": "(d - a) * (b * c)",
+        "test_case": [
+            5,
+            3,
+            5,
+            8
+        ],
+        "expected_result": 45.0
+    },
+    {
+        "id": "func-6",
+        "rule": "c * b ** 2 / d * a",
+        "test_case": [
+            6,
+            10,
+            6,
+            6
+        ],
+        "expected_result": 600.0
+    },
+    {
+        "id": "func-7",
+        "rule": "(c + b) / (d / a)",
+        "test_case": [
+            10,
+            1,
+            5,
+            10
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-8",
+        "rule": "c - b - d ** a",
+        "test_case": [
+            2,
+            6,
+            5,
+            4
+        ],
+        "expected_result": -17.0
+    },
+    {
+        "id": "func-9",
+        "rule": "b * c ** d * a",
+        "test_case": [
+            10,
+            3,
+            6,
+            1
+        ],
+        "expected_result": 180.0
+    },
+    {
+        "id": "func-10",
+        "rule": "(b * a) + (c + d)",
+        "test_case": [
+            1,
+            2,
+            5,
+            6
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-11",
+        "rule": "(c / a) * b - d",
+        "test_case": [
+            2,
+            4,
+            9,
+            3
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-12",
+        "rule": "a / (d - c) + b",
+        "test_case": [
+            10,
+            3,
+            6,
+            4
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-13",
+        "rule": "a - b - d * c",
+        "test_case": [
+            2,
+            9,
+            8,
+            8
+        ],
+        "expected_result": -71.0
+    },
+    {
+        "id": "func-14",
+        "rule": "d * a ** 2 - c * b",
+        "test_case": [
+            2,
+            3,
+            3,
+            7
+        ],
+        "expected_result": 19.0
+    },
+    {
+        "id": "func-15",
+        "rule": "a * b ** 2 - d - c",
+        "test_case": [
+            4,
+            3,
+            2,
+            4
+        ],
+        "expected_result": 30.0
+    },
+    {
+        "id": "func-16",
+        "rule": "(a * b * c) / d",
+        "test_case": [
+            10,
+            4,
+            10,
+            5
+        ],
+        "expected_result": 80.0
+    },
+    {
+        "id": "func-17",
+        "rule": "(c + b) ** 2 - a + d",
+        "test_case": [
+            9,
+            7,
+            4,
+            2
+        ],
+        "expected_result": 114.0
+    },
+    {
+        "id": "func-18",
+        "rule": "(c + d) ** 2 + b * a",
+        "test_case": [
+            2,
+            7,
+            7,
+            5
+        ],
+        "expected_result": 158.0
+    },
+    {
+        "id": "func-19",
+        "rule": "d ** b / c - a",
+        "test_case": [
+            8,
+            3,
+            9,
+            3
+        ],
+        "expected_result": -5.0
+    },
+    {
+        "id": "func-20",
+        "rule": "a * (c * b) * d",
+        "test_case": [
+            6,
+            8,
+            1,
+            7
+        ],
+        "expected_result": 336.0
+    },
+    {
+        "id": "func-21",
+        "rule": "(a + b) ** 2 + c - d",
+        "test_case": [
+            4,
+            10,
+            7,
+            1
+        ],
+        "expected_result": 202.0
+    },
+    {
+        "id": "func-22",
+        "rule": "d ** 2 - b ** 2 / c * a",
+        "test_case": [
+            6,
+            8,
+            1,
+            1
+        ],
+        "expected_result": -383.0
+    },
+    {
+        "id": "func-23",
+        "rule": "(a - c) / d * b",
+        "test_case": [
+            10,
+            1,
+            4,
+            6
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-24",
+        "rule": "(c * a + b) - d",
+        "test_case": [
+            3,
+            5,
+            6,
+            8
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-25",
+        "rule": "(b * d) - (a + c)",
+        "test_case": [
+            6,
+            8,
+            9,
+            10
+        ],
+        "expected_result": 65.0
+    },
+    {
+        "id": "func-26",
+        "rule": "c / d - a + b",
+        "test_case": [
+            5,
+            2,
+            3,
+            3
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-27",
+        "rule": "b * d * a / c",
+        "test_case": [
+            8,
+            3,
+            2,
+            3
+        ],
+        "expected_result": 36.0
+    },
+    {
+        "id": "func-28",
+        "rule": "(b + a) ** 2 + c + d",
+        "test_case": [
+            6,
+            6,
+            2,
+            3
+        ],
+        "expected_result": 149.0
+    },
+    {
+        "id": "func-29",
+        "rule": "(c / d - b) - a",
+        "test_case": [
+            5,
+            1,
+            4,
+            2
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-30",
+        "rule": "(a + d) + b - c",
+        "test_case": [
+            10,
+            6,
+            3,
+            1
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-31",
+        "rule": "(d - b - a) - c",
+        "test_case": [
+            2,
+            1,
+            6,
+            10
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-32",
+        "rule": "(b + a) ** 2 + d - c",
+        "test_case": [
+            9,
+            8,
+            4,
+            7
+        ],
+        "expected_result": 292.0
+    },
+    {
+        "id": "func-33",
+        "rule": "d ** b - c * a",
+        "test_case": [
+            4,
+            7,
+            4,
+            3
+        ],
+        "expected_result": 2171.0
+    },
+    {
+        "id": "func-34",
+        "rule": "(b + a - c) - d",
+        "test_case": [
+            2,
+            7,
+            2,
+            6
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-35",
+        "rule": "c ** 2 + a - d + b",
+        "test_case": [
+            1,
+            9,
+            2,
+            3
+        ],
+        "expected_result": 11.0
+    },
+    {
+        "id": "func-36",
+        "rule": "d * a * b - c",
+        "test_case": [
+            7,
+            2,
+            6,
+            8
+        ],
+        "expected_result": 106.0
+    },
+    {
+        "id": "func-37",
+        "rule": "c * (a / b + d)",
+        "test_case": [
+            9,
+            9,
+            5,
+            1
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-38",
+        "rule": "(d - a) * c / b",
+        "test_case": [
+            4,
+            2,
+            8,
+            7
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-39",
+        "rule": "(b * d / a) * c",
+        "test_case": [
+            9,
+            4,
+            9,
+            5
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-40",
+        "rule": "(c / a - d) - b",
+        "test_case": [
+            6,
+            1,
+            6,
+            2
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-41",
+        "rule": "(a ** 2 * b) + d * c",
+        "test_case": [
+            3,
+            4,
+            7,
+            7
+        ],
+        "expected_result": 85.0
+    },
+    {
+        "id": "func-42",
+        "rule": "c - d ** 2 + b - a",
+        "test_case": [
+            9,
+            1,
+            5,
+            5
+        ],
+        "expected_result": -28.0
+    },
+    {
+        "id": "func-43",
+        "rule": "(d - c) - (a + b)",
+        "test_case": [
+            7,
+            10,
+            5,
+            3
+        ],
+        "expected_result": -19.0
+    },
+    {
+        "id": "func-44",
+        "rule": "d + (a + c) * b",
+        "test_case": [
+            2,
+            6,
+            3,
+            10
+        ],
+        "expected_result": 40.0
+    },
+    {
+        "id": "func-45",
+        "rule": "c - (a - d * b)",
+        "test_case": [
+            2,
+            9,
+            2,
+            8
+        ],
+        "expected_result": 72.0
+    },
+    {
+        "id": "func-46",
+        "rule": "(b + d) + (a * c)",
+        "test_case": [
+            4,
+            3,
+            9,
+            3
+        ],
+        "expected_result": 42.0
+    },
+    {
+        "id": "func-47",
+        "rule": "(b - a) - (c * d)",
+        "test_case": [
+            1,
+            4,
+            10,
+            2
+        ],
+        "expected_result": -17.0
+    },
+    {
+        "id": "func-48",
+        "rule": "c ** 2 / d ** 2 + b * a",
+        "test_case": [
+            9,
+            7,
+            2,
+            1
+        ],
+        "expected_result": 67.0
+    },
+    {
+        "id": "func-49",
+        "rule": "c ** a + d * b",
+        "test_case": [
+            2,
+            2,
+            9,
+            1
+        ],
+        "expected_result": 83.0
+    },
+    {
+        "id": "func-50",
+        "rule": "b + a + c ** d",
+        "test_case": [
+            6,
+            4,
+            5,
+            1
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-51",
+        "rule": "c * a + b + d",
+        "test_case": [
+            8,
+            10,
+            5,
+            5
+        ],
+        "expected_result": 55.0
+    },
+    {
+        "id": "func-52",
+        "rule": "b + c + a * d",
+        "test_case": [
+            7,
+            8,
+            2,
+            5
+        ],
+        "expected_result": 45.0
+    },
+    {
+        "id": "func-53",
+        "rule": "b * d ** 2 - c + a",
+        "test_case": [
+            9,
+            8,
+            3,
+            6
+        ],
+        "expected_result": 294.0
+    },
+    {
+        "id": "func-54",
+        "rule": "d - b * c ** a",
+        "test_case": [
+            9,
+            6,
+            1,
+            8
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-55",
+        "rule": "(c / d * a) * b",
+        "test_case": [
+            2,
+            8,
+            6,
+            1
+        ],
+        "expected_result": 96.0
+    },
+    {
+        "id": "func-56",
+        "rule": "(b + c) ** 2 + d + a",
+        "test_case": [
+            2,
+            5,
+            8,
+            9
+        ],
+        "expected_result": 180.0
+    },
+    {
+        "id": "func-57",
+        "rule": "(a + d) * (c * b)",
+        "test_case": [
+            4,
+            5,
+            9,
+            10
+        ],
+        "expected_result": 630.0
+    },
+    {
+        "id": "func-58",
+        "rule": "(d + b + c) * a",
+        "test_case": [
+            6,
+            9,
+            7,
+            1
+        ],
+        "expected_result": 102.0
+    },
+    {
+        "id": "func-59",
+        "rule": "d * b ** 2 + a - c",
+        "test_case": [
+            8,
+            2,
+            2,
+            10
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-60",
+        "rule": "(a - c) - (d / b)",
+        "test_case": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-61",
+        "rule": "b ** c - a ** d",
+        "test_case": [
+            1,
+            6,
+            4,
+            7
+        ],
+        "expected_result": 1295.0
+    },
+    {
+        "id": "func-62",
+        "rule": "b * a ** 2 + c * d",
+        "test_case": [
+            5,
+            2,
+            3,
+            3
+        ],
+        "expected_result": 59.0
+    },
+    {
+        "id": "func-63",
+        "rule": "c / (b + a) * d",
+        "test_case": [
+            2,
+            4,
+            6,
+            6
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-64",
+        "rule": "b * (a / c) - d",
+        "test_case": [
+            9,
+            10,
+            10,
+            8
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-65",
+        "rule": "(a + c + d) * b",
+        "test_case": [
+            8,
+            5,
+            8,
+            4
+        ],
+        "expected_result": 100.0
+    },
+    {
+        "id": "func-66",
+        "rule": "a * (d / c) - b",
+        "test_case": [
+            7,
+            4,
+            9,
+            9
+        ],
+        "expected_result": 3.0
+    },
+    {
+        "id": "func-67",
+        "rule": "(d ** 2 + a) / b * c",
+        "test_case": [
+            4,
+            8,
+            5,
+            2
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-68",
+        "rule": "b * (c - d) * a",
+        "test_case": [
+            1,
+            5,
+            4,
+            3
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-69",
+        "rule": "c ** 2 + d - a + b",
+        "test_case": [
+            9,
+            8,
+            5,
+            10
+        ],
+        "expected_result": 34.0
+    },
+    {
+        "id": "func-70",
+        "rule": "(d * a) * b * c",
+        "test_case": [
+            3,
+            3,
+            9,
+            2
+        ],
+        "expected_result": 162.0
+    },
+    {
+        "id": "func-71",
+        "rule": "(a + c) + b - d",
+        "test_case": [
+            9,
+            7,
+            6,
+            8
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-72",
+        "rule": "d * b ** 2 - c + a",
+        "test_case": [
+            4,
+            7,
+            3,
+            8
+        ],
+        "expected_result": 393.0
+    },
+    {
+        "id": "func-73",
+        "rule": "(d - b / c) * a",
+        "test_case": [
+            10,
+            3,
+            3,
+            8
+        ],
+        "expected_result": 70.0
+    },
+    {
+        "id": "func-74",
+        "rule": "(d - c) - b - a",
+        "test_case": [
+            1,
+            10,
+            8,
+            10
+        ],
+        "expected_result": -9.0
+    },
+    {
+        "id": "func-75",
+        "rule": "a * c + d + b",
+        "test_case": [
+            10,
+            1,
+            8,
+            10
+        ],
+        "expected_result": 91.0
+    },
+    {
+        "id": "func-76",
+        "rule": "c ** d ** b ** a",
+        "test_case": [
+            3,
+            3,
+            1,
+            10
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-77",
+        "rule": "(b + d) ** 2 * c * a",
+        "test_case": [
+            9,
+            3,
+            2,
+            6
+        ],
+        "expected_result": 1458.0
+    },
+    {
+        "id": "func-78",
+        "rule": "a ** 2 * b + c * d",
+        "test_case": [
+            10,
+            4,
+            3,
+            9
+        ],
+        "expected_result": 427.0
+    },
+    {
+        "id": "func-79",
+        "rule": "(a ** 2 - b) * c * d",
+        "test_case": [
+            6,
+            4,
+            10,
+            3
+        ],
+        "expected_result": 960.0
+    },
+    {
+        "id": "func-80",
+        "rule": "(d + a) * c * b",
+        "test_case": [
+            7,
+            6,
+            6,
+            2
+        ],
+        "expected_result": 324.0
+    },
+    {
+        "id": "func-81",
+        "rule": "(b + c) ** 2 / a * d",
+        "test_case": [
+            9,
+            7,
+            5,
+            10
+        ],
+        "expected_result": 160.0
+    },
+    {
+        "id": "func-82",
+        "rule": "(a + b + d) * c",
+        "test_case": [
+            3,
+            6,
+            2,
+            7
+        ],
+        "expected_result": 32.0
+    },
+    {
+        "id": "func-83",
+        "rule": "b + a ** 2 - c + d",
+        "test_case": [
+            6,
+            6,
+            1,
+            5
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-84",
+        "rule": "c * (b - a * d)",
+        "test_case": [
+            9,
+            7,
+            2,
+            9
+        ],
+        "expected_result": -148.0
+    },
+    {
+        "id": "func-85",
+        "rule": "c * b ** d ** a",
+        "test_case": [
+            2,
+            4,
+            7,
+            1
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-86",
+        "rule": "(b + c) + (a - d)",
+        "test_case": [
+            4,
+            6,
+            4,
+            7
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-87",
+        "rule": "(c - a / b) * d",
+        "test_case": [
+            8,
+            1,
+            2,
+            8
+        ],
+        "expected_result": -48.0
+    },
+    {
+        "id": "func-88",
+        "rule": "(b * c) / d * a",
+        "test_case": [
+            9,
+            6,
+            8,
+            9
+        ],
+        "expected_result": 48.0
+    },
+    {
+        "id": "func-89",
+        "rule": "(a * d) - (b * c)",
+        "test_case": [
+            1,
+            10,
+            3,
+            1
+        ],
+        "expected_result": -29.0
+    },
+    {
+        "id": "func-90",
+        "rule": "d * a * c ** b",
+        "test_case": [
+            9,
+            2,
+            7,
+            9
+        ],
+        "expected_result": 3969.0
+    },
+    {
+        "id": "func-91",
+        "rule": "(d - b * a) * c",
+        "test_case": [
+            7,
+            3,
+            1,
+            10
+        ],
+        "expected_result": -11.0
+    },
+    {
+        "id": "func-92",
+        "rule": "(c + b) - a + d",
+        "test_case": [
+            7,
+            4,
+            10,
+            6
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-93",
+        "rule": "d + c ** a + b",
+        "test_case": [
+            2,
+            5,
+            1,
+            4
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-94",
+        "rule": "(c + a) - (b - d)",
+        "test_case": [
+            5,
+            8,
+            8,
+            8
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-95",
+        "rule": "(c * d) + (b * a)",
+        "test_case": [
+            6,
+            9,
+            4,
+            9
+        ],
+        "expected_result": 90.0
+    },
+    {
+        "id": "func-96",
+        "rule": "a * (b - c) * d",
+        "test_case": [
+            5,
+            1,
+            10,
+            5
+        ],
+        "expected_result": -225.0
+    },
+    {
+        "id": "func-97",
+        "rule": "d ** 2 - c ** 2 + b * a",
+        "test_case": [
+            8,
+            4,
+            7,
+            5
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-98",
+        "rule": "c * b - d - a",
+        "test_case": [
+            8,
+            1,
+            7,
+            3
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-99",
+        "rule": "b + c ** a + d",
+        "test_case": [
+            3,
+            2,
+            1,
+            2
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-100",
+        "rule": "(d + c) ** 2 - b / a",
+        "test_case": [
+            2,
+            8,
+            6,
+            4
+        ],
+        "expected_result": 96.0
+    },
+    {
+        "id": "func-101",
+        "rule": "c * d + b ** a",
+        "test_case": [
+            7,
+            3,
+            6,
+            1
+        ],
+        "expected_result": 2193.0
+    },
+    {
+        "id": "func-102",
+        "rule": "(c + a) * (d + b)",
+        "test_case": [
+            3,
+            1,
+            6,
+            2
+        ],
+        "expected_result": 27.0
+    },
+    {
+        "id": "func-103",
+        "rule": "d * c ** 2 + b - a",
+        "test_case": [
+            3,
+            8,
+            2,
+            2
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-104",
+        "rule": "(a * c) - (b * d)",
+        "test_case": [
+            3,
+            7,
+            9,
+            9
+        ],
+        "expected_result": -36.0
+    },
+    {
+        "id": "func-105",
+        "rule": "(b * a) - d - c",
+        "test_case": [
+            10,
+            1,
+            2,
+            2
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-106",
+        "rule": "(a ** 2 + b) * d * c",
+        "test_case": [
+            3,
+            5,
+            8,
+            9
+        ],
+        "expected_result": 1008.0
+    },
+    {
+        "id": "func-107",
+        "rule": "a ** b ** d * c",
+        "test_case": [
+            1,
+            7,
+            4,
+            9
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-108",
+        "rule": "c + a ** d - b",
+        "test_case": [
+            3,
+            6,
+            5,
+            6
+        ],
+        "expected_result": 728.0
+    },
+    {
+        "id": "func-109",
+        "rule": "d * (b + a + c)",
+        "test_case": [
+            1,
+            5,
+            2,
+            3
+        ],
+        "expected_result": 24.0
+    },
+    {
+        "id": "func-110",
+        "rule": "a * (b + c) - d",
+        "test_case": [
+            7,
+            10,
+            6,
+            5
+        ],
+        "expected_result": 107.0
+    },
+    {
+        "id": "func-111",
+        "rule": "(d + b) * (a + c)",
+        "test_case": [
+            6,
+            10,
+            7,
+            2
+        ],
+        "expected_result": 156.0
+    },
+    {
+        "id": "func-112",
+        "rule": "(d + a) + (b - c)",
+        "test_case": [
+            3,
+            8,
+            6,
+            1
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-113",
+        "rule": "(a * d - b) / c",
+        "test_case": [
+            7,
+            3,
+            1,
+            5
+        ],
+        "expected_result": 32.0
+    },
+    {
+        "id": "func-114",
+        "rule": "(b * d * c) / a",
+        "test_case": [
+            1,
+            5,
+            5,
+            6
+        ],
+        "expected_result": 150.0
+    },
+    {
+        "id": "func-115",
+        "rule": "a / d * b + c",
+        "test_case": [
+            1,
+            10,
+            5,
+            10
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-116",
+        "rule": "b - a * c - d",
+        "test_case": [
+            4,
+            1,
+            5,
+            3
+        ],
+        "expected_result": -22.0
+    },
+    {
+        "id": "func-117",
+        "rule": "c * a - b * d",
+        "test_case": [
+            9,
+            4,
+            8,
+            4
+        ],
+        "expected_result": 56.0
+    },
+    {
+        "id": "func-118",
+        "rule": "(c + b + d) - a",
+        "test_case": [
+            7,
+            3,
+            10,
+            10
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-119",
+        "rule": "(b ** 2 + c) - d * a",
+        "test_case": [
+            4,
+            5,
+            7,
+            9
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-120",
+        "rule": "(d - b) * (a - c)",
+        "test_case": [
+            10,
+            8,
+            4,
+            5
+        ],
+        "expected_result": -18.0
+    },
+    {
+        "id": "func-121",
+        "rule": "d + b ** 2 + a - c",
+        "test_case": [
+            1,
+            8,
+            3,
+            2
+        ],
+        "expected_result": 64.0
+    },
+    {
+        "id": "func-122",
+        "rule": "(b ** 2 * d) - a * c",
+        "test_case": [
+            6,
+            10,
+            7,
+            6
+        ],
+        "expected_result": 558.0
+    },
+    {
+        "id": "func-123",
+        "rule": "c ** b * d * a",
+        "test_case": [
+            1,
+            5,
+            2,
+            4
+        ],
+        "expected_result": 128.0
+    },
+    {
+        "id": "func-124",
+        "rule": "(d / c) + (a * b)",
+        "test_case": [
+            4,
+            1,
+            1,
+            1
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-125",
+        "rule": "b - a ** c - d",
+        "test_case": [
+            3,
+            2,
+            5,
+            4
+        ],
+        "expected_result": -245.0
+    },
+    {
+        "id": "func-126",
+        "rule": "b / c * a + d",
+        "test_case": [
+            7,
+            3,
+            3,
+            6
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-127",
+        "rule": "(c + b) + (d + a)",
+        "test_case": [
+            2,
+            7,
+            3,
+            8
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-128",
+        "rule": "(d - b - c) - a",
+        "test_case": [
+            4,
+            7,
+            4,
+            3
+        ],
+        "expected_result": -12.0
+    },
+    {
+        "id": "func-129",
+        "rule": "c * (d + a) + b",
+        "test_case": [
+            2,
+            3,
+            2,
+            4
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-130",
+        "rule": "d * (b * c) - a",
+        "test_case": [
+            4,
+            2,
+            2,
+            2
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-131",
+        "rule": "c * d ** 2 * b - a",
+        "test_case": [
+            3,
+            7,
+            6,
+            10
+        ],
+        "expected_result": 4197.0
+    },
+    {
+        "id": "func-132",
+        "rule": "a ** 2 * b ** 2 - d + c",
+        "test_case": [
+            6,
+            10,
+            2,
+            10
+        ],
+        "expected_result": 3592.0
+    },
+    {
+        "id": "func-133",
+        "rule": "(d * a) + (c * b)",
+        "test_case": [
+            4,
+            9,
+            6,
+            5
+        ],
+        "expected_result": 74.0
+    },
+    {
+        "id": "func-134",
+        "rule": "(c + b) ** 2 / a / d",
+        "test_case": [
+            2,
+            2,
+            8,
+            2
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-135",
+        "rule": "(b + d) ** 2 * c + a",
+        "test_case": [
+            9,
+            4,
+            2,
+            3
+        ],
+        "expected_result": 107.0
+    },
+    {
+        "id": "func-136",
+        "rule": "(c + b) + (d - a)",
+        "test_case": [
+            2,
+            7,
+            7,
+            2
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-137",
+        "rule": "d * (c + a) - b",
+        "test_case": [
+            2,
+            9,
+            8,
+            1
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-138",
+        "rule": "(c * b + a) - d",
+        "test_case": [
+            4,
+            3,
+            9,
+            8
+        ],
+        "expected_result": 23.0
+    },
+    {
+        "id": "func-139",
+        "rule": "(c * d) / a - b",
+        "test_case": [
+            4,
+            3,
+            4,
+            9
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-140",
+        "rule": "b * (d - c) * a",
+        "test_case": [
+            4,
+            3,
+            10,
+            5
+        ],
+        "expected_result": -60.0
+    },
+    {
+        "id": "func-141",
+        "rule": "b * d ** a - c",
+        "test_case": [
+            5,
+            1,
+            6,
+            5
+        ],
+        "expected_result": 3119.0
+    },
+    {
+        "id": "func-142",
+        "rule": "a * (b * d) * c",
+        "test_case": [
+            9,
+            3,
+            5,
+            6
+        ],
+        "expected_result": 810.0
+    },
+    {
+        "id": "func-143",
+        "rule": "(b / c) * d * a",
+        "test_case": [
+            3,
+            4,
+            9,
+            6
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-144",
+        "rule": "d * c ** 2 * b - a",
+        "test_case": [
+            1,
+            9,
+            4,
+            4
+        ],
+        "expected_result": 575.0
+    },
+    {
+        "id": "func-145",
+        "rule": "c ** 2 * b ** 2 * a + d",
+        "test_case": [
+            1,
+            2,
+            10,
+            9
+        ],
+        "expected_result": 409.0
+    },
+    {
+        "id": "func-146",
+        "rule": "d ** 2 - a / c * b",
+        "test_case": [
+            1,
+            7,
+            1,
+            3
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-147",
+        "rule": "(d + b) ** 2 * c + a",
+        "test_case": [
+            5,
+            2,
+            6,
+            7
+        ],
+        "expected_result": 491.0
+    },
+    {
+        "id": "func-148",
+        "rule": "a - c + b ** d",
+        "test_case": [
+            7,
+            3,
+            8,
+            3
+        ],
+        "expected_result": 26.0
+    },
+    {
+        "id": "func-149",
+        "rule": "(a / d) / (b - c)",
+        "test_case": [
+            10,
+            10,
+            9,
+            1
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-150",
+        "rule": "a ** b - d * c",
+        "test_case": [
+            1,
+            7,
+            9,
+            7
+        ],
+        "expected_result": -62.0
+    },
+    {
+        "id": "func-151",
+        "rule": "a * d / c * b",
+        "test_case": [
+            6,
+            8,
+            8,
+            2
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-152",
+        "rule": "(a * d) * c + b",
+        "test_case": [
+            1,
+            4,
+            1,
+            1
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-153",
+        "rule": "a + b * d - c",
+        "test_case": [
+            8,
+            4,
+            9,
+            10
+        ],
+        "expected_result": 39.0
+    },
+    {
+        "id": "func-154",
+        "rule": "c ** 2 / d ** 2 + a * b",
+        "test_case": [
+            7,
+            6,
+            4,
+            2
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-155",
+        "rule": "a * b * c / d",
+        "test_case": [
+            7,
+            8,
+            1,
+            2
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-156",
+        "rule": "b ** 2 - d ** 2 - c - a",
+        "test_case": [
+            10,
+            3,
+            2,
+            2
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-157",
+        "rule": "d - b ** a / c",
+        "test_case": [
+            2,
+            10,
+            5,
+            7
+        ],
+        "expected_result": -13.0
+    },
+    {
+        "id": "func-158",
+        "rule": "(d - b) + (c / a)",
+        "test_case": [
+            2,
+            8,
+            2,
+            2
+        ],
+        "expected_result": -5.0
+    },
+    {
+        "id": "func-159",
+        "rule": "a ** d + c - b",
+        "test_case": [
+            5,
+            9,
+            5,
+            2
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-160",
+        "rule": "(d / c) - (a - b)",
+        "test_case": [
+            2,
+            4,
+            4,
+            8
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-161",
+        "rule": "(c - b / d) + a",
+        "test_case": [
+            8,
+            8,
+            8,
+            4
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-162",
+        "rule": "(c ** 2 + b) - a * d",
+        "test_case": [
+            10,
+            9,
+            7,
+            6
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-163",
+        "rule": "a / (b / d) - c",
+        "test_case": [
+            9,
+            2,
+            10,
+            10
+        ],
+        "expected_result": 35.0
+    },
+    {
+        "id": "func-164",
+        "rule": "a + c ** b + d",
+        "test_case": [
+            6,
+            7,
+            2,
+            7
+        ],
+        "expected_result": 141.0
+    },
+    {
+        "id": "func-165",
+        "rule": "b + (a * d) + c",
+        "test_case": [
+            9,
+            8,
+            6,
+            8
+        ],
+        "expected_result": 86.0
+    },
+    {
+        "id": "func-166",
+        "rule": "(d * b + c) - a",
+        "test_case": [
+            1,
+            6,
+            6,
+            2
+        ],
+        "expected_result": 17.0
+    },
+    {
+        "id": "func-167",
+        "rule": "d + c * b + a",
+        "test_case": [
+            1,
+            4,
+            2,
+            3
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-168",
+        "rule": "b + (c - d) / a",
+        "test_case": [
+            8,
+            8,
+            6,
+            6
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-169",
+        "rule": "(d - c) * (b - a)",
+        "test_case": [
+            6,
+            8,
+            5,
+            6
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-170",
+        "rule": "b - (c * d + a)",
+        "test_case": [
+            6,
+            9,
+            8,
+            8
+        ],
+        "expected_result": -61.0
+    },
+    {
+        "id": "func-171",
+        "rule": "(c - d + a) * b",
+        "test_case": [
+            1,
+            5,
+            8,
+            4
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-172",
+        "rule": "b ** 2 * a ** 2 / c * d",
+        "test_case": [
+            8,
+            5,
+            10,
+            3
+        ],
+        "expected_result": 480.0
+    },
+    {
+        "id": "func-173",
+        "rule": "b * (d * a) - c",
+        "test_case": [
+            8,
+            1,
+            7,
+            3
+        ],
+        "expected_result": 17.0
+    },
+    {
+        "id": "func-174",
+        "rule": "(a ** 2 + d) * c * b",
+        "test_case": [
+            10,
+            8,
+            4,
+            4
+        ],
+        "expected_result": 3328.0
+    },
+    {
+        "id": "func-175",
+        "rule": "b * c * a + d",
+        "test_case": [
+            10,
+            6,
+            1,
+            5
+        ],
+        "expected_result": 65.0
+    },
+    {
+        "id": "func-176",
+        "rule": "c ** 2 * d ** 2 - a + b",
+        "test_case": [
+            7,
+            5,
+            5,
+            6
+        ],
+        "expected_result": 898.0
+    },
+    {
+        "id": "func-177",
+        "rule": "(a ** 2 * c) / d * b",
+        "test_case": [
+            1,
+            10,
+            1,
+            5
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-178",
+        "rule": "(d / b) - (c * a)",
+        "test_case": [
+            4,
+            2,
+            10,
+            2
+        ],
+        "expected_result": -39.0
+    },
+    {
+        "id": "func-179",
+        "rule": "a / (d / c) * b",
+        "test_case": [
+            10,
+            7,
+            1,
+            10
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-180",
+        "rule": "d ** 2 - c ** 2 * b + a",
+        "test_case": [
+            3,
+            3,
+            6,
+            3
+        ],
+        "expected_result": -96.0
+    },
+    {
+        "id": "func-181",
+        "rule": "c - d ** 2 - b * a",
+        "test_case": [
+            2,
+            2,
+            3,
+            8
+        ],
+        "expected_result": -65.0
+    },
+    {
+        "id": "func-182",
+        "rule": "(b + a) ** 2 * c + d",
+        "test_case": [
+            5,
+            1,
+            7,
+            2
+        ],
+        "expected_result": 254.0
+    },
+    {
+        "id": "func-183",
+        "rule": "(d + c * b) / a",
+        "test_case": [
+            1,
+            2,
+            9,
+            10
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-184",
+        "rule": "(d + c) - b + a",
+        "test_case": [
+            3,
+            4,
+            6,
+            2
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-185",
+        "rule": "(c + a) * d + b",
+        "test_case": [
+            4,
+            2,
+            9,
+            2
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-186",
+        "rule": "b / (d / a) * c",
+        "test_case": [
+            4,
+            3,
+            1,
+            1
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-187",
+        "rule": "c * d ** 2 - b - a",
+        "test_case": [
+            1,
+            4,
+            2,
+            9
+        ],
+        "expected_result": 157.0
+    },
+    {
+        "id": "func-188",
+        "rule": "d / c ** 2 + b + a",
+        "test_case": [
+            6,
+            6,
+            1,
+            5
+        ],
+        "expected_result": 17.0
+    },
+    {
+        "id": "func-189",
+        "rule": "(b - a + c) - d",
+        "test_case": [
+            10,
+            1,
+            7,
+            8
+        ],
+        "expected_result": -10.0
+    },
+    {
+        "id": "func-190",
+        "rule": "a ** 2 / c / d * b",
+        "test_case": [
+            4,
+            9,
+            3,
+            3
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-191",
+        "rule": "a + c + b * d",
+        "test_case": [
+            3,
+            9,
+            6,
+            7
+        ],
+        "expected_result": 72.0
+    },
+    {
+        "id": "func-192",
+        "rule": "(d + a * c) + b",
+        "test_case": [
+            6,
+            8,
+            7,
+            7
+        ],
+        "expected_result": 57.0
+    },
+    {
+        "id": "func-193",
+        "rule": "(a * d) / (c / b)",
+        "test_case": [
+            6,
+            8,
+            8,
+            3
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-194",
+        "rule": "(a ** 2 - c) * d * b",
+        "test_case": [
+            10,
+            6,
+            7,
+            3
+        ],
+        "expected_result": 1674.0
+    },
+    {
+        "id": "func-195",
+        "rule": "d ** 2 * c ** 2 * a / b",
+        "test_case": [
+            5,
+            1,
+            7,
+            3
+        ],
+        "expected_result": 2205.0
+    },
+    {
+        "id": "func-196",
+        "rule": "(d + b) ** 2 * a + c",
+        "test_case": [
+            2,
+            10,
+            2,
+            7
+        ],
+        "expected_result": 580.0
+    },
+    {
+        "id": "func-197",
+        "rule": "b ** 2 * c / a / d",
+        "test_case": [
+            3,
+            5,
+            6,
+            2
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-198",
+        "rule": "(d * b * c) + a",
+        "test_case": [
+            5,
+            7,
+            7,
+            1
+        ],
+        "expected_result": 54.0
+    },
+    {
+        "id": "func-199",
+        "rule": "b - c ** 2 * a - d",
+        "test_case": [
+            5,
+            8,
+            8,
+            4
+        ],
+        "expected_result": -316.0
+    },
+    {
+        "id": "func-200",
+        "rule": "(c ** 2 - d) * a * b",
+        "test_case": [
+            9,
+            10,
+            5,
+            2
+        ],
+        "expected_result": 2070.0
+    },
+    {
+        "id": "func-201",
+        "rule": "(b * c) / (a - d)",
+        "test_case": [
+            10,
+            4,
+            5,
+            9
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-202",
+        "rule": "d * (b + c) + a",
+        "test_case": [
+            7,
+            5,
+            6,
+            1
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-203",
+        "rule": "(c * a + d) - b",
+        "test_case": [
+            4,
+            6,
+            4,
+            9
+        ],
+        "expected_result": 19.0
+    },
+    {
+        "id": "func-204",
+        "rule": "c + d - b - a",
+        "test_case": [
+            4,
+            3,
+            8,
+            3
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-205",
+        "rule": "b * a ** 2 / d - c",
+        "test_case": [
+            6,
+            2,
+            4,
+            9
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-206",
+        "rule": "d ** 2 + b ** 2 / c + a",
+        "test_case": [
+            2,
+            3,
+            9,
+            4
+        ],
+        "expected_result": 19.0
+    },
+    {
+        "id": "func-207",
+        "rule": "(b + c) + (d + a)",
+        "test_case": [
+            9,
+            8,
+            5,
+            10
+        ],
+        "expected_result": 32.0
+    },
+    {
+        "id": "func-208",
+        "rule": "(d + a) ** 2 + b + c",
+        "test_case": [
+            9,
+            8,
+            2,
+            7
+        ],
+        "expected_result": 266.0
+    },
+    {
+        "id": "func-209",
+        "rule": "c / (b / d) + a",
+        "test_case": [
+            2,
+            6,
+            3,
+            4
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-210",
+        "rule": "(b - d) * (a * c)",
+        "test_case": [
+            7,
+            10,
+            6,
+            7
+        ],
+        "expected_result": 126.0
+    },
+    {
+        "id": "func-211",
+        "rule": "(a ** 2 * c) + b * d",
+        "test_case": [
+            6,
+            10,
+            10,
+            7
+        ],
+        "expected_result": 430.0
+    },
+    {
+        "id": "func-212",
+        "rule": "(c + b) + d + a",
+        "test_case": [
+            7,
+            8,
+            3,
+            3
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-213",
+        "rule": "d * a - b * c",
+        "test_case": [
+            1,
+            8,
+            9,
+            2
+        ],
+        "expected_result": -70.0
+    },
+    {
+        "id": "func-214",
+        "rule": "a + (c * d) * b",
+        "test_case": [
+            2,
+            8,
+            8,
+            7
+        ],
+        "expected_result": 450.0
+    },
+    {
+        "id": "func-215",
+        "rule": "(c - a) * b * d",
+        "test_case": [
+            8,
+            7,
+            7,
+            1
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-216",
+        "rule": "b ** 2 * a ** 2 + d + c",
+        "test_case": [
+            2,
+            2,
+            3,
+            8
+        ],
+        "expected_result": 27.0
+    },
+    {
+        "id": "func-217",
+        "rule": "c ** 2 - a ** 2 + b * d",
+        "test_case": [
+            9,
+            6,
+            9,
+            2
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-218",
+        "rule": "d * b ** 2 - a - c",
+        "test_case": [
+            3,
+            7,
+            3,
+            10
+        ],
+        "expected_result": 484.0
+    },
+    {
+        "id": "func-219",
+        "rule": "(a ** 2 + c) + b * d",
+        "test_case": [
+            8,
+            9,
+            2,
+            7
+        ],
+        "expected_result": 129.0
+    },
+    {
+        "id": "func-220",
+        "rule": "d ** 2 + c ** 2 + b - a",
+        "test_case": [
+            2,
+            1,
+            2,
+            10
+        ],
+        "expected_result": 103.0
+    },
+    {
+        "id": "func-221",
+        "rule": "a ** 2 * b ** 2 + d + c",
+        "test_case": [
+            6,
+            1,
+            4,
+            1
+        ],
+        "expected_result": 41.0
+    },
+    {
+        "id": "func-222",
+        "rule": "b - (c * d - a)",
+        "test_case": [
+            8,
+            8,
+            9,
+            8
+        ],
+        "expected_result": -56.0
+    },
+    {
+        "id": "func-223",
+        "rule": "(a * c * d) + b",
+        "test_case": [
+            4,
+            2,
+            1,
+            7
+        ],
+        "expected_result": 30.0
+    },
+    {
+        "id": "func-224",
+        "rule": "(b ** 2 + a) - c * d",
+        "test_case": [
+            1,
+            3,
+            7,
+            1
+        ],
+        "expected_result": 3.0
+    },
+    {
+        "id": "func-225",
+        "rule": "(c + a) - (b + d)",
+        "test_case": [
+            10,
+            6,
+            5,
+            5
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-226",
+        "rule": "(a ** 2 / d) * c * b",
+        "test_case": [
+            5,
+            6,
+            10,
+            5
+        ],
+        "expected_result": 300.0
+    },
+    {
+        "id": "func-227",
+        "rule": "a * b ** 2 + d - c",
+        "test_case": [
+            1,
+            9,
+            10,
+            10
+        ],
+        "expected_result": 81.0
+    },
+    {
+        "id": "func-228",
+        "rule": "(c + b) ** 2 / d * a",
+        "test_case": [
+            7,
+            2,
+            3,
+            5
+        ],
+        "expected_result": 35.0
+    },
+    {
+        "id": "func-229",
+        "rule": "d ** 2 + a * c - b",
+        "test_case": [
+            9,
+            4,
+            3,
+            6
+        ],
+        "expected_result": 59.0
+    },
+    {
+        "id": "func-230",
+        "rule": "(d - c) / (b - a)",
+        "test_case": [
+            9,
+            10,
+            8,
+            10
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-231",
+        "rule": "a * (d * b) + c",
+        "test_case": [
+            9,
+            10,
+            2,
+            7
+        ],
+        "expected_result": 632.0
+    },
+    {
+        "id": "func-232",
+        "rule": "(d + c) ** 2 + b + a",
+        "test_case": [
+            3,
+            4,
+            5,
+            9
+        ],
+        "expected_result": 203.0
+    },
+    {
+        "id": "func-233",
+        "rule": "(a - b + d) + c",
+        "test_case": [
+            10,
+            4,
+            6,
+            2
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-234",
+        "rule": "b - (d * a / c)",
+        "test_case": [
+            6,
+            2,
+            5,
+            5
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-235",
+        "rule": "(b - c / a) + d",
+        "test_case": [
+            2,
+            8,
+            6,
+            7
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-236",
+        "rule": "(d - c) / (a - b)",
+        "test_case": [
+            3,
+            2,
+            8,
+            6
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-237",
+        "rule": "c - d + b * a",
+        "test_case": [
+            9,
+            8,
+            8,
+            1
+        ],
+        "expected_result": 79.0
+    },
+    {
+        "id": "func-238",
+        "rule": "(b - a) + (d + c)",
+        "test_case": [
+            10,
+            9,
+            3,
+            3
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-239",
+        "rule": "(b * c) / (a / d)",
+        "test_case": [
+            6,
+            6,
+            6,
+            4
+        ],
+        "expected_result": 24.0
+    },
+    {
+        "id": "func-240",
+        "rule": "c ** 2 * a ** 2 * b - d",
+        "test_case": [
+            5,
+            10,
+            3,
+            7
+        ],
+        "expected_result": 2243.0
+    },
+    {
+        "id": "func-241",
+        "rule": "(c + d) ** 2 * b - a",
+        "test_case": [
+            8,
+            8,
+            9,
+            7
+        ],
+        "expected_result": 2040.0
+    },
+    {
+        "id": "func-242",
+        "rule": "(c + d) ** 2 / b - a",
+        "test_case": [
+            7,
+            9,
+            3,
+            9
+        ],
+        "expected_result": 9.0
+    },
+    {
+        "id": "func-243",
+        "rule": "(b + c) + (d * a)",
+        "test_case": [
+            5,
+            1,
+            8,
+            7
+        ],
+        "expected_result": 44.0
+    },
+    {
+        "id": "func-244",
+        "rule": "(b + c) ** 2 - d + a",
+        "test_case": [
+            9,
+            1,
+            7,
+            2
+        ],
+        "expected_result": 71.0
+    },
+    {
+        "id": "func-245",
+        "rule": "b + d ** c ** a",
+        "test_case": [
+            2,
+            5,
+            2,
+            2
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-246",
+        "rule": "d * (b * a + c)",
+        "test_case": [
+            1,
+            4,
+            10,
+            7
+        ],
+        "expected_result": 98.0
+    },
+    {
+        "id": "func-247",
+        "rule": "c - b + a + d",
+        "test_case": [
+            10,
+            9,
+            8,
+            10
+        ],
+        "expected_result": 19.0
+    },
+    {
+        "id": "func-248",
+        "rule": "d * a ** 2 * b - c",
+        "test_case": [
+            6,
+            10,
+            2,
+            8
+        ],
+        "expected_result": 2878.0
+    },
+    {
+        "id": "func-249",
+        "rule": "a * (c * b * d)",
+        "test_case": [
+            8,
+            9,
+            7,
+            4
+        ],
+        "expected_result": 2016.0
+    },
+    {
+        "id": "func-250",
+        "rule": "(a ** 2 + d) / b * c",
+        "test_case": [
+            2,
+            2,
+            6,
+            8
+        ],
+        "expected_result": 36.0
+    },
+    {
+        "id": "func-251",
+        "rule": "(d ** 2 + a) + c * b",
+        "test_case": [
+            6,
+            4,
+            5,
+            6
+        ],
+        "expected_result": 62.0
+    },
+    {
+        "id": "func-252",
+        "rule": "c ** 2 / d + a + b",
+        "test_case": [
+            9,
+            7,
+            6,
+            1
+        ],
+        "expected_result": 52.0
+    },
+    {
+        "id": "func-253",
+        "rule": "c ** 2 + a ** 2 + b / d",
+        "test_case": [
+            3,
+            1,
+            5,
+            1
+        ],
+        "expected_result": 35.0
+    },
+    {
+        "id": "func-254",
+        "rule": "(c * b) / d * a",
+        "test_case": [
+            5,
+            2,
+            10,
+            5
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-255",
+        "rule": "c ** 2 + d ** 2 * a + b",
+        "test_case": [
+            6,
+            8,
+            5,
+            9
+        ],
+        "expected_result": 519.0
+    },
+    {
+        "id": "func-256",
+        "rule": "a * (c + b - d)",
+        "test_case": [
+            10,
+            4,
+            7,
+            1
+        ],
+        "expected_result": 100.0
+    },
+    {
+        "id": "func-257",
+        "rule": "a ** 2 + c * d / b",
+        "test_case": [
+            2,
+            6,
+            6,
+            5
+        ],
+        "expected_result": 9.0
+    },
+    {
+        "id": "func-258",
+        "rule": "b * (d / a) - c",
+        "test_case": [
+            2,
+            8,
+            2,
+            4
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-259",
+        "rule": "(b ** 2 * a) + c * d",
+        "test_case": [
+            3,
+            5,
+            3,
+            8
+        ],
+        "expected_result": 99.0
+    },
+    {
+        "id": "func-260",
+        "rule": "(b * c) + a + d",
+        "test_case": [
+            2,
+            1,
+            3,
+            1
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-261",
+        "rule": "(b / a + d) - c",
+        "test_case": [
+            2,
+            10,
+            4,
+            10
+        ],
+        "expected_result": 11.0
+    },
+    {
+        "id": "func-262",
+        "rule": "a ** 2 * c / b * d",
+        "test_case": [
+            8,
+            8,
+            6,
+            2
+        ],
+        "expected_result": 96.0
+    },
+    {
+        "id": "func-263",
+        "rule": "a ** 2 * c - d + b",
+        "test_case": [
+            8,
+            7,
+            1,
+            3
+        ],
+        "expected_result": 68.0
+    },
+    {
+        "id": "func-264",
+        "rule": "(d - a + b) * c",
+        "test_case": [
+            3,
+            9,
+            4,
+            4
+        ],
+        "expected_result": 40.0
+    },
+    {
+        "id": "func-265",
+        "rule": "a * (c * b) + d",
+        "test_case": [
+            7,
+            6,
+            5,
+            8
+        ],
+        "expected_result": 218.0
+    },
+    {
+        "id": "func-266",
+        "rule": "c * b ** 2 * d * a",
+        "test_case": [
+            1,
+            3,
+            6,
+            4
+        ],
+        "expected_result": 216.0
+    },
+    {
+        "id": "func-267",
+        "rule": "(d + b + a) + c",
+        "test_case": [
+            6,
+            7,
+            1,
+            8
+        ],
+        "expected_result": 22.0
+    },
+    {
+        "id": "func-268",
+        "rule": "(d / b * c) * a",
+        "test_case": [
+            8,
+            2,
+            7,
+            2
+        ],
+        "expected_result": 56.0
+    },
+    {
+        "id": "func-269",
+        "rule": "c + a - b + d",
+        "test_case": [
+            9,
+            2,
+            9,
+            6
+        ],
+        "expected_result": 22.0
+    },
+    {
+        "id": "func-270",
+        "rule": "d * a ** 2 + b + c",
+        "test_case": [
+            1,
+            7,
+            6,
+            9
+        ],
+        "expected_result": 22.0
+    },
+    {
+        "id": "func-271",
+        "rule": "(c - b) + d + a",
+        "test_case": [
+            3,
+            8,
+            2,
+            2
+        ],
+        "expected_result": -1.0
+    },
+    {
+        "id": "func-272",
+        "rule": "b * d ** c / a",
+        "test_case": [
+            6,
+            4,
+            3,
+            3
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-273",
+        "rule": "d - b ** c - a",
+        "test_case": [
+            10,
+            10,
+            1,
+            8
+        ],
+        "expected_result": -12.0
+    },
+    {
+        "id": "func-274",
+        "rule": "c ** d + b * a",
+        "test_case": [
+            8,
+            8,
+            4,
+            1
+        ],
+        "expected_result": 68.0
+    },
+    {
+        "id": "func-275",
+        "rule": "c / (b - d) * a",
+        "test_case": [
+            10,
+            8,
+            6,
+            5
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-276",
+        "rule": "b - d + a ** c",
+        "test_case": [
+            1,
+            4,
+            7,
+            8
+        ],
+        "expected_result": -3.0
+    },
+    {
+        "id": "func-277",
+        "rule": "(b * c) * (d + a)",
+        "test_case": [
+            8,
+            5,
+            7,
+            1
+        ],
+        "expected_result": 315.0
+    },
+    {
+        "id": "func-278",
+        "rule": "c ** 2 - a ** 2 * d + b",
+        "test_case": [
+            7,
+            1,
+            7,
+            3
+        ],
+        "expected_result": -97.0
+    },
+    {
+        "id": "func-279",
+        "rule": "c + b - a * d",
+        "test_case": [
+            4,
+            6,
+            9,
+            5
+        ],
+        "expected_result": -5.0
+    },
+    {
+        "id": "func-280",
+        "rule": "b ** 2 - c ** 2 + a - d",
+        "test_case": [
+            3,
+            7,
+            9,
+            7
+        ],
+        "expected_result": -36.0
+    },
+    {
+        "id": "func-281",
+        "rule": "(c + b - a) * d",
+        "test_case": [
+            3,
+            4,
+            10,
+            5
+        ],
+        "expected_result": 55.0
+    },
+    {
+        "id": "func-282",
+        "rule": "(a + d) / b * c",
+        "test_case": [
+            5,
+            6,
+            10,
+            7
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-283",
+        "rule": "d / (c + b * a)",
+        "test_case": [
+            1,
+            6,
+            1,
+            7
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-284",
+        "rule": "b * c ** 2 + a * d",
+        "test_case": [
+            3,
+            3,
+            6,
+            6
+        ],
+        "expected_result": 126.0
+    },
+    {
+        "id": "func-285",
+        "rule": "(b * c + a) - d",
+        "test_case": [
+            5,
+            9,
+            4,
+            7
+        ],
+        "expected_result": 34.0
+    },
+    {
+        "id": "func-286",
+        "rule": "(a * c) + (d + b)",
+        "test_case": [
+            4,
+            7,
+            1,
+            1
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-287",
+        "rule": "(c + b) - (a - d)",
+        "test_case": [
+            1,
+            5,
+            9,
+            1
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-288",
+        "rule": "a * (d - c) + b",
+        "test_case": [
+            5,
+            9,
+            1,
+            4
+        ],
+        "expected_result": 24.0
+    },
+    {
+        "id": "func-289",
+        "rule": "(a + b - d) - c",
+        "test_case": [
+            6,
+            3,
+            5,
+            10
+        ],
+        "expected_result": -6.0
+    },
+    {
+        "id": "func-290",
+        "rule": "(b + d) ** 2 - a - c",
+        "test_case": [
+            7,
+            4,
+            4,
+            3
+        ],
+        "expected_result": 38.0
+    },
+    {
+        "id": "func-291",
+        "rule": "d + (a * b - c)",
+        "test_case": [
+            8,
+            1,
+            8,
+            4
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-292",
+        "rule": "d - (b + a * c)",
+        "test_case": [
+            1,
+            5,
+            10,
+            3
+        ],
+        "expected_result": -12.0
+    },
+    {
+        "id": "func-293",
+        "rule": "(b + d) ** 2 + c / a",
+        "test_case": [
+            8,
+            3,
+            8,
+            4
+        ],
+        "expected_result": 50.0
+    },
+    {
+        "id": "func-294",
+        "rule": "b * d ** 2 - a * c",
+        "test_case": [
+            3,
+            7,
+            5,
+            9
+        ],
+        "expected_result": 552.0
+    },
+    {
+        "id": "func-295",
+        "rule": "(b ** 2 * d) * c * a",
+        "test_case": [
+            1,
+            4,
+            6,
+            10
+        ],
+        "expected_result": 960.0
+    },
+    {
+        "id": "func-296",
+        "rule": "d + c * a + b",
+        "test_case": [
+            7,
+            6,
+            9,
+            2
+        ],
+        "expected_result": 71.0
+    },
+    {
+        "id": "func-297",
+        "rule": "d * a ** 2 - b / c",
+        "test_case": [
+            1,
+            5,
+            1,
+            3
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-298",
+        "rule": "a + d ** b - c",
+        "test_case": [
+            6,
+            7,
+            2,
+            2
+        ],
+        "expected_result": 132.0
+    },
+    {
+        "id": "func-299",
+        "rule": "(b * d + a) - c",
+        "test_case": [
+            7,
+            5,
+            6,
+            8
+        ],
+        "expected_result": 41.0
+    },
+    {
+        "id": "func-300",
+        "rule": "c ** 2 - b * d - a",
+        "test_case": [
+            4,
+            8,
+            8,
+            9
+        ],
+        "expected_result": -12.0
+    },
+    {
+        "id": "func-301",
+        "rule": "a * c * d - b",
+        "test_case": [
+            7,
+            6,
+            8,
+            8
+        ],
+        "expected_result": 442.0
+    },
+    {
+        "id": "func-302",
+        "rule": "b * c ** 2 + d + a",
+        "test_case": [
+            8,
+            10,
+            9,
+            3
+        ],
+        "expected_result": 821.0
+    },
+    {
+        "id": "func-303",
+        "rule": "(d + a) ** 2 - b * c",
+        "test_case": [
+            2,
+            2,
+            9,
+            4
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-304",
+        "rule": "(b - c) / d + a",
+        "test_case": [
+            7,
+            9,
+            9,
+            3
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-305",
+        "rule": "(d - c) / a + b",
+        "test_case": [
+            9,
+            2,
+            1,
+            1
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-306",
+        "rule": "(d + b) + (a + c)",
+        "test_case": [
+            4,
+            3,
+            5,
+            4
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-307",
+        "rule": "c - b ** d + a",
+        "test_case": [
+            4,
+            4,
+            8,
+            4
+        ],
+        "expected_result": -244.0
+    },
+    {
+        "id": "func-308",
+        "rule": "(d + a) ** 2 + c - b",
+        "test_case": [
+            2,
+            10,
+            8,
+            1
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-309",
+        "rule": "a / (c - b) * d",
+        "test_case": [
+            7,
+            7,
+            2,
+            10
+        ],
+        "expected_result": -14.0
+    },
+    {
+        "id": "func-310",
+        "rule": "b ** 2 + d ** 2 * c + a",
+        "test_case": [
+            2,
+            7,
+            10,
+            7
+        ],
+        "expected_result": 541.0
+    },
+    {
+        "id": "func-311",
+        "rule": "c + (b - a * d)",
+        "test_case": [
+            5,
+            1,
+            8,
+            7
+        ],
+        "expected_result": -26.0
+    },
+    {
+        "id": "func-312",
+        "rule": "(a * c) + (d - b)",
+        "test_case": [
+            6,
+            5,
+            3,
+            3
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-313",
+        "rule": "(a + d * c) - b",
+        "test_case": [
+            2,
+            3,
+            10,
+            7
+        ],
+        "expected_result": 69.0
+    },
+    {
+        "id": "func-314",
+        "rule": "a + b + c + d",
+        "test_case": [
+            2,
+            4,
+            8,
+            1
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-315",
+        "rule": "c - d - b * a",
+        "test_case": [
+            8,
+            4,
+            1,
+            4
+        ],
+        "expected_result": -35.0
+    },
+    {
+        "id": "func-316",
+        "rule": "d ** 2 * a + b + c",
+        "test_case": [
+            3,
+            2,
+            4,
+            5
+        ],
+        "expected_result": 81.0
+    },
+    {
+        "id": "func-317",
+        "rule": "b ** 2 * a ** 2 + c - d",
+        "test_case": [
+            7,
+            10,
+            4,
+            8
+        ],
+        "expected_result": 4896.0
+    },
+    {
+        "id": "func-318",
+        "rule": "(a - d + b) + c",
+        "test_case": [
+            1,
+            6,
+            10,
+            8
+        ],
+        "expected_result": 9.0
+    },
+    {
+        "id": "func-319",
+        "rule": "a + (d - b * c)",
+        "test_case": [
+            8,
+            6,
+            6,
+            3
+        ],
+        "expected_result": -25.0
+    },
+    {
+        "id": "func-320",
+        "rule": "(b / d - c) * a",
+        "test_case": [
+            7,
+            9,
+            4,
+            9
+        ],
+        "expected_result": -21.0
+    },
+    {
+        "id": "func-321",
+        "rule": "a * c ** 2 / b + d",
+        "test_case": [
+            5,
+            5,
+            8,
+            1
+        ],
+        "expected_result": 65.0
+    },
+    {
+        "id": "func-322",
+        "rule": "b + (d - c) - a",
+        "test_case": [
+            9,
+            5,
+            3,
+            8
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-323",
+        "rule": "d ** 2 + a ** 2 + b / c",
+        "test_case": [
+            7,
+            3,
+            3,
+            6
+        ],
+        "expected_result": 86.0
+    },
+    {
+        "id": "func-324",
+        "rule": "c - (b + d - a)",
+        "test_case": [
+            8,
+            8,
+            6,
+            5
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-325",
+        "rule": "(d + c * b) * a",
+        "test_case": [
+            9,
+            1,
+            1,
+            3
+        ],
+        "expected_result": 36.0
+    },
+    {
+        "id": "func-326",
+        "rule": "(a / d + b) - c",
+        "test_case": [
+            3,
+            9,
+            8,
+            1
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-327",
+        "rule": "b * d + a * c",
+        "test_case": [
+            7,
+            4,
+            4,
+            2
+        ],
+        "expected_result": 36.0
+    },
+    {
+        "id": "func-328",
+        "rule": "d - a ** 2 - c + b",
+        "test_case": [
+            10,
+            2,
+            7,
+            9
+        ],
+        "expected_result": -96.0
+    },
+    {
+        "id": "func-329",
+        "rule": "(b - d + a) + c",
+        "test_case": [
+            4,
+            4,
+            9,
+            7
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-330",
+        "rule": "c ** 2 - b ** 2 - a * d",
+        "test_case": [
+            3,
+            3,
+            3,
+            6
+        ],
+        "expected_result": -18.0
+    },
+    {
+        "id": "func-331",
+        "rule": "(b - d) * (a / c)",
+        "test_case": [
+            8,
+            8,
+            4,
+            5
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-332",
+        "rule": "(a - b) + (c + d)",
+        "test_case": [
+            8,
+            4,
+            9,
+            1
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-333",
+        "rule": "(a + b) ** 2 + d * c",
+        "test_case": [
+            2,
+            2,
+            5,
+            3
+        ],
+        "expected_result": 31.0
+    },
+    {
+        "id": "func-334",
+        "rule": "b ** 2 * d * c / a",
+        "test_case": [
+            2,
+            5,
+            6,
+            1
+        ],
+        "expected_result": 75.0
+    },
+    {
+        "id": "func-335",
+        "rule": "c * b ** 2 - a * d",
+        "test_case": [
+            7,
+            10,
+            2,
+            9
+        ],
+        "expected_result": 137.0
+    },
+    {
+        "id": "func-336",
+        "rule": "(b - a + c) / d",
+        "test_case": [
+            4,
+            8,
+            10,
+            7
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-337",
+        "rule": "(c ** 2 * b) - a * d",
+        "test_case": [
+            5,
+            8,
+            2,
+            6
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-338",
+        "rule": "(c * d + b) - a",
+        "test_case": [
+            6,
+            6,
+            9,
+            10
+        ],
+        "expected_result": 90.0
+    },
+    {
+        "id": "func-339",
+        "rule": "a - b + c * d",
+        "test_case": [
+            8,
+            8,
+            1,
+            8
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-340",
+        "rule": "c * b + d ** a",
+        "test_case": [
+            4,
+            8,
+            3,
+            1
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-341",
+        "rule": "(c ** 2 + a) * d * b",
+        "test_case": [
+            1,
+            10,
+            8,
+            1
+        ],
+        "expected_result": 650.0
+    },
+    {
+        "id": "func-342",
+        "rule": "a - (b / d) - c",
+        "test_case": [
+            2,
+            9,
+            1,
+            3
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-343",
+        "rule": "c + d + a ** b",
+        "test_case": [
+            1,
+            6,
+            6,
+            1
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-344",
+        "rule": "c + (a * b + d)",
+        "test_case": [
+            3,
+            10,
+            1,
+            8
+        ],
+        "expected_result": 39.0
+    },
+    {
+        "id": "func-345",
+        "rule": "(a - b) + c / d",
+        "test_case": [
+            8,
+            8,
+            2,
+            2
+        ],
+        "expected_result": 1.0
+    },
+    {
+        "id": "func-346",
+        "rule": "(c - b * a) + d",
+        "test_case": [
+            7,
+            8,
+            6,
+            4
+        ],
+        "expected_result": -46.0
+    },
+    {
+        "id": "func-347",
+        "rule": "(d ** 2 * b) - a * c",
+        "test_case": [
+            6,
+            2,
+            3,
+            6
+        ],
+        "expected_result": 54.0
+    },
+    {
+        "id": "func-348",
+        "rule": "(d + b) ** 2 + c + a",
+        "test_case": [
+            5,
+            4,
+            5,
+            8
+        ],
+        "expected_result": 154.0
+    },
+    {
+        "id": "func-349",
+        "rule": "(d + a) ** 2 * b + c",
+        "test_case": [
+            2,
+            10,
+            2,
+            9
+        ],
+        "expected_result": 1212.0
+    },
+    {
+        "id": "func-350",
+        "rule": "a - d + c * b",
+        "test_case": [
+            9,
+            5,
+            9,
+            8
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-351",
+        "rule": "d - b ** 2 + a * c",
+        "test_case": [
+            2,
+            6,
+            9,
+            4
+        ],
+        "expected_result": -14.0
+    },
+    {
+        "id": "func-352",
+        "rule": "a * d ** 2 * b / c",
+        "test_case": [
+            7,
+            3,
+            1,
+            1
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-353",
+        "rule": "b - c ** 2 * d + a",
+        "test_case": [
+            2,
+            10,
+            8,
+            2
+        ],
+        "expected_result": -116.0
+    },
+    {
+        "id": "func-354",
+        "rule": "(b - d) / (a - c)",
+        "test_case": [
+            8,
+            9,
+            6,
+            1
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-355",
+        "rule": "b * d ** 2 * c * a",
+        "test_case": [
+            6,
+            10,
+            3,
+            4
+        ],
+        "expected_result": 2880.0
+    },
+    {
+        "id": "func-356",
+        "rule": "(c - a) * d + b",
+        "test_case": [
+            5,
+            10,
+            6,
+            6
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-357",
+        "rule": "a ** 2 + c ** 2 + d - b",
+        "test_case": [
+            1,
+            3,
+            9,
+            5
+        ],
+        "expected_result": 84.0
+    },
+    {
+        "id": "func-358",
+        "rule": "b ** 2 - c ** 2 - a + d",
+        "test_case": [
+            6,
+            6,
+            5,
+            8
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-359",
+        "rule": "(d - b) / a + c",
+        "test_case": [
+            1,
+            1,
+            2,
+            9
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-360",
+        "rule": "(b - c - a) - d",
+        "test_case": [
+            4,
+            4,
+            2,
+            5
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-361",
+        "rule": "a / (c - d) - b",
+        "test_case": [
+            8,
+            8,
+            8,
+            4
+        ],
+        "expected_result": -6.0
+    },
+    {
+        "id": "func-362",
+        "rule": "d - (c - a) - b",
+        "test_case": [
+            10,
+            9,
+            5,
+            7
+        ],
+        "expected_result": 3.0
+    },
+    {
+        "id": "func-363",
+        "rule": "b ** 2 - d ** 2 / c / a",
+        "test_case": [
+            9,
+            4,
+            1,
+            9
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-364",
+        "rule": "d * c ** b - a",
+        "test_case": [
+            10,
+            1,
+            8,
+            7
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-365",
+        "rule": "a * b ** 2 / d * c",
+        "test_case": [
+            3,
+            8,
+            8,
+            8
+        ],
+        "expected_result": 192.0
+    },
+    {
+        "id": "func-366",
+        "rule": "(b - d) * c + a",
+        "test_case": [
+            6,
+            2,
+            5,
+            7
+        ],
+        "expected_result": -19.0
+    },
+    {
+        "id": "func-367",
+        "rule": "a * d ** 2 + b / c",
+        "test_case": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-368",
+        "rule": "(d + c) ** 2 + b - a",
+        "test_case": [
+            10,
+            10,
+            3,
+            10
+        ],
+        "expected_result": 169.0
+    },
+    {
+        "id": "func-369",
+        "rule": "a ** 2 - c - d * b",
+        "test_case": [
+            3,
+            10,
+            3,
+            5
+        ],
+        "expected_result": -44.0
+    },
+    {
+        "id": "func-370",
+        "rule": "b * c / a - d",
+        "test_case": [
+            1,
+            8,
+            2,
+            1
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-371",
+        "rule": "a * c ** 2 - b - d",
+        "test_case": [
+            9,
+            3,
+            10,
+            9
+        ],
+        "expected_result": 888.0
+    },
+    {
+        "id": "func-372",
+        "rule": "c * b ** 2 * d + a",
+        "test_case": [
+            10,
+            7,
+            5,
+            9
+        ],
+        "expected_result": 2215.0
+    },
+    {
+        "id": "func-373",
+        "rule": "(d - c) * a * b",
+        "test_case": [
+            2,
+            7,
+            6,
+            8
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-374",
+        "rule": "b * a ** 2 * d + c",
+        "test_case": [
+            3,
+            9,
+            5,
+            2
+        ],
+        "expected_result": 167.0
+    },
+    {
+        "id": "func-375",
+        "rule": "a - (d + c + b)",
+        "test_case": [
+            2,
+            8,
+            4,
+            7
+        ],
+        "expected_result": -17.0
+    },
+    {
+        "id": "func-376",
+        "rule": "(c ** 2 * d) - b * a",
+        "test_case": [
+            5,
+            5,
+            6,
+            5
+        ],
+        "expected_result": 155.0
+    },
+    {
+        "id": "func-377",
+        "rule": "(d + b - a) * c",
+        "test_case": [
+            3,
+            3,
+            4,
+            10
+        ],
+        "expected_result": 40.0
+    },
+    {
+        "id": "func-378",
+        "rule": "c ** 2 * a - b / d",
+        "test_case": [
+            7,
+            10,
+            3,
+            1
+        ],
+        "expected_result": 53.0
+    },
+    {
+        "id": "func-379",
+        "rule": "(d - a) + (c * b)",
+        "test_case": [
+            1,
+            4,
+            10,
+            8
+        ],
+        "expected_result": 47.0
+    },
+    {
+        "id": "func-380",
+        "rule": "(a * b) + (d - c)",
+        "test_case": [
+            8,
+            9,
+            7,
+            3
+        ],
+        "expected_result": 68.0
+    },
+    {
+        "id": "func-381",
+        "rule": "d + (a + c * b)",
+        "test_case": [
+            4,
+            6,
+            10,
+            6
+        ],
+        "expected_result": 70.0
+    },
+    {
+        "id": "func-382",
+        "rule": "a * (b - c) / d",
+        "test_case": [
+            10,
+            8,
+            6,
+            2
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-383",
+        "rule": "c - d ** 2 * b * a",
+        "test_case": [
+            10,
+            6,
+            6,
+            7
+        ],
+        "expected_result": -2934.0
+    },
+    {
+        "id": "func-384",
+        "rule": "b ** 2 * a ** 2 * d + c",
+        "test_case": [
+            5,
+            2,
+            9,
+            7
+        ],
+        "expected_result": 709.0
+    },
+    {
+        "id": "func-385",
+        "rule": "(b * c - a) * d",
+        "test_case": [
+            9,
+            7,
+            7,
+            3
+        ],
+        "expected_result": 120.0
+    },
+    {
+        "id": "func-386",
+        "rule": "b ** c * a + d",
+        "test_case": [
+            7,
+            3,
+            2,
+            8
+        ],
+        "expected_result": 71.0
+    },
+    {
+        "id": "func-387",
+        "rule": "d + a ** 2 * b / c",
+        "test_case": [
+            9,
+            4,
+            1,
+            9
+        ],
+        "expected_result": 333.0
+    },
+    {
+        "id": "func-388",
+        "rule": "d + b ** a * c",
+        "test_case": [
+            1,
+            3,
+            6,
+            3
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-389",
+        "rule": "a + c ** 2 - b / d",
+        "test_case": [
+            9,
+            8,
+            10,
+            2
+        ],
+        "expected_result": 105.0
+    },
+    {
+        "id": "func-390",
+        "rule": "b + a + d * c",
+        "test_case": [
+            1,
+            4,
+            1,
+            8
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-391",
+        "rule": "(d + a / c) * b",
+        "test_case": [
+            9,
+            10,
+            6,
+            1
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-392",
+        "rule": "(d - c) * b + a",
+        "test_case": [
+            3,
+            4,
+            4,
+            10
+        ],
+        "expected_result": 27.0
+    },
+    {
+        "id": "func-393",
+        "rule": "c ** b ** a * d",
+        "test_case": [
+            1,
+            8,
+            2,
+            4
+        ],
+        "expected_result": 1024.0
+    },
+    {
+        "id": "func-394",
+        "rule": "(d + c) ** 2 * a - b",
+        "test_case": [
+            1,
+            7,
+            2,
+            1
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-395",
+        "rule": "c + (d + b) - a",
+        "test_case": [
+            9,
+            10,
+            6,
+            7
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-396",
+        "rule": "b + (d / c * a)",
+        "test_case": [
+            5,
+            6,
+            5,
+            5
+        ],
+        "expected_result": 11.0
+    },
+    {
+        "id": "func-397",
+        "rule": "a * c ** 2 - b + d",
+        "test_case": [
+            7,
+            2,
+            6,
+            5
+        ],
+        "expected_result": 255.0
+    },
+    {
+        "id": "func-398",
+        "rule": "b * (c - a) + d",
+        "test_case": [
+            1,
+            4,
+            4,
+            4
+        ],
+        "expected_result": 16.0
+    },
+    {
+        "id": "func-399",
+        "rule": "b * (d + a) * c",
+        "test_case": [
+            9,
+            8,
+            10,
+            10
+        ],
+        "expected_result": 1520.0
+    },
+    {
+        "id": "func-400",
+        "rule": "d ** b - a - c",
+        "test_case": [
+            5,
+            8,
+            7,
+            2
+        ],
+        "expected_result": 244.0
+    },
+    {
+        "id": "func-401",
+        "rule": "(d ** 2 / a) - b * c",
+        "test_case": [
+            8,
+            5,
+            5,
+            4
+        ],
+        "expected_result": -23.0
+    },
+    {
+        "id": "func-402",
+        "rule": "d + a / c - b",
+        "test_case": [
+            9,
+            3,
+            9,
+            4
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-403",
+        "rule": "d * c * b + a",
+        "test_case": [
+            4,
+            3,
+            6,
+            8
+        ],
+        "expected_result": 148.0
+    },
+    {
+        "id": "func-404",
+        "rule": "(a ** 2 * b) + c * d",
+        "test_case": [
+            3,
+            9,
+            8,
+            9
+        ],
+        "expected_result": 153.0
+    },
+    {
+        "id": "func-405",
+        "rule": "a ** d + c * b",
+        "test_case": [
+            8,
+            7,
+            2,
+            1
+        ],
+        "expected_result": 22.0
+    },
+    {
+        "id": "func-406",
+        "rule": "d / (c / b) - a",
+        "test_case": [
+            1,
+            9,
+            3,
+            7
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-407",
+        "rule": "c * a ** 2 - b * d",
+        "test_case": [
+            2,
+            3,
+            3,
+            7
+        ],
+        "expected_result": -9.0
+    },
+    {
+        "id": "func-408",
+        "rule": "b - d - a * c",
+        "test_case": [
+            2,
+            4,
+            2,
+            7
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-409",
+        "rule": "(c + d) ** 2 / a * b",
+        "test_case": [
+            4,
+            9,
+            3,
+            7
+        ],
+        "expected_result": 225.0
+    },
+    {
+        "id": "func-410",
+        "rule": "(b + c) ** 2 + d * a",
+        "test_case": [
+            3,
+            9,
+            2,
+            5
+        ],
+        "expected_result": 136.0
+    },
+    {
+        "id": "func-411",
+        "rule": "(c * b) / a - d",
+        "test_case": [
+            1,
+            4,
+            7,
+            8
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-412",
+        "rule": "(d - a + b) / c",
+        "test_case": [
+            10,
+            5,
+            1,
+            1
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-413",
+        "rule": "d * c ** 2 - b * a",
+        "test_case": [
+            4,
+            9,
+            6,
+            3
+        ],
+        "expected_result": 72.0
+    },
+    {
+        "id": "func-414",
+        "rule": "a ** 2 + c - d + b",
+        "test_case": [
+            7,
+            9,
+            8,
+            8
+        ],
+        "expected_result": 58.0
+    },
+    {
+        "id": "func-415",
+        "rule": "d ** b + c * a",
+        "test_case": [
+            10,
+            3,
+            5,
+            10
+        ],
+        "expected_result": 1050.0
+    },
+    {
+        "id": "func-416",
+        "rule": "(b - d - a) - c",
+        "test_case": [
+            1,
+            2,
+            7,
+            8
+        ],
+        "expected_result": -14.0
+    },
+    {
+        "id": "func-417",
+        "rule": "(d ** 2 + c) + b * a",
+        "test_case": [
+            10,
+            2,
+            7,
+            7
+        ],
+        "expected_result": 76.0
+    },
+    {
+        "id": "func-418",
+        "rule": "d - b - a * c",
+        "test_case": [
+            5,
+            2,
+            2,
+            10
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-419",
+        "rule": "(a / c * d) * b",
+        "test_case": [
+            9,
+            4,
+            6,
+            1
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-420",
+        "rule": "a ** 2 - c + b + d",
+        "test_case": [
+            9,
+            9,
+            4,
+            10
+        ],
+        "expected_result": 96.0
+    },
+    {
+        "id": "func-421",
+        "rule": "d ** 2 * b + c - a",
+        "test_case": [
+            8,
+            8,
+            6,
+            4
+        ],
+        "expected_result": 126.0
+    },
+    {
+        "id": "func-422",
+        "rule": "c / a ** 2 + b * d",
+        "test_case": [
+            1,
+            9,
+            7,
+            10
+        ],
+        "expected_result": 97.0
+    },
+    {
+        "id": "func-423",
+        "rule": "a / d - c - b",
+        "test_case": [
+            8,
+            7,
+            9,
+            1
+        ],
+        "expected_result": -8.0
+    },
+    {
+        "id": "func-424",
+        "rule": "c / (b / a) + d",
+        "test_case": [
+            4,
+            1,
+            9,
+            10
+        ],
+        "expected_result": 46.0
+    },
+    {
+        "id": "func-425",
+        "rule": "(b + a) ** 2 - d + c",
+        "test_case": [
+            5,
+            6,
+            7,
+            10
+        ],
+        "expected_result": 118.0
+    },
+    {
+        "id": "func-426",
+        "rule": "(d + a) ** 2 - b / c",
+        "test_case": [
+            5,
+            4,
+            4,
+            7
+        ],
+        "expected_result": 143.0
+    },
+    {
+        "id": "func-427",
+        "rule": "(b - a + c) * d",
+        "test_case": [
+            8,
+            5,
+            5,
+            2
+        ],
+        "expected_result": 4.0
+    },
+    {
+        "id": "func-428",
+        "rule": "(c + d) ** 2 * a * b",
+        "test_case": [
+            3,
+            1,
+            9,
+            3
+        ],
+        "expected_result": 432.0
+    },
+    {
+        "id": "func-429",
+        "rule": "d - a ** 2 + b - c",
+        "test_case": [
+            5,
+            4,
+            7,
+            5
+        ],
+        "expected_result": -23.0
+    },
+    {
+        "id": "func-430",
+        "rule": "a ** 2 - b ** 2 * d - c",
+        "test_case": [
+            9,
+            10,
+            2,
+            1
+        ],
+        "expected_result": -21.0
+    },
+    {
+        "id": "func-431",
+        "rule": "a - d ** b ** c",
+        "test_case": [
+            7,
+            8,
+            2,
+            1
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-432",
+        "rule": "a + d - c ** b",
+        "test_case": [
+            6,
+            4,
+            6,
+            7
+        ],
+        "expected_result": -1283.0
+    },
+    {
+        "id": "func-433",
+        "rule": "c ** 2 - a ** 2 + b / d",
+        "test_case": [
+            7,
+            3,
+            10,
+            1
+        ],
+        "expected_result": 54.0
+    },
+    {
+        "id": "func-434",
+        "rule": "c * a ** 2 - d / b",
+        "test_case": [
+            1,
+            1,
+            7,
+            2
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-435",
+        "rule": "(c - d * b) * a",
+        "test_case": [
+            2,
+            6,
+            3,
+            7
+        ],
+        "expected_result": -78.0
+    },
+    {
+        "id": "func-436",
+        "rule": "(c - b) - (a / d)",
+        "test_case": [
+            8,
+            10,
+            4,
+            1
+        ],
+        "expected_result": -14.0
+    },
+    {
+        "id": "func-437",
+        "rule": "b ** 2 * d + a * c",
+        "test_case": [
+            2,
+            8,
+            5,
+            4
+        ],
+        "expected_result": 266.0
+    },
+    {
+        "id": "func-438",
+        "rule": "(c * a) / (b / d)",
+        "test_case": [
+            1,
+            7,
+            7,
+            6
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-439",
+        "rule": "(a * b) / c * d",
+        "test_case": [
+            6,
+            5,
+            5,
+            4
+        ],
+        "expected_result": 24.0
+    },
+    {
+        "id": "func-440",
+        "rule": "b * c ** 2 / d * a",
+        "test_case": [
+            7,
+            3,
+            7,
+            1
+        ],
+        "expected_result": 1029.0
+    },
+    {
+        "id": "func-441",
+        "rule": "(c ** 2 / b) * d * a",
+        "test_case": [
+            4,
+            1,
+            5,
+            1
+        ],
+        "expected_result": 100.0
+    },
+    {
+        "id": "func-442",
+        "rule": "(b - a) - d - c",
+        "test_case": [
+            1,
+            10,
+            10,
+            3
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-443",
+        "rule": "(d - a + b) + c",
+        "test_case": [
+            10,
+            8,
+            6,
+            2
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-444",
+        "rule": "c - (a + b * d)",
+        "test_case": [
+            9,
+            5,
+            6,
+            4
+        ],
+        "expected_result": -23.0
+    },
+    {
+        "id": "func-445",
+        "rule": "b * d ** 2 + a / c",
+        "test_case": [
+            4,
+            2,
+            2,
+            9
+        ],
+        "expected_result": 164.0
+    },
+    {
+        "id": "func-446",
+        "rule": "b ** 2 - a - d - c",
+        "test_case": [
+            4,
+            1,
+            1,
+            2
+        ],
+        "expected_result": -6.0
+    },
+    {
+        "id": "func-447",
+        "rule": "a - c + d - b",
+        "test_case": [
+            5,
+            5,
+            2,
+            1
+        ],
+        "expected_result": -1.0
+    },
+    {
+        "id": "func-448",
+        "rule": "a + d ** c * b",
+        "test_case": [
+            2,
+            2,
+            1,
+            3
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-449",
+        "rule": "a ** 2 - b * d * c",
+        "test_case": [
+            9,
+            7,
+            6,
+            4
+        ],
+        "expected_result": -87.0
+    },
+    {
+        "id": "func-450",
+        "rule": "(b + c) ** 2 + a - d",
+        "test_case": [
+            2,
+            9,
+            6,
+            2
+        ],
+        "expected_result": 225.0
+    },
+    {
+        "id": "func-451",
+        "rule": "a ** d - c * b",
+        "test_case": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "expected_result": 240.0
+    },
+    {
+        "id": "func-452",
+        "rule": "(a + d) ** 2 * b + c",
+        "test_case": [
+            8,
+            4,
+            9,
+            7
+        ],
+        "expected_result": 909.0
+    },
+    {
+        "id": "func-453",
+        "rule": "(b ** 2 - d) / c * a",
+        "test_case": [
+            4,
+            2,
+            2,
+            6
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-454",
+        "rule": "(a / c) - (d - b)",
+        "test_case": [
+            9,
+            8,
+            9,
+            1
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-455",
+        "rule": "(b * d) - a + c",
+        "test_case": [
+            1,
+            5,
+            6,
+            7
+        ],
+        "expected_result": 40.0
+    },
+    {
+        "id": "func-456",
+        "rule": "b + d * c - a",
+        "test_case": [
+            7,
+            9,
+            6,
+            9
+        ],
+        "expected_result": 56.0
+    },
+    {
+        "id": "func-457",
+        "rule": "(a + b / d) + c",
+        "test_case": [
+            10,
+            4,
+            1,
+            1
+        ],
+        "expected_result": 15.0
+    },
+    {
+        "id": "func-458",
+        "rule": "a + b ** 2 - d + c",
+        "test_case": [
+            1,
+            5,
+            6,
+            4
+        ],
+        "expected_result": 28.0
+    },
+    {
+        "id": "func-459",
+        "rule": "(b - c) / (d - a)",
+        "test_case": [
+            1,
+            6,
+            10,
+            2
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-460",
+        "rule": "a ** 2 * d ** 2 / c + b",
+        "test_case": [
+            4,
+            9,
+            8,
+            2
+        ],
+        "expected_result": 17.0
+    },
+    {
+        "id": "func-461",
+        "rule": "(d + c / a) - b",
+        "test_case": [
+            6,
+            5,
+            6,
+            3
+        ],
+        "expected_result": -1.0
+    },
+    {
+        "id": "func-462",
+        "rule": "d * c / a + b",
+        "test_case": [
+            4,
+            4,
+            6,
+            4
+        ],
+        "expected_result": 10.0
+    },
+    {
+        "id": "func-463",
+        "rule": "a * (b - d) - c",
+        "test_case": [
+            10,
+            8,
+            10,
+            8
+        ],
+        "expected_result": -10.0
+    },
+    {
+        "id": "func-464",
+        "rule": "(b + a) ** 2 / c * d",
+        "test_case": [
+            8,
+            8,
+            3,
+            6
+        ],
+        "expected_result": 512.0
+    },
+    {
+        "id": "func-465",
+        "rule": "(d * a / b) * c",
+        "test_case": [
+            6,
+            8,
+            6,
+            4
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-466",
+        "rule": "d ** 2 + b * c - a",
+        "test_case": [
+            6,
+            3,
+            3,
+            9
+        ],
+        "expected_result": 84.0
+    },
+    {
+        "id": "func-467",
+        "rule": "(d + c) * a / b",
+        "test_case": [
+            1,
+            1,
+            5,
+            7
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-468",
+        "rule": "b ** a + c + d",
+        "test_case": [
+            9,
+            1,
+            3,
+            5
+        ],
+        "expected_result": 9.0
+    },
+    {
+        "id": "func-469",
+        "rule": "(b - c - a) + d",
+        "test_case": [
+            6,
+            10,
+            1,
+            10
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-470",
+        "rule": "d ** 2 / b ** 2 / a - c",
+        "test_case": [
+            1,
+            1,
+            5,
+            2
+        ],
+        "expected_result": -1.0
+    },
+    {
+        "id": "func-471",
+        "rule": "d * (c - b + a)",
+        "test_case": [
+            2,
+            9,
+            10,
+            6
+        ],
+        "expected_result": 18.0
+    },
+    {
+        "id": "func-472",
+        "rule": "d / (c / a) + b",
+        "test_case": [
+            5,
+            2,
+            2,
+            2
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-473",
+        "rule": "b - d - a + c",
+        "test_case": [
+            9,
+            5,
+            4,
+            6
+        ],
+        "expected_result": -6.0
+    },
+    {
+        "id": "func-474",
+        "rule": "(d - b * c) * a",
+        "test_case": [
+            8,
+            9,
+            1,
+            1
+        ],
+        "expected_result": -64.0
+    },
+    {
+        "id": "func-475",
+        "rule": "b - d + c ** a",
+        "test_case": [
+            3,
+            2,
+            3,
+            9
+        ],
+        "expected_result": 20.0
+    },
+    {
+        "id": "func-476",
+        "rule": "d * (a * c + b)",
+        "test_case": [
+            9,
+            10,
+            1,
+            8
+        ],
+        "expected_result": 152.0
+    },
+    {
+        "id": "func-477",
+        "rule": "(c - d / b) - a",
+        "test_case": [
+            10,
+            4,
+            5,
+            8
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-478",
+        "rule": "(a * b) - (d * c)",
+        "test_case": [
+            2,
+            3,
+            10,
+            10
+        ],
+        "expected_result": -94.0
+    },
+    {
+        "id": "func-479",
+        "rule": "a ** c - d - b",
+        "test_case": [
+            2,
+            1,
+            2,
+            9
+        ],
+        "expected_result": -6.0
+    },
+    {
+        "id": "func-480",
+        "rule": "(d + c) + (a - b)",
+        "test_case": [
+            1,
+            1,
+            3,
+            9
+        ],
+        "expected_result": 12.0
+    },
+    {
+        "id": "func-481",
+        "rule": "(a * b + c) - d",
+        "test_case": [
+            9,
+            10,
+            6,
+            2
+        ],
+        "expected_result": 94.0
+    },
+    {
+        "id": "func-482",
+        "rule": "(a + d) + (c + b)",
+        "test_case": [
+            8,
+            8,
+            2,
+            7
+        ],
+        "expected_result": 25.0
+    },
+    {
+        "id": "func-483",
+        "rule": "a + d ** 2 * c * b",
+        "test_case": [
+            4,
+            10,
+            2,
+            5
+        ],
+        "expected_result": 504.0
+    },
+    {
+        "id": "func-484",
+        "rule": "b ** 2 + d - a * c",
+        "test_case": [
+            5,
+            2,
+            5,
+            5
+        ],
+        "expected_result": -16.0
+    },
+    {
+        "id": "func-485",
+        "rule": "(c ** 2 * b) + a * d",
+        "test_case": [
+            5,
+            1,
+            9,
+            8
+        ],
+        "expected_result": 121.0
+    },
+    {
+        "id": "func-486",
+        "rule": "(a - d) - b - c",
+        "test_case": [
+            5,
+            8,
+            7,
+            6
+        ],
+        "expected_result": -16.0
+    },
+    {
+        "id": "func-487",
+        "rule": "(a + d) * (c - b)",
+        "test_case": [
+            4,
+            8,
+            7,
+            3
+        ],
+        "expected_result": -7.0
+    },
+    {
+        "id": "func-488",
+        "rule": "(d * a * b) / c",
+        "test_case": [
+            4,
+            3,
+            4,
+            7
+        ],
+        "expected_result": 21.0
+    },
+    {
+        "id": "func-489",
+        "rule": "b / d * c * a",
+        "test_case": [
+            1,
+            9,
+            10,
+            2
+        ],
+        "expected_result": 45.0
+    },
+    {
+        "id": "func-490",
+        "rule": "b + a ** c / d",
+        "test_case": [
+            2,
+            5,
+            3,
+            1
+        ],
+        "expected_result": 13.0
+    },
+    {
+        "id": "func-491",
+        "rule": "d * c ** 2 + b * a",
+        "test_case": [
+            6,
+            8,
+            1,
+            7
+        ],
+        "expected_result": 55.0
+    },
+    {
+        "id": "func-492",
+        "rule": "(d / b) + (a / c)",
+        "test_case": [
+            10,
+            1,
+            10,
+            7
+        ],
+        "expected_result": 8.0
+    },
+    {
+        "id": "func-493",
+        "rule": "d ** a + b + c",
+        "test_case": [
+            6,
+            9,
+            1,
+            4
+        ],
+        "expected_result": 4106.0
+    },
+    {
+        "id": "func-494",
+        "rule": "(b ** 2 - d) * a * c",
+        "test_case": [
+            4,
+            2,
+            10,
+            2
+        ],
+        "expected_result": 80.0
+    },
+    {
+        "id": "func-495",
+        "rule": "(c * a) / b - d",
+        "test_case": [
+            7,
+            7,
+            3,
+            5
+        ],
+        "expected_result": -2.0
+    },
+    {
+        "id": "func-496",
+        "rule": "d ** b ** a + c",
+        "test_case": [
+            9,
+            10,
+            1,
+            1
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-497",
+        "rule": "b - (c - d) - a",
+        "test_case": [
+            7,
+            3,
+            2,
+            2
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-498",
+        "rule": "c ** d + a * b",
+        "test_case": [
+            6,
+            9,
+            7,
+            1
+        ],
+        "expected_result": 61.0
+    },
+    {
+        "id": "func-499",
+        "rule": "c - (b * a * d)",
+        "test_case": [
+            9,
+            9,
+            10,
+            4
+        ],
+        "expected_result": -314.0
+    },
+    {
+        "id": "func-500",
+        "rule": "c - d ** 2 + b * a",
+        "test_case": [
+            8,
+            7,
+            8,
+            1
+        ],
+        "expected_result": 63.0
+    },
+    {
+        "id": "func-501",
+        "rule": "b * (a + d) + c",
+        "test_case": [
+            2,
+            9,
+            4,
+            6
+        ],
+        "expected_result": 76.0
+    },
+    {
+        "id": "func-502",
+        "rule": "d * b ** 2 / c - a",
+        "test_case": [
+            5,
+            2,
+            4,
+            1
+        ],
+        "expected_result": -4.0
+    },
+    {
+        "id": "func-503",
+        "rule": "(d + b / c) * a",
+        "test_case": [
+            7,
+            4,
+            2,
+            5
+        ],
+        "expected_result": 49.0
+    },
+    {
+        "id": "func-504",
+        "rule": "c ** d ** a + b",
+        "test_case": [
+            4,
+            10,
+            1,
+            9
+        ],
+        "expected_result": 11.0
+    },
+    {
+        "id": "func-505",
+        "rule": "b + (c + a) + d",
+        "test_case": [
+            5,
+            6,
+            9,
+            4
+        ],
+        "expected_result": 24.0
+    },
+    {
+        "id": "func-506",
+        "rule": "(b + a) * d * c",
+        "test_case": [
+            9,
+            6,
+            10,
+            10
+        ],
+        "expected_result": 1500.0
+    },
+    {
+        "id": "func-507",
+        "rule": "a * b ** 2 + c - d",
+        "test_case": [
+            9,
+            8,
+            5,
+            3
+        ],
+        "expected_result": 578.0
+    },
+    {
+        "id": "func-508",
+        "rule": "(d - b) - a * c",
+        "test_case": [
+            9,
+            9,
+            9,
+            4
+        ],
+        "expected_result": -86.0
+    },
+    {
+        "id": "func-509",
+        "rule": "a / (b - c) - d",
+        "test_case": [
+            6,
+            5,
+            8,
+            10
+        ],
+        "expected_result": -12.0
+    },
+    {
+        "id": "func-510",
+        "rule": "b * (d - a) * c",
+        "test_case": [
+            10,
+            2,
+            5,
+            9
+        ],
+        "expected_result": -10.0
+    },
+    {
+        "id": "func-511",
+        "rule": "a * (d + b) - c",
+        "test_case": [
+            2,
+            7,
+            3,
+            3
+        ],
+        "expected_result": 17.0
+    },
+    {
+        "id": "func-512",
+        "rule": "a + (c - d) + b",
+        "test_case": [
+            4,
+            1,
+            7,
+            10
+        ],
+        "expected_result": 2.0
+    },
+    {
+        "id": "func-513",
+        "rule": "d * b ** 2 * c - a",
+        "test_case": [
+            8,
+            6,
+            6,
+            7
+        ],
+        "expected_result": 1504.0
+    },
+    {
+        "id": "func-514",
+        "rule": "a * c ** 2 + d + b",
+        "test_case": [
+            7,
+            10,
+            3,
+            9
+        ],
+        "expected_result": 82.0
+    },
+    {
+        "id": "func-515",
+        "rule": "(a + d) ** 2 + b + c",
+        "test_case": [
+            5,
+            5,
+            3,
+            3
+        ],
+        "expected_result": 72.0
+    },
+    {
+        "id": "func-516",
+        "rule": "(a ** 2 * b) * d * c",
+        "test_case": [
+            5,
+            10,
+            3,
+            1
+        ],
+        "expected_result": 750.0
+    },
+    {
+        "id": "func-517",
+        "rule": "a + c * b / d",
+        "test_case": [
+            6,
+            10,
+            8,
+            5
+        ],
+        "expected_result": 22.0
+    },
+    {
+        "id": "func-518",
+        "rule": "c + (a + d) - b",
+        "test_case": [
+            6,
+            5,
+            7,
+            6
+        ],
+        "expected_result": 14.0
+    },
+    {
+        "id": "func-519",
+        "rule": "c * (d - b) + a",
+        "test_case": [
+            1,
+            9,
+            9,
+            7
+        ],
+        "expected_result": -17.0
+    },
+    {
+        "id": "func-520",
+        "rule": "b - c ** 2 - d / a",
+        "test_case": [
+            1,
+            8,
+            7,
+            7
+        ],
+        "expected_result": -48.0
+    },
+    {
+        "id": "func-521",
+        "rule": "a - (b + c) * d",
+        "test_case": [
+            8,
+            2,
+            1,
+            7
+        ],
+        "expected_result": -13.0
+    },
+    {
+        "id": "func-522",
+        "rule": "(b + c * d) + a",
+        "test_case": [
+            9,
+            10,
+            9,
+            10
+        ],
+        "expected_result": 109.0
+    },
+    {
+        "id": "func-523",
+        "rule": "(a * c * b) + d",
+        "test_case": [
+            1,
+            8,
+            9,
+            2
+        ],
+        "expected_result": 74.0
+    },
+    {
+        "id": "func-524",
+        "rule": "(b / a * c) * d",
+        "test_case": [
+            1,
+            7,
+            1,
+            7
+        ],
+        "expected_result": 49.0
+    },
+    {
+        "id": "func-525",
+        "rule": "c - (b + a) + d",
+        "test_case": [
+            2,
+            2,
+            8,
+            1
+        ],
+        "expected_result": 5.0
+    },
+    {
+        "id": "func-526",
+        "rule": "(d * a * c) * b",
+        "test_case": [
+            4,
+            3,
+            3,
+            9
+        ],
+        "expected_result": 324.0
+    },
+    {
+        "id": "func-527",
+        "rule": "a * b - d * c",
+        "test_case": [
+            4,
+            5,
+            7,
+            10
+        ],
+        "expected_result": -50.0
+    },
+    {
+        "id": "func-528",
+        "rule": "(b * a / d) * c",
+        "test_case": [
+            4,
+            8,
+            8,
+            4
+        ],
+        "expected_result": 64.0
+    },
+    {
+        "id": "func-529",
+        "rule": "(b + a) / d - c",
+        "test_case": [
+            10,
+            2,
+            6,
+            1
+        ],
+        "expected_result": 6.0
+    },
+    {
+        "id": "func-530",
+        "rule": "(c * d + a) + b",
+        "test_case": [
+            8,
+            10,
+            1,
+            5
+        ],
+        "expected_result": 23.0
+    },
+    {
+        "id": "func-531",
+        "rule": "(b + c) * (d * a)",
+        "test_case": [
+            2,
+            10,
+            1,
+            2
+        ],
+        "expected_result": 44.0
+    },
+    {
+        "id": "func-532",
+        "rule": "b * (a - d) - c",
+        "test_case": [
+            6,
+            9,
+            1,
+            2
+        ],
+        "expected_result": 35.0
+    },
+    {
+        "id": "func-533",
+        "rule": "b / a - c + d",
+        "test_case": [
+            1,
+            6,
+            2,
+            3
+        ],
+        "expected_result": 7.0
+    },
+    {
+        "id": "func-534",
+        "rule": "c * (b - d) - a",
+        "test_case": [
+            1,
+            7,
+            6,
+            5
+        ],
+        "expected_result": 11.0
+    },
+    {
+        "id": "func-535",
+        "rule": "(a - d) * b - c",
+        "test_case": [
+            8,
+            8,
+            10,
+            8
+        ],
+        "expected_result": -10.0
+    },
+    {
+        "id": "func-536",
+        "rule": "(c + a - d) * b",
+        "test_case": [
+            5,
+            4,
+            9,
+            6
+        ],
+        "expected_result": 32.0
+    },
+    {
+        "id": "func-537",
+        "rule": "b + (d + a) * c",
+        "test_case": [
+            6,
+            2,
+            7,
+            10
+        ],
+        "expected_result": 114.0
+    },
+    {
+        "id": "func-538",
+        "rule": "a ** 2 * c * d * b",
+        "test_case": [
+            2,
+            8,
+            1,
+            8
+        ],
+        "expected_result": 256.0
+    }
+]

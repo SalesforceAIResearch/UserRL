@@ -74,6 +74,8 @@ data_path: '/path/to/your/AlfworldGym/alfworldgym/data/json_2.1.1/train'
 
 ## Quick Start
 
+Please first set up your OPENAI_API_KEY as environment variable.
+
 ```python
 import alfworldgym
 from alfworldgym import AlfworldEnv, get_default_config
@@ -206,25 +208,3 @@ env.step("[action] look at counter")
 # Task completion
 env.step("[finish]")
 ```
-
-## Async Usage
-
-For applications requiring asynchronous operation:
-
-```python
-import asyncio
-
-async def run_async_example():
-    env = AlfworldEnv()
-    obs, info = env.reset()
-    
-    # Use async step method for non-blocking operation
-    obs, reward, terminated, truncated, info = await env.step_async("[action] look")
-    print(f"Async observation: {obs['feedback']}")
-    
-    env.close()
-
-# Run the async example
-asyncio.run(run_async_example())
-```
-

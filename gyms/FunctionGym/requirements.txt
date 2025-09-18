@@ -1,0 +1,2 @@
+gymnasium>=0.28.0
+numpy>=1.21.0 

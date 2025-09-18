@@ -1,13 +1,13 @@
 dataset:
-  data_path: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/json_2.1.1/train'
-  eval_id_data_path: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen'    # null/None to disable
-  eval_ood_data_path: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/json_2.1.1/valid_unseen' # null/None to disable
+  data_path: 'PROJECT_ROOT/alfworldgym/data/json_2.1.1/train'
+  eval_id_data_path: 'PROJECT_ROOT/alfworldgym/data/json_2.1.1/valid_seen'    # null/None to disable
+  eval_ood_data_path: 'PROJECT_ROOT/alfworldgym/data/json_2.1.1/valid_unseen' # null/None to disable
   num_train_games: -1                                       # max training games (<=0 indicates full dataset)
   num_eval_games: -1                                        # max evaluation games (<=0 indicates full dataset)
 
 logic:
-  domain: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/alfred.pddl'                # PDDL domain file that defines the world dynamics
-  grammar: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/alfred.twl2'               # Grammar file that defines the text feedbacks
+  domain: 'PROJECT_ROOT/alfworldgym/data/logic/alfred.pddl'                # PDDL domain file that defines the world dynamics
+  grammar: 'PROJECT_ROOT/alfworldgym/data/logic/alfred.twl2'               # Grammar file that defines the text feedbacks
 
 env:
   type: 'AlfredTWEnv'                                       # 'AlfredTWEnv' or 'AlfredThorEnv' or 'AlfredHybrid'
@@ -28,7 +28,7 @@ env:
     screen_height: 300                                      # height of THOR window
     smooth_nav: False                                       # smooth rotations, looks, and translations during navigation (very slow)
     save_frames_to_disk: False                              # save frame PNGs to disk (useful for making videos)
-    save_frames_path: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/videos/'                           # path to save frame PNGs
+    save_frames_path: './videos/'                           # path to save frame PNGs
 
 controller:
   type: 'oracle'                                            # 'oracle' or 'oracle_astar' or 'mrcnn' or 'mrcnn_astar' (aka BUTLER)
@@ -36,7 +36,7 @@ controller:
   load_receps: False                                        # load receptacle locations from precomputed dict (if available)
 
 mask_rcnn:
-  pretrained_model_path: 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/detectors/mrcnn.pth'
+  pretrained_model_path: 'PROJECT_ROOT/alfworldgym/data/detectors/mrcnn.pth'
 
 general:
   random_seed: 42
@@ -44,7 +44,7 @@ general:
   visdom: False                                             # plot training/eval curves, run with visdom server
   task: 'alfred'
   training_method: 'dagger'                                 # 'dqn' or 'dagger'
-  save_path: 'PATH_TO_DIR'   # path to save pytorch models
+  save_path: 'PROJECT_ROOT/alfworldgym/data/agents/pretrained_checkpoints/'   # path to save pytorch models
   observation_pool_capacity: 3                              # k-size queue, 0 indicates no observation
   hide_init_receptacles: False                              # remove initial observation containing navigable receptacles
 
@@ -70,8 +70,8 @@ general:
       type:
        'AlfredThorEnv'
     eval_paths:                                             # different splits to evaluate on
-      - 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/json_2.1.1/valid_seen'
-#      - 'PROJECT_ROOT/AlfworldGym/alfworldgym/data/json_2.1.1/valid_unseen'
+      - 'PROJECT_ROOT/alfworldgym/data/json_2.1.1/valid_seen'
+#      - 'PROJECT_ROOT/alfworldgym/data/json_2.1.1/valid_unseen'
     eval_experiment_tag: "eval_run_001"                     # save results json with this prefix
 
   checkpoint:
