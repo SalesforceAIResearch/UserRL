@@ -1,0 +1,5 @@
+gymnasium
+openai
+pytest
+numpy
+pyyaml 

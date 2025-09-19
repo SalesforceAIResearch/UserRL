@@ -1,0 +1,3210 @@
+[
+    {
+        "id": "entity_001",
+        "title": "Albert Einstein",
+        "description": "I am thinking of a famous person. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the person I am thinking of.",
+        "target_entity": "Albert Einstein - the famous physicist known for the theory of relativity, with wild hair and iconic appearance, Nobel Prize winner",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_002",
+        "title": "Piano",
+        "description": "I am thinking of a musical instrument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical instrument I am thinking of.",
+        "target_entity": "Piano - a large keyboard instrument with 88 keys (black and white), produces sound by hammers striking strings, commonly found in homes and concert halls",
+        "category": "musical_instrument"
+    },
+    {
+        "id": "entity_003",
+        "title": "Lion",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Lion - a large wild cat, known as king of the jungle, has a mane (male), carnivorous, lives in Africa, roars loudly",
+        "category": "animal"
+    },
+    {
+        "id": "entity_004",
+        "title": "Eiffel Tower",
+        "description": "I am thinking of a famous landmark. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the landmark I am thinking of.",
+        "target_entity": "Eiffel Tower - iconic iron tower in Paris, France, built for 1889 World's Fair, about 300 meters tall, major tourist attraction",
+        "category": "landmark"
+    },
+    {
+        "id": "entity_005",
+        "title": "Pizza",
+        "description": "I am thinking of a food. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the food I am thinking of.",
+        "target_entity": "Pizza - Italian dish with round flat bread base, tomato sauce, cheese, and various toppings, baked in oven, popular worldwide",
+        "category": "food"
+    },
+    {
+        "id": "entity_006",
+        "title": "Harry Potter",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Harry Potter - young wizard protagonist from J.K. Rowling's book series, has round glasses, lightning bolt scar, attends Hogwarts School",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_007",
+        "title": "Bicycle",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Bicycle - two-wheeled vehicle powered by pedaling, has handlebars for steering, environmentally friendly transportation, no engine",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_008",
+        "title": "Chess",
+        "description": "I am thinking of a game. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the game I am thinking of.",
+        "target_entity": "Chess - strategic board game for two players, 8x8 checkered board, pieces include king, queen, knights, bishops, rooks, pawns, goal is checkmate",
+        "category": "game"
+    },
+    {
+        "id": "entity_009",
+        "title": "Rose",
+        "description": "I am thinking of a flower. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the flower I am thinking of.",
+        "target_entity": "Rose - popular flower with thorny stem, symbol of love and romance, comes in many colors especially red, strong fragrance",
+        "category": "flower"
+    },
+    {
+        "id": "entity_010",
+        "title": "Lightning",
+        "description": "I am thinking of a natural phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural phenomenon I am thinking of.",
+        "target_entity": "Lightning - electrical discharge during thunderstorms, bright flash of light, followed by thunder, strikes from clouds to ground, dangerous",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_011",
+        "title": "Basketball",
+        "description": "I am thinking of a sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Basketball - team sport played with orange ball and hoops, players dribble and shoot into elevated baskets, invented by James Naismith",
+        "category": "sport"
+    },
+    {
+        "id": "entity_012",
+        "title": "Smartphone",
+        "description": "I am thinking of a device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the device I am thinking of.",
+        "target_entity": "Smartphone - mobile device with touchscreen, makes calls, sends texts, internet access, runs apps, has camera, GPS navigation",
+        "category": "device"
+    },
+    {
+        "id": "entity_013",
+        "title": "Orca",
+        "description": "I am thinking of an ocean creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ocean creature I am thinking of.",
+        "target_entity": "Orca - also known as killer whale, black and white coloration, apex predator, travels in pods, acrobatic and intelligent.",
+        "category": "ocean_creature"
+    },
+    {
+        "id": "entity_014",
+        "title": "Cleopatra",
+        "description": "I am thinking of a historical figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Cleopatra - last active ruler of the Ptolemaic Kingdom of Egypt, known for her beauty and intelligence, associated with Julius Caesar and Mark Antony.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_015",
+        "title": "Tiramisu",
+        "description": "I am thinking of a dessert. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dessert I am thinking of.",
+        "target_entity": "Tiramisu - a popular Italian dessert made with coffee-soaked ladyfingers, mascarpone cheese, cocoa powder, and sometimes flavored with liquor.",
+        "category": "dessert"
+    },
+    {
+        "id": "entity_016",
+        "title": "Tesla Model S",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Tesla Model S - electric car produced by Tesla, known for long range, fast acceleration, autopilot feature, sleek design.",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_017",
+        "title": "Modern Laptop",
+        "description": "I am thinking of a technological device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the technological device I am thinking of.",
+        "target_entity": "Modern Laptop - portable computer with integrated keyboard and screen, used for work, gaming, web browsing, comes with various operating systems.",
+        "category": "device"
+    },
+    {
+        "id": "entity_018",
+        "title": "Great Wall of China",
+        "description": "I am thinking of a famous structure. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the structure I am thinking of.",
+        "target_entity": "Great Wall of China - series of fortifications made of stone, brick, tamped earth, wood, spanning northern borders of China, built to protect against invasions.",
+        "category": "structure"
+    },
+    {
+        "id": "entity_019",
+        "title": "Panda",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Panda - bear native to China, known for distinctive black-and-white coloring, eats primarily bamboo.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_020",
+        "title": "Venus",
+        "description": "I am thinking of a planet. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the planet I am thinking of.",
+        "target_entity": "Venus - second planet from the Sun, similar in size to Earth, known as the morning star or evening star, has a thick, toxic atmosphere.",
+        "category": "planet"
+    },
+    {
+        "id": "entity_021",
+        "title": "Robin Hood",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Robin Hood - legendary English folk hero who steals from the rich and gives to the poor, skilled archer, associated with Nottingham and Sherwood Forest.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_022",
+        "title": "Rainbow",
+        "description": "I am thinking of a natural phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural phenomenon I am thinking of.",
+        "target_entity": "Rainbow - meteorological phenomenon that causes a spectrum of light to appear in the sky, a multicolored arc formed by refraction, dispersion, and reflection.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_023",
+        "title": "Sherlock Holmes",
+        "description": "I am thinking of a fictional detective. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional detective I am thinking of.",
+        "target_entity": "Sherlock Holmes - detective created by Sir Arthur Conan Doyle, known for intelligence, deductive reasoning, and iconic deerstalker hat.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_024",
+        "title": "Volcano",
+        "description": "I am thinking of a geological feature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the geological feature I am thinking of.",
+        "target_entity": "Volcano - rupture in the Earth's crust that allows lava, volcanic ash, and gases to escape from a magma chamber below the surface.",
+        "category": "geological_feature"
+    },
+    {
+        "id": "entity_025",
+        "title": "Apple Pie",
+        "description": "I am thinking of a classic dessert. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dessert I am thinking of.",
+        "target_entity": "Apple Pie - traditional American dessert with a flaky crust filled with sweet, spiced apples, often served with ice cream or whipped cream.",
+        "category": "dessert"
+    },
+    {
+        "id": "entity_026",
+        "title": "Niagara Falls",
+        "description": "I am thinking of a famous waterfall. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the waterfall I am thinking of.",
+        "target_entity": "Niagara Falls - group of three waterfalls on the border between Canada and the United States, famous for their beauty and as a valuable source of hydroelectric power.",
+        "category": "waterfall"
+    },
+    {
+        "id": "entity_027",
+        "title": "Olympic Games",
+        "description": "I am thinking of a large international event. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the international event I am thinking of.",
+        "target_entity": "Olympic Games - leading international sporting event featuring summer and winter sports competitions, with thousands of athletes from around the world.",
+        "category": "event"
+    },
+    {
+        "id": "entity_028",
+        "title": "Mount Everest",
+        "description": "I am thinking of a famous mountain. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mountain I am thinking of.",
+        "target_entity": "Mount Everest - Earth's highest mountain above sea level, part of the Himalayas, located in Nepal and China, attracts climbers from around the world.",
+        "category": "mountain"
+    },
+    {
+        "id": "entity_029",
+        "title": "Sunflower",
+        "description": "I am thinking of a type of plant. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the plant I am thinking of.",
+        "target_entity": "Sunflower - tall plant with a large flower head, known for bright yellow petals and edible seeds, often associated with turning to face the sun.",
+        "category": "plant"
+    },
+    {
+        "id": "entity_030",
+        "title": "Pyramid of Giza",
+        "description": "I am thinking of a famous ancient structure. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ancient structure I am thinking of.",
+        "target_entity": "Pyramid of Giza - iconic pyramid in Egypt, one of the Seven Wonders of the Ancient World, pharaoh's tomb, built around 2560 BC",
+        "category": "ancient_structure"
+    },
+    {
+        "id": "entity_031",
+        "title": "Tyrannosaurus Rex",
+        "description": "I am thinking of a dinosaur. Try to guess which one!",
+        "goal": "Guess the dinosaur I am thinking of.",
+        "target_entity": "Tyrannosaurus Rex - large carnivorous dinosaur, lived in the Cretaceous period, known for massive jaws and sharp teeth",
+        "category": "dinosaur"
+    },
+    {
+        "id": "entity_032",
+        "title": "Mozart",
+        "description": "I am thinking of a famous composer. Try to guess who it is!",
+        "goal": "Guess the composer I am thinking of.",
+        "target_entity": "Mozart - prolific and influential classical composer from Austria, known for symphonies, operas, and concertos, child prodigy",
+        "category": "composer"
+    },
+    {
+        "id": "entity_033",
+        "title": "Minecraft",
+        "description": "I am thinking of a popular video game. Try to guess what it is!",
+        "goal": "Guess the video game I am thinking of.",
+        "target_entity": "Minecraft - sandbox game where players build and explore virtual worlds made of blocks, involves crafting and survival elements",
+        "category": "video_game"
+    },
+    {
+        "id": "entity_034",
+        "title": "Saturn",
+        "description": "I am thinking of a planet in our solar system. Try to guess which one!",
+        "goal": "Guess the planet I am thinking of.",
+        "target_entity": "Saturn - sixth planet from the Sun, known for its prominent ring system, gas giant, second largest planet",
+        "category": "planet"
+    },
+    {
+        "id": "entity_035",
+        "title": "Picasso",
+        "description": "I am thinking of a famous painter. Try to guess who it is!",
+        "goal": "Guess the painter I am thinking of.",
+        "target_entity": "Picasso - renowned Spanish painter and sculptor, co-founder of Cubism, known for unique abstract works like 'Guernica'",
+        "category": "painter"
+    },
+    {
+        "id": "entity_036",
+        "title": "Sushi",
+        "description": "I am thinking of a type of cuisine. Try to guess what it is!",
+        "goal": "Guess the cuisine I am thinking of.",
+        "target_entity": "Sushi - traditional Japanese dish featuring vinegared rice, often accompanied by seafood, vegetables, and seaweed",
+        "category": "cuisine"
+    },
+    {
+        "id": "entity_037",
+        "title": "Dracula",
+        "description": "I am thinking of a famous vampire. Try to guess who it is!",
+        "goal": "Guess the vampire I am thinking of.",
+        "target_entity": "Dracula - iconic fictional vampire from Bram Stoker's novel, Transylvanian nobleman with a thirst for blood, lives in a castle",
+        "category": "vampire"
+    },
+    {
+        "id": "entity_038",
+        "title": "Ballet",
+        "description": "I am thinking of a type of performing art. Try to guess what it is!",
+        "goal": "Guess the performing art I am thinking of.",
+        "target_entity": "Ballet - highly stylized form of dance, characterized by light, graceful movements, often tells a story through choreography",
+        "category": "performing_art"
+    },
+    {
+        "id": "entity_039",
+        "title": "Phoenix",
+        "description": "I am thinking of a mythical creature. Try to guess what it is!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Phoenix - mythical bird that regenerates or is reborn from its ashes, symbolizes immortality and resurrection",
+        "category": "mythical_creature"
+    },
+    {
+        "id": "entity_040",
+        "title": "Submarine",
+        "description": "I am thinking of a type of vehicle. Try to guess what it is!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Submarine - watercraft capable of underwater operation, used for military or research purposes, features periscopes and torpedoes",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_041",
+        "title": "Hummingbird",
+        "description": "I am thinking of a bird. Try to guess which one!",
+        "goal": "Guess the bird I am thinking of.",
+        "target_entity": "Hummingbird - small bird known for rapid wing flapping and hovering, feeds on nectar, vibrant iridescent feathers",
+        "category": "bird"
+    },
+    {
+        "id": "entity_042",
+        "title": "Pasta",
+        "description": "I am thinking of a popular type of dish. Try to guess what it is!",
+        "goal": "Guess the dish I am thinking of.",
+        "target_entity": "Pasta - staple of Italian cuisine, made from wheat dough, comes in many shapes (spaghetti, macaroni), often served with sauce",
+        "category": "dish"
+    },
+    {
+        "id": "entity_043",
+        "title": "Kangaroo",
+        "description": "I am thinking of a type of marsupial. Try to guess what it is!",
+        "goal": "Guess the marsupial I am thinking of.",
+        "target_entity": "Kangaroo - large marsupial from Australia, known for powerful hind legs and jumping ability, carries young in a pouch",
+        "category": "marsupial"
+    },
+    {
+        "id": "entity_044",
+        "title": "Gandhi",
+        "description": "I am thinking of a famous person. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the person I am thinking of.",
+        "target_entity": "Gandhi - Indian leader known for non-violent resistance against British rule, led Salt March, symbol of peace",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_045",
+        "title": "The Mona Lisa",
+        "description": "I am thinking of a famous painting. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the painting I am thinking of.",
+        "target_entity": "The Mona Lisa - renowned portrait painted by Leonardo da Vinci, housed in the Louvre, Paris, known for mysterious smile",
+        "category": "artwork"
+    },
+    {
+        "id": "entity_046",
+        "title": "Penguin",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Penguin - flightless bird found in the Southern Hemisphere, black and white coloring, waddles on land, excellent swimmer",
+        "category": "animal"
+    },
+    {
+        "id": "entity_047",
+        "title": "Soccer",
+        "description": "I am thinking of a sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Soccer - team sport played with a round ball on a rectangular field, two goals, popular worldwide, involves dribbling and scoring",
+        "category": "sport"
+    },
+    {
+        "id": "entity_048",
+        "title": "Big Ben",
+        "description": "I am thinking of a famous clock. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the clock I am thinking of.",
+        "target_entity": "Big Ben - iconic clock tower at the north end of the Palace of Westminster in London, renowned for its accuracy and massive bell",
+        "category": "landmark"
+    },
+    {
+        "id": "entity_049",
+        "title": "Merlin",
+        "description": "I am thinking of a legendary figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the legendary figure I am thinking of.",
+        "target_entity": "Merlin - legendary wizard associated with King Arthur's court, known for his wisdom and magical powers, central to Arthurian legends",
+        "category": "legendary_figure"
+    },
+    {
+        "id": "entity_050",
+        "title": "Ferrari",
+        "description": "I am thinking of a car brand. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the car brand I am thinking of.",
+        "target_entity": "Ferrari - luxury Italian car brand known for high-performance sports cars, distinctive prancing horse logo, synonymous with speed",
+        "category": "car_brand"
+    },
+    {
+        "id": "entity_052",
+        "title": "Jazz",
+        "description": "I am thinking of a music genre. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the music genre I am thinking of.",
+        "target_entity": "Jazz - music genre that originated in the African-American communities, characterized by swing and blue notes, improvisation, poly-rhythms",
+        "category": "music_genre"
+    },
+    {
+        "id": "entity_053",
+        "title": "Cyclone",
+        "description": "I am thinking of a weather phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the weather phenomenon I am thinking of.",
+        "target_entity": "Cyclone - large-scale air mass that rotates around a strong center of low pressure, can cause strong winds and heavy rain",
+        "category": "weather_phenomenon"
+    },
+    {
+        "id": "entity_054",
+        "title": "Shakespeare",
+        "description": "I am thinking of a historical figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Shakespeare - English playwright and poet from the 16th century, known for works like Hamlet, Othello, and Macbeth, often called the Bard of Avon",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_056",
+        "title": "Taco",
+        "description": "I am thinking of a food. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the food I am thinking of.",
+        "target_entity": "Taco - a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling, often includes meats, cheese, and salsa",
+        "category": "food"
+    },
+    {
+        "id": "entity_058",
+        "title": "Hula Hoop",
+        "description": "I am thinking of a toy. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the toy I am thinking of.",
+        "target_entity": "Hula Hoop - a large plastic ring twirled around the body, popular as a toy and in fitness exercises, can be used for tricks and performances",
+        "category": "toy"
+    },
+    {
+        "id": "entity_059",
+        "title": "Jupiter",
+        "description": "I am thinking of a planet. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the planet I am thinking of.",
+        "target_entity": "Jupiter - the largest planet in our solar system, a gas giant known for its Great Red Spot, has a strong magnetic field and many moons including Ganymede",
+        "category": "planet"
+    },
+    {
+        "id": "entity_060",
+        "title": "Fridge",
+        "description": "I am thinking of a home appliance. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the home appliance I am thinking of.",
+        "target_entity": "Fridge - an electrical appliance used to store food and beverages at cool temperatures, features compartments and adjustable shelves, found in most kitchens",
+        "category": "home_appliance"
+    },
+    {
+        "id": "entity_061",
+        "title": "Garfield",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Garfield - a cartoon orange tabby cat known for his laziness, love of lasagna, and disdain for Mondays, created by Jim Davis",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_062",
+        "title": "Yosemite National Park",
+        "description": "I am thinking of a national park. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the national park I am thinking of.",
+        "target_entity": "Yosemite National Park - located in California's Sierra Nevada mountains, famous for its waterfalls, giant sequoias, and dramatic cliffs like El Capitan",
+        "category": "national_park"
+    },
+    {
+        "id": "entity_063",
+        "title": "Violin",
+        "description": "I am thinking of a musical instrument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical instrument I am thinking of.",
+        "target_entity": "Violin - a string instrument played with a bow, has four strings, used widely in classical music as well as folk and jazz, known for its expressive sound",
+        "category": "musical_instrument"
+    },
+    {
+        "id": "entity_064",
+        "title": "Chopin",
+        "description": "I am thinking of a composer. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the composer I am thinking of.",
+        "target_entity": "Chopin - a Polish composer and virtuoso pianist of the Romantic era, renowned for his solo piano pieces and innovative approach to music composition",
+        "category": "composer"
+    },
+    {
+        "id": "entity_065",
+        "title": "Cheetah",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Cheetah - the fastest land animal, known for its distinctive spotted coat and ability to reach speeds up to 60-70 mph",
+        "category": "animal"
+    },
+    {
+        "id": "entity_066",
+        "title": "Golden Retriever",
+        "description": "I am thinking of a dog breed. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dog breed I am thinking of.",
+        "target_entity": "Golden Retriever - a popular breed known for its friendly nature, golden coat, and ability as a family pet and service dog",
+        "category": "dog_breed"
+    },
+    {
+        "id": "entity_067",
+        "title": "Apple iPhone",
+        "description": "I am thinking of a device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the device I am thinking of.",
+        "target_entity": "Apple iPhone - a widely-used smartphone made by Apple, recognizable for its sleek design and iOS operating system",
+        "category": "device"
+    },
+    {
+        "id": "entity_069",
+        "title": "Coca-Cola",
+        "description": "I am thinking of a beverage. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the beverage I am thinking of.",
+        "target_entity": "Coca-Cola - a globally popular carbonated drink, known for its classic red branding and secret formula",
+        "category": "beverage"
+    },
+    {
+        "id": "entity_070",
+        "title": "Beyonc\u00e9",
+        "description": "I am thinking of a modern famous person. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the famous person I am thinking of.",
+        "target_entity": "Beyonc\u00e9 - a global music icon known for her powerful voice, solo career, and role in the group Destiny's Child",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_071",
+        "title": "Macaroni and Cheese",
+        "description": "I am thinking of a food. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the food I am thinking of.",
+        "target_entity": "Macaroni and Cheese - a comfort food dish consisting of cooked macaroni pasta and cheese sauce, often baked with a breadcrumb topping",
+        "category": "food"
+    },
+    {
+        "id": "entity_072",
+        "title": "Great White Shark",
+        "description": "I am thinking of a type of fish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the type of fish I am thinking of.",
+        "target_entity": "Great White Shark - a large predatory fish known for its size, speed, and fearsome reputation, found in oceans worldwide",
+        "category": "fish"
+    },
+    {
+        "id": "entity_073",
+        "title": "Romeo and Juliet",
+        "description": "I am thinking of a play. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the play I am thinking of.",
+        "target_entity": "Romeo and Juliet - a tragic romance penned by William Shakespeare, known for its themes of love, fate, and family feuds",
+        "category": "play"
+    },
+    {
+        "id": "entity_074",
+        "title": "Mount Kilimanjaro",
+        "description": "I am thinking of a mountain. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mountain I am thinking of.",
+        "target_entity": "Mount Kilimanjaro - the tallest mountain in Africa, located in Tanzania, recognized for its snow-capped peak despite being near the equator",
+        "category": "mountain"
+    },
+    {
+        "id": "entity_075",
+        "title": "Amazon Rainforest",
+        "description": "I am thinking of a forest. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the forest I am thinking of.",
+        "target_entity": "Amazon Rainforest - the largest rainforest in the world, spanning multiple countries in South America, known for its biodiversity",
+        "category": "forest"
+    },
+    {
+        "id": "entity_076",
+        "title": "Blue Whale",
+        "description": "I am thinking of a large animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Blue Whale - largest animal on Earth, a marine mammal, can grow up to 100 feet long, weighs over 100 tons, found in oceans worldwide",
+        "category": "animal"
+    },
+    {
+        "id": "entity_077",
+        "title": "The Beatles",
+        "description": "I am thinking of a famous music band. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the music band I am thinking of.",
+        "target_entity": "The Beatles - iconic British band from Liverpool, members include John Lennon, Paul McCartney, George Harrison, and Ringo Starr, famous for songs like 'Hey Jude' and 'Let It Be'",
+        "category": "music_band"
+    },
+    {
+        "id": "entity_078",
+        "title": "Diamond",
+        "description": "I am thinking of a type of gemstone. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the gemstone I am thinking of.",
+        "target_entity": "Diamond - hardest known natural material, highly prized as a gemstone, used in jewelry, composed of carbon atoms arranged in a crystal structure",
+        "category": "gemstone"
+    },
+    {
+        "id": "entity_079",
+        "title": "Giraffe",
+        "description": "I am thinking of a unique animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Giraffe - tallest land animal, known for its long neck and legs, native to Africa, spots on its coat provide camouflage among trees",
+        "category": "animal"
+    },
+    {
+        "id": "entity_080",
+        "title": "Grand Canyon",
+        "description": "I am thinking of a natural wonder. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural wonder I am thinking of.",
+        "target_entity": "Grand Canyon - massive canyon carved by the Colorado River in Arizona, USA, known for its stunning vistas and geological significance",
+        "category": "natural_wonder"
+    },
+    {
+        "id": "entity_081",
+        "title": "MacBook",
+        "description": "I am thinking of a popular computer brand. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the computer brand I am thinking of.",
+        "target_entity": "MacBook - line of laptops developed by Apple, known for sleek design, macOS operating system, used for both personal and professional purposes",
+        "category": "computer"
+    },
+    {
+        "id": "entity_082",
+        "title": "Taj Mahal",
+        "description": "I am thinking of a place. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the place I am thinking of.",
+        "target_entity": "Taj Mahal - an iconic white marble mausoleum located in Agra, India, built by Emperor Shah Jahan, known for its intricate carvings and symmetrical beauty, a UNESCO World Heritage site",
+        "category": "place"
+    },
+    {
+        "id": "entity_084",
+        "title": "Eagle",
+        "description": "I am thinking of a bird. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the bird I am thinking of.",
+        "target_entity": "Eagle - large bird of prey, known for keen eyesight and powerful flight, symbol of freedom, has hooked beak and strong talons",
+        "category": "animal"
+    },
+    {
+        "id": "entity_085",
+        "title": "Spaghetti",
+        "description": "I am thinking of a food. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the food I am thinking of.",
+        "target_entity": "Spaghetti - a long, thin, cylindrical pasta, typically made from wheat, often served with sauce, popular in Italian cuisine",
+        "category": "food"
+    },
+    {
+        "id": "entity_086",
+        "title": "Python",
+        "description": "I am thinking of a programming language. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the programming language I am thinking of.",
+        "target_entity": "Python - high-level, interpreted programming language, known for its readability and simplicity, used in web development, data science, automation, and scripting",
+        "category": "technology"
+    },
+    {
+        "id": "entity_087",
+        "title": "Tennis",
+        "description": "I am thinking of a sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Tennis - a racket sport played on a rectangular court, involves hitting a ball over a net, can be played singles or doubles, grass, clay, hard surfaces",
+        "category": "sport"
+    },
+    {
+        "id": "entity_088",
+        "title": "Light Bulb",
+        "description": "I am thinking of an invention. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the invention I am thinking of.",
+        "target_entity": "Light Bulb - an electric device that produces light when the filament is heated by an electric current, invented by Thomas Edison, revolutionized indoor lighting",
+        "category": "invention"
+    },
+    {
+        "id": "entity_089",
+        "title": "Batman",
+        "description": "I am thinking of a superhero. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the superhero I am thinking of.",
+        "target_entity": "Batman - a DC Comics superhero, alter ego of Bruce Wayne, known for his bat-themed costume, detective skills, and fighting crime in Gotham City",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_090",
+        "title": "Edison",
+        "description": "I am thinking of an inventor. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the inventor I am thinking of.",
+        "target_entity": "Thomas Edison - famous American inventor and businessman, known for developing the phonograph, motion picture camera, and the practical electric light bulb",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_091",
+        "title": "Tesla Model 3",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Tesla Model 3 - fully electric sedan, produced by Tesla, known for its minimalist design and advanced technology, highly efficient and popular",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_092",
+        "title": "Superman",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Superman - superhero character created by DC Comics, known for his superhuman strength, ability to fly, red cape, and blue suit with an 'S' emblem on the chest",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_093",
+        "title": "J.K. Rowling",
+        "description": "I am thinking of a modern individual. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the modern individual I am thinking of.",
+        "target_entity": "J.K. Rowling - British author famous for writing the Harry Potter series, has received numerous literary awards, known for her rags-to-riches story",
+        "category": "person"
+    },
+    {
+        "id": "entity_094",
+        "title": "Pyramids of Giza",
+        "description": "I am thinking of an ancient wonder. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ancient wonder I am thinking of.",
+        "target_entity": "Pyramids of Giza - monumental tombs in Egypt, built for pharaohs, includes three major pyramids: Khufu, Khafre, and Menkaure, iconic symbol of ancient Egypt",
+        "category": "ancient_wonder"
+    },
+    {
+        "id": "entity_095",
+        "title": "Guitar",
+        "description": "I am thinking of a musical instrument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical instrument I am thinking of.",
+        "target_entity": "Guitar - stringed musical instrument, typically having six strings, used in a wide variety of musical genres, played by strumming or plucking",
+        "category": "musical_instrument"
+    },
+    {
+        "id": "entity_096",
+        "title": "New York City",
+        "description": "I am thinking of a city. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "New York City - largest city in the United States, known for landmarks like the Statue of Liberty and Times Square, comprises districts like Manhattan and Brooklyn",
+        "category": "city"
+    },
+    {
+        "id": "entity_097",
+        "title": "Formula 1",
+        "description": "I am thinking of a motorsport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the motorsport I am thinking of.",
+        "target_entity": "Formula 1 - international single-seater auto racing sport, features high-speed cars, known for circuits like Monaco and Silverstone, involves multiple Grand Prix events",
+        "category": "motorsport"
+    },
+    {
+        "id": "entity_098",
+        "title": "Rubik's Cube",
+        "description": "I am thinking of a puzzle toy. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the puzzle toy I am thinking of.",
+        "target_entity": "Rubik's Cube - 3D combination puzzle invented by Ern\u0151 Rubik, consists of a multi-colored cube with 3x3 squares on each of its six faces, goal is to align all colors",
+        "category": "puzzle"
+    },
+    {
+        "id": "entity_099",
+        "title": "Michael Jackson",
+        "description": "I am thinking of a famous musician. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the musician I am thinking of.",
+        "target_entity": "Michael Jackson - legendary pop singer known as the 'King of Pop', famous for hits like 'Thriller' and 'Beat It', iconic moonwalk dance",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_100",
+        "title": "Cinderella",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Cinderella - fairy tale character known for her transformation from servant to princess, glass slipper, fairy godmother, midnight deadline",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_101",
+        "title": "Nintendo Switch",
+        "description": "I am thinking of a gaming console. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the gaming console I am thinking of.",
+        "target_entity": "Nintendo Switch - hybrid video game console that can be used as a home console and portable device, features Joy-Con controllers",
+        "category": "gaming_console"
+    },
+    {
+        "id": "entity_102",
+        "title": "Jurassic Park",
+        "description": "I am thinking of a movie. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the movie I am thinking of.",
+        "target_entity": "Jurassic Park - 1993 science fiction film directed by Steven Spielberg, features dinosaurs brought back to life through DNA cloning, chaos ensues",
+        "category": "movie"
+    },
+    {
+        "id": "entity_103",
+        "title": "Strawberry",
+        "description": "I am thinking of a fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Strawberry - red, sweet fruit with seeds on the outside, often used in desserts and smoothies, known for its distinct aroma",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_104",
+        "title": "Elephant",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Elephant - large mammal with a trunk, thick grey skin, tusks, herbivorous, found in Africa and Asia, largest land animal",
+        "category": "animal"
+    },
+    {
+        "id": "entity_105",
+        "title": "Toyota Prius",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Toyota Prius - hybrid electric car, fuel-efficient, recognized for its eco-friendly design, popularized hybrid technology, compact sedan",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_106",
+        "title": "Volleyball",
+        "description": "I am thinking of a sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Volleyball - team sport where two teams of six players are separated by a net, objective is to score points by grounding the ball on the opponent\u2019s court, played indoors or on the beach",
+        "category": "sport"
+    },
+    {
+        "id": "entity_107",
+        "title": "Spaceship",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Spaceship - vehicle designed for travel or operation in outer space, used for transporting astronauts and equipment, explores celestial bodies, advanced technology",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_108",
+        "title": "Butterfly",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Butterfly - insect with large, often brightly colored wings, undergoes complete metamorphosis, flies with fluttering motion, important pollinator",
+        "category": "animal"
+    },
+    {
+        "id": "entity_109",
+        "title": "Football",
+        "description": "I am thinking of a sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Football - team sport played with a spherical ball, two teams of eleven players, objective is to score goals by getting the ball into the opposing net, globally popular",
+        "category": "sport"
+    },
+    {
+        "id": "entity_110",
+        "title": "Leonardo da Vinci",
+        "description": "I am thinking of a historical figure. Try to guess who it is!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Leonardo da Vinci - a Renaissance polymath known for his art, including the Mona Lisa and The Last Supper, as well as for his inventions.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_111",
+        "title": "Chocolate",
+        "description": "I am thinking of a type of sweet food. Try to guess what it is!",
+        "goal": "Guess the sweet food I am thinking of.",
+        "target_entity": "Chocolate - a sweet, typically brown food preparation of roasted and ground cacao seeds, available in bars or as a flavoring ingredient.",
+        "category": "sweet_food"
+    },
+    {
+        "id": "entity_113",
+        "title": "Google",
+        "description": "I am thinking of a prominent company. Try to guess what it is!",
+        "goal": "Guess the company I am thinking of.",
+        "target_entity": "Google - a multinational technology company specializing in internet-related services and products, including a dominant search engine.",
+        "category": "company"
+    },
+    {
+        "id": "entity_114",
+        "title": "Michelangelo",
+        "description": "I am thinking of a historical artist. Try to guess who it is!",
+        "goal": "Guess the historical artist I am thinking of.",
+        "target_entity": "Michelangelo - a Renaissance artist known for his sculptures like David and paintings such as the Sistine Chapel ceiling.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_115",
+        "title": "Hurricane",
+        "description": "I am thinking of a natural phenomenon. Try to guess what it is!",
+        "goal": "Guess the natural phenomenon I am thinking of.",
+        "target_entity": "Hurricane - a massive rotating storm system characterized by strong winds and heavy rain, typically occurring in tropical regions.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_116",
+        "title": "Winter",
+        "description": "I am thinking of a season. Try to guess which one!",
+        "goal": "Guess the season I am thinking of.",
+        "target_entity": "Winter - the coldest season of the year, associated with snow, ice, and celebrated holidays like Christmas in many cultures.",
+        "category": "season"
+    },
+    {
+        "id": "entity_117",
+        "title": "Amazon River",
+        "description": "I am thinking of a significant body of water. Try to guess what it is!",
+        "goal": "Guess the body of water I am thinking of.",
+        "target_entity": "Amazon River - the second longest river in the world, running through the Amazon rainforest, known for its biodiversity and length.",
+        "category": "body_of_water"
+    },
+    {
+        "id": "entity_118",
+        "title": "Monopoly",
+        "description": "I am thinking of a popular board game. Try to guess what it is!",
+        "goal": "Guess the board game I am thinking of.",
+        "target_entity": "Monopoly - a board game centered around buying, trading, and developing properties to bankrupt opponents, famous for its colorful banknotes.",
+        "category": "board_game"
+    },
+    {
+        "id": "entity_119",
+        "title": "Dragon",
+        "description": "I am thinking of a mythical creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Dragon - legendary creature depicted as a large, serpentine creature with wings, capable of breathing fire, present in various cultures and mythologies.",
+        "category": "mythical_creature"
+    },
+    {
+        "id": "entity_121",
+        "title": "Boeing 747",
+        "description": "I am thinking of an aircraft. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the aircraft I am thinking of.",
+        "target_entity": "Boeing 747 - a large, long-range wide-body commercial jet airplane, known as the 'Jumbo Jet', one of the most recognizable and successful platforms in aviation history.",
+        "category": "aircraft"
+    },
+    {
+        "id": "entity_123",
+        "title": "Java",
+        "description": "I am thinking of a programming language. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the programming language I am thinking of.",
+        "target_entity": "Java - high-level programming language used for developing a wide range of applications, known for its portability, object-oriented capabilities, and 'write once, run anywhere' principle",
+        "category": "programming_language"
+    },
+    {
+        "id": "entity_124",
+        "title": "Sahara Desert",
+        "description": "I am thinking of a geographical location. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the geographical location I am thinking of.",
+        "target_entity": "Sahara Desert - largest hot desert in the world, located in North Africa, known for its vast sand dunes and harsh climate",
+        "category": "geographical_location"
+    },
+    {
+        "id": "entity_125",
+        "title": "Jungle Book",
+        "description": "I am thinking of a book. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the book I am thinking of.",
+        "target_entity": "Jungle Book - collection of stories by Rudyard Kipling featuring the adventures of Mowgli, an orphaned boy raised in the jungle by animals",
+        "category": "book"
+    },
+    {
+        "id": "entity_126",
+        "title": "Time Machine",
+        "description": "I am thinking of a sci-fi device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sci-fi device I am thinking of.",
+        "target_entity": "Time Machine - theoretical device often found in science fiction that allows for travel through time, popularized by H.G. Wells",
+        "category": "sci-fi_device"
+    },
+    {
+        "id": "entity_127",
+        "title": "Titanic",
+        "description": "I am thinking of a historical ship. Try to guess what it is!",
+        "goal": "Guess the historical ship I am thinking of.",
+        "target_entity": "Titanic - a British passenger liner that sank in the North Atlantic Ocean in 1912 after hitting an iceberg.",
+        "category": "historical_ship"
+    },
+    {
+        "id": "entity_128",
+        "title": "Chameleon",
+        "description": "I am thinking of a reptile. Try to guess what it is!",
+        "goal": "Guess the reptile I am thinking of.",
+        "target_entity": "Chameleon - a distinctive and colorful reptile known for its ability to change skin color and its protruding eyes.",
+        "category": "reptile"
+    },
+    {
+        "id": "entity_129",
+        "title": "Broccoli",
+        "description": "I am thinking of a vegetable. Try to guess what it is!",
+        "goal": "Guess the vegetable I am thinking of.",
+        "target_entity": "Broccoli - an edible green plant in the cabbage family, known for its tree-like structure and healthy nutrients.",
+        "category": "vegetable"
+    },
+    {
+        "id": "entity_131",
+        "title": "Great Barrier Reef",
+        "description": "I am thinking of a natural wonder. Try to guess what it is!",
+        "goal": "Guess the natural wonder I am thinking of.",
+        "target_entity": "Great Barrier Reef - the world's largest coral reef system located in the Coral Sea, off the coast of Australia, known for its biodiversity.",
+        "category": "natural_wonder"
+    },
+    {
+        "id": "entity_132",
+        "title": "Julius Caesar",
+        "description": "I am thinking of a historical figure. Try to guess who it is!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Julius Caesar - a prominent military general and statesman in ancient Rome, known for his role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_133",
+        "title": "Marilyn Monroe",
+        "description": "I am thinking of a Hollywood icon. Try to guess who it is!",
+        "goal": "Guess the Hollywood icon I am thinking of.",
+        "target_entity": "Marilyn Monroe - a famous American actress, model, and singer, known as a major sex symbol in the 1950s, recognized for her roles in films like 'Some Like It Hot'.",
+        "category": "hollywood_icon"
+    },
+    {
+        "id": "entity_136",
+        "title": "Star Wars",
+        "description": "I am thinking of a film franchise. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the film franchise I am thinking of.",
+        "target_entity": "Star Wars - an epic space opera media franchise, created by George Lucas, includes movies, books, comics, and games, set in a distant galaxy involving the Force",
+        "category": "film_franchise"
+    },
+    {
+        "id": "entity_137",
+        "title": "Greenhouse Effect",
+        "description": "I am thinking of a natural phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural phenomenon I am thinking of.",
+        "target_entity": "Greenhouse Effect - the warming of Earth's surface due to the trapping of heat by greenhouse gases in the atmosphere, contributing to climate change",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_138",
+        "title": "Tiger",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Tiger - a large carnivorous feline mammal, recognizable by its striped coat, native to the forests of Asia, and known for its strength and solitary nature",
+        "category": "animal"
+    },
+    {
+        "id": "entity_139",
+        "title": "Walt Disney",
+        "description": "I am thinking of a visionary entrepreneur. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the visionary entrepreneur I am thinking of.",
+        "target_entity": "Walt Disney - an American entrepreneur and pioneer in the animation industry, co-founder of The Walt Disney Company, known for creating Disneyland",
+        "category": "visionary_entrepreneur"
+    },
+    {
+        "id": "entity_140",
+        "title": "Othello",
+        "description": "I am thinking of a play by Shakespeare. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the play by Shakespeare I am thinking of.",
+        "target_entity": "Othello - a tragedy play by William Shakespeare revolving around Othello, a Moorish general, and the scheming of his ensign, Iago",
+        "category": "play"
+    },
+    {
+        "id": "entity_141",
+        "title": "Tetris",
+        "description": "I am thinking of a classic video game. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the video game I am thinking of.",
+        "target_entity": "Tetris - puzzle game where players arrange falling blocks to form complete lines, known for its addictive gameplay and iconic musical theme",
+        "category": "video_game"
+    },
+    {
+        "id": "entity_142",
+        "title": "Nike",
+        "description": "I am thinking of a famous brand. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the brand I am thinking of.",
+        "target_entity": "Nike - leading sportswear company known for its athletic shoes, apparel, and equipment, famous for the 'Just Do It' slogan and Swoosh logo",
+        "category": "brand"
+    },
+    {
+        "id": "entity_146",
+        "title": "Sphinx",
+        "description": "I am thinking of a mythical creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Sphinx - an ancient mythical creature with the head of a human and the body of a lion, famous for the Great Sphinx in Giza, associated with riddles",
+        "category": "mythical_creature"
+    },
+    {
+        "id": "entity_147",
+        "title": "Starry Night",
+        "description": "I am thinking of a famous painting. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the painting I am thinking of.",
+        "target_entity": "Starry Night - painted by Vincent van Gogh, features swirling stars and a bright crescent moon over a small town, highly recognizable work of art",
+        "category": "artwork"
+    },
+    {
+        "id": "entity_148",
+        "title": "Marie Curie",
+        "description": "I am thinking of a pioneering scientist. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the scientist I am thinking of.",
+        "target_entity": "Marie Curie - first woman to win a Nobel Prize, known for research on radioactivity, only person to win Nobel Prizes in two different sciences (Physics and Chemistry)",
+        "category": "scientist"
+    },
+    {
+        "id": "entity_149",
+        "title": "Platypus",
+        "description": "I am thinking of a unique animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the unique animal I am thinking of.",
+        "target_entity": "Platypus - an egg-laying mammal native to Australia, known for its duck-bill, beaver tail, and webbed feet, one of the few venomous mammals",
+        "category": "animal"
+    },
+    {
+        "id": "entity_150",
+        "title": "Hercules",
+        "description": "I am thinking of a mythical hero. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the mythical hero I am thinking of.",
+        "target_entity": "Hercules - a Roman hero and god, known for his incredible strength and for completing the Twelve Labours, equivalent to Heracles in Greek mythology",
+        "category": "mythical_hero"
+    },
+    {
+        "id": "entity_152",
+        "title": "Zeus",
+        "description": "I am thinking of a deity from mythology. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the deity I am thinking of.",
+        "target_entity": "Zeus - the sky and thunder god in ancient Greek religion, ruler of Mount Olympus and king of the gods, symbolized by the thunderbolt",
+        "category": "mythical_god"
+    },
+    {
+        "id": "entity_153",
+        "title": "Muhammad Ali",
+        "description": "I am thinking of a legendary athlete. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the legendary athlete I am thinking of.",
+        "target_entity": "Muhammad Ali - an American professional boxer and cultural icon, widely regarded as one of the greatest boxers of all time, known for his charisma and controversial views",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_154",
+        "title": "Volkswagen Beetle",
+        "description": "I am thinking of a type of vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Volkswagen Beetle - iconic compact car known for its distinctive shape, produced by the German automaker Volkswagen, became a cultural icon in the 1960s",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_156",
+        "title": "Facebook",
+        "description": "I am thinking of a widely used social media platform. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the social media platform I am thinking of.",
+        "target_entity": "Facebook - social media platform founded by Mark Zuckerberg, allows users to connect with friends, share content, and engage with communities",
+        "category": "technology"
+    },
+    {
+        "id": "entity_157",
+        "title": "Paris",
+        "description": "I am thinking of a famous city. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Paris - capital city of France, renowned for the Eiffel Tower, Louvre Museum, and its rich history and culture",
+        "category": "place"
+    },
+    {
+        "id": "entity_158",
+        "title": "Tornado",
+        "description": "I am thinking of a weather phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the weather phenomenon I am thinking of.",
+        "target_entity": "Tornado - rapidly rotating column of air extending from a storm to the ground, known for its destructive potential and funnel shape",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_159",
+        "title": "Frida Kahlo",
+        "description": "I am thinking of an influential artist. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the artist I am thinking of.",
+        "target_entity": "Frida Kahlo - Mexican painter known for her self-portraits and works inspired by nature and Mexican culture, well-known for her distinctive personal style",
+        "category": "artist"
+    },
+    {
+        "id": "entity_160",
+        "title": "Ford Mustang",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Ford Mustang - an iconic American muscle car known for its performance and design, first manufactured by Ford in 1964",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_162",
+        "title": "Captain America",
+        "description": "I am thinking of a superhero. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the superhero I am thinking of.",
+        "target_entity": "Captain America - a Marvel Comics character known for his super-soldier strength, iconic blue, red, and white costume, and indestructible shield",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_163",
+        "title": "Pi (\u03c0)",
+        "description": "I am thinking of a mathematical constant. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mathematical constant I am thinking of.",
+        "target_entity": "Pi (\u03c0) - an irrational number approximately equal to 3.14159, representing the ratio of a circle's circumference to its diameter",
+        "category": "mathematical_constant"
+    },
+    {
+        "id": "entity_164",
+        "title": "Venice",
+        "description": "I am thinking of a city. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Venice - a unique Italian city built on a network of canals, famous for its architecture, art, and romantic gondola rides",
+        "category": "city"
+    },
+    {
+        "id": "entity_165",
+        "title": "Loch Ness Monster",
+        "description": "I am thinking of a mythical creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Loch Ness Monster - cryptid said to inhabit Loch Ness in Scotland, often depicted as a large creature with a long neck",
+        "category": "mythical creature"
+    },
+    {
+        "id": "entity_166",
+        "title": "Tofu",
+        "description": "I am thinking of a food item. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the food item I am thinking of.",
+        "target_entity": "Tofu - a versatile plant-based protein source made from soybeans, commonly used in Asian cuisine, rich in protein and calcium",
+        "category": "food"
+    },
+    {
+        "id": "entity_167",
+        "title": "F-22 Raptor",
+        "description": "I am thinking of a vehicle. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "F-22 Raptor - a fifth-generation fighter jet known for its stealth, speed, and agility, used by the U.S. Air Force",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_168",
+        "title": "Einsteinium",
+        "description": "I am thinking of an element. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the element I am thinking of.",
+        "target_entity": "Einsteinium - a synthetic element named after Albert Einstein, radioactive and primarily used in scientific research",
+        "category": "element"
+    },
+    {
+        "id": "entity_169",
+        "title": "Octopus",
+        "description": "I am thinking of a sea creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sea creature I am thinking of.",
+        "target_entity": "Octopus - an intelligent marine animal with eight arms, known for its ability to change color and texture, and escape enclosures",
+        "category": "sea creature"
+    },
+    {
+        "id": "entity_170",
+        "title": "Lego",
+        "description": "I am thinking of a toy. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the toy I am thinking of.",
+        "target_entity": "Lego - a popular line of plastic construction bricks known for their interlocking capabilities, used to build models of various types",
+        "category": "toy"
+    },
+    {
+        "id": "entity_171",
+        "title": "Mars",
+        "description": "I am thinking of a celestial body. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the celestial body I am thinking of.",
+        "target_entity": "Mars - the fourth planet from the sun, known as the Red Planet due to its reddish appearance, target of numerous space missions",
+        "category": "celestial body"
+    },
+    {
+        "id": "entity_172",
+        "title": "Linux",
+        "description": "I am thinking of a software. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the software I am thinking of.",
+        "target_entity": "Linux - an open-source operating system kernel used in a variety of operating systems, known for its robustness, security, and flexibility",
+        "category": "software"
+    },
+    {
+        "id": "entity_173",
+        "title": "Cheeseburger",
+        "description": "I am thinking of a popular dish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the popular dish I am thinking of.",
+        "target_entity": "Cheeseburger - a classic fast-food item consisting of a grilled beef patty topped with cheese, various condiments, served in a bun",
+        "category": "food"
+    },
+    {
+        "id": "entity_174",
+        "title": "Golden Gate Bridge",
+        "description": "I am thinking of a famous bridge. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the bridge I am thinking of.",
+        "target_entity": "Golden Gate Bridge - suspension bridge spanning the Golden Gate Strait, known for its red color, connecting San Francisco and Marin County.",
+        "category": "structures"
+    },
+    {
+        "id": "entity_175",
+        "title": "Einstein's Theory of Relativity",
+        "description": "I am thinking of a groundbreaking scientific theory. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the scientific theory I am thinking of.",
+        "target_entity": "Einstein's Theory of Relativity - theory encompassing two interrelated theories by Albert Einstein about the laws of physics being the same for all non-accelerating observers.",
+        "category": "science"
+    },
+    {
+        "id": "entity_177",
+        "title": "Carnival",
+        "description": "I am thinking of a famous festival. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the festival I am thinking of.",
+        "target_entity": "Carnival - festive season occurring before Lent, known for parades, costumes, and street parties, particularly famous in Rio de Janeiro.",
+        "category": "festivals"
+    },
+    {
+        "id": "entity_181",
+        "title": "Statue of Liberty",
+        "description": "I am thinking of a monument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the monument I am thinking of.",
+        "target_entity": "Statue of Liberty - colossal neoclassical sculpture of liberty located on Liberty Island in New York Harbor, gift from France to the United States",
+        "category": "monument"
+    },
+    {
+        "id": "entity_182",
+        "title": "Banana",
+        "description": "I am thinking of a fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Banana - an elongated, edible fruit, covered with a yellow peel when ripe, known for its soft, sweet flesh, rich in potassium",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_183",
+        "title": "Iceland",
+        "description": "I am thinking of a country. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the country I am thinking of.",
+        "target_entity": "Iceland - an island nation in the North Atlantic, known for its volcanic and geothermal activity, landscapes with geysers, hot springs, and glaciers",
+        "category": "country"
+    },
+    {
+        "id": "entity_185",
+        "title": "Oxygen",
+        "description": "I am thinking of a chemical element. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the chemical element I am thinking of.",
+        "target_entity": "Oxygen - a chemical element with the symbol O, essential for respiration in living organisms, abundant in the Earth's atmosphere and water, atomic number 8",
+        "category": "element"
+    },
+    {
+        "id": "entity_186",
+        "title": "Pikachu",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Pikachu - an Electric-type Pok\u00e9mon from the Pok\u00e9mon franchise, known for its yellow fur, lightning bolt-shaped tail, and powerful electric abilities.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_187",
+        "title": "R2-D2",
+        "description": "I am thinking of a robot. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the robot I am thinking of.",
+        "target_entity": "R2-D2 - a fictional droid character in the Star Wars franchise, known for its resourcefulness, distinctive beeping sounds, and blue-and-white cylindrical design.",
+        "category": "fictional_robot"
+    },
+    {
+        "id": "entity_188",
+        "title": "Tesla Coil",
+        "description": "I am thinking of an invention. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the invention I am thinking of.",
+        "target_entity": "Tesla Coil - an electrical resonant transformer circuit designed by inventor Nikola Tesla, used to produce high-voltage, low-current, high-frequency alternating current electricity.",
+        "category": "invention"
+    },
+    {
+        "id": "entity_189",
+        "title": "Himalayan Cat",
+        "description": "I am thinking of a cat breed. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the cat breed I am thinking of.",
+        "target_entity": "Himalayan Cat - a breed of cat with a distinct color pattern similar to that of a Persian cat but with a pointed coat, featuring blue eyes and a sassy personality.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_190",
+        "title": "The Great Gatsby",
+        "description": "I am thinking of a classic novel. Try to guess which it is!",
+        "goal": "Guess the novel I am thinking of.",
+        "target_entity": "The Great Gatsby - a novel by F. Scott Fitzgerald, set in the Jazz Age, exploring themes of decadence, idealism, and resistance to change.",
+        "category": "novel"
+    },
+    {
+        "id": "entity_191",
+        "title": "Simba",
+        "description": "I am thinking of a fictional character. Try to guess who it is!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Simba - the lion protagonist of Disney's animated feature film 'The Lion King', known for his journey from a cub to king.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_192",
+        "title": "Moai",
+        "description": "I am thinking of a historical monument. Try to guess which one!",
+        "goal": "Guess the historical monument I am thinking of.",
+        "target_entity": "Moai - monolithic human figures carved by the Rapa Nui people on Easter Island, famous for their oversized heads.",
+        "category": "historical_monument"
+    },
+    {
+        "id": "entity_193",
+        "title": "Beethoven",
+        "description": "I am thinking of a renowned composer. Try to guess who it is!",
+        "goal": "Guess the composer I am thinking of.",
+        "target_entity": "Beethoven - a German composer and pianist, crucial figure in the transition between the Classical and Romantic eras in Western music.",
+        "category": "composer"
+    },
+    {
+        "id": "entity_194",
+        "title": "Atlantic Ocean",
+        "description": "I am thinking of a geographical feature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the geographical feature I am thinking of.",
+        "target_entity": "Atlantic Ocean - the second-largest ocean on Earth, separating the Americas from Europe and Africa, known for its historical maritime routes.",
+        "category": "geographical_feature"
+    },
+    {
+        "id": "entity_196",
+        "title": "Super Mario",
+        "description": "I am thinking of a video game character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the video game character I am thinking of.",
+        "target_entity": "Super Mario - a fictional character from Nintendo's Mario franchise, known for his red cap and plumber profession, frequently saving Princess Peach.",
+        "category": "video_game_character"
+    },
+    {
+        "id": "entity_197",
+        "title": "Cherry Blossom",
+        "description": "I am thinking of a flower. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the flower I am thinking of.",
+        "target_entity": "Cherry Blossom - a flower of many tree species in the genus Prunus, celebrated for its beautiful pink petals, particularly significant in Japanese culture.",
+        "category": "flower"
+    },
+    {
+        "id": "entity_198",
+        "title": "The Solar Eclipse",
+        "description": "I am thinking of a natural phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural phenomenon I am thinking of.",
+        "target_entity": "Solar Eclipse - an event that occurs when the Moon passes between the Earth and the Sun, blocking all or part of the Sun's light.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_199",
+        "title": "Lasagna",
+        "description": "I am thinking of a famous dish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous dish I am thinking of.",
+        "target_entity": "Lasagna - a traditional Italian dish made with stacked layers of pasta sheets alternated with sauces and ingredients such as meats, vegetables, and cheese.",
+        "category": "dish"
+    },
+    {
+        "id": "entity_200",
+        "title": "The Godfather",
+        "description": "I am thinking of a movie. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the movie I am thinking of.",
+        "target_entity": "The Godfather - a classic film directed by Francis Ford Coppola, chronicling the powerful Italian-American crime family of Don Vito Corleone, acclaimed for its storytelling and performances.",
+        "category": "movie"
+    },
+    {
+        "id": "entity_201",
+        "title": "Victoria Falls",
+        "description": "I am thinking of a waterfall. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the waterfall I am thinking of.",
+        "target_entity": "Victoria Falls - a waterfall in southern Africa on the Zambezi River at the border between Zambia and Zimbabwe, known for its sheer size and majesty.",
+        "category": "waterfall"
+    },
+    {
+        "id": "entity_203",
+        "title": "Sundial",
+        "description": "I am thinking of an ancient device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ancient device I am thinking of.",
+        "target_entity": "Sundial - a device that tells the time of day by the apparent position of the Sun. It consists of a flat plate and a gnomon, which casts a shadow on the dial.",
+        "category": "ancient_device"
+    },
+    {
+        "id": "entity_205",
+        "title": "Himalayas",
+        "description": "I am thinking of a mountain range. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mountain range I am thinking of.",
+        "target_entity": "Himalayas - massive mountain range in Asia, home to Mount Everest, forms a natural northern border for the Indian subcontinent.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_206",
+        "title": "Saharan Desert",
+        "description": "I am thinking of a desert. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the desert I am thinking of.",
+        "target_entity": "Saharan Desert - largest hot desert in the world, located in North Africa, known for its extreme temperatures and landscape.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_207",
+        "title": "Formula One",
+        "description": "I am thinking of a motorsport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the motorsport I am thinking of.",
+        "target_entity": "Formula One - high-speed motorsport competition involving open-wheel cars, known for races on various circuits worldwide.",
+        "category": "sport"
+    },
+    {
+        "id": "entity_208",
+        "title": "Salmon",
+        "description": "I am thinking of a type of fish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the type of fish I am thinking of.",
+        "target_entity": "Salmon - a popular oily fish known for its distinct pink flesh, often consumed smoked or grilled, and recognized for its upstream migration in rivers for spawning.",
+        "category": "fish"
+    },
+    {
+        "id": "entity_209",
+        "title": "The Royal Game of Ur",
+        "description": "I am thinking of an ancient board game. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ancient board game I am thinking of.",
+        "target_entity": "The Royal Game of Ur - one of the oldest known board games, dating back to ancient Mesopotamia, involving strategy and chance as players race their pieces around the board.",
+        "category": "ancient_board_game"
+    },
+    {
+        "id": "entity_211",
+        "title": "Serena Williams",
+        "description": "I am thinking of a sports personality. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the sports personality I am thinking of.",
+        "target_entity": "Serena Williams - an American professional tennis player, widely regarded as one of the greatest female tennis players of all time, known for her powerful play and numerous Grand Slam titles.",
+        "category": "sports_personality"
+    },
+    {
+        "id": "entity_214",
+        "title": "Sputnik 1",
+        "description": "I am thinking of a space artifact. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the space artifact I am thinking of.",
+        "target_entity": "Sputnik 1 - the first artificial Earth satellite, launched by the Soviet Union in 1957, marking the start of the space age and the U.S.-Soviet space race.",
+        "category": "space_artifact"
+    },
+    {
+        "id": "entity_215",
+        "title": "Sistine Chapel",
+        "description": "I am thinking of an artistic location. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the artistic location I am thinking of.",
+        "target_entity": "Sistine Chapel - the official residence of the Pope in Vatican City, famous for its exquisite frescoes, including Michelangelo's ceiling and 'The Last Judgment'.",
+        "category": "artistic_location"
+    },
+    {
+        "id": "entity_216",
+        "title": "Narwhal",
+        "description": "I am thinking of a marine animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the marine animal I am thinking of.",
+        "target_entity": "Narwhal - a medium-sized toothed whale found in Arctic waters, known for its long, spiral tusk that can grow up to 10 feet long.",
+        "category": "marine_animal"
+    },
+    {
+        "id": "entity_217",
+        "title": "Helicopter",
+        "description": "I am thinking of a type of vehicle. Try to guess what it is!",
+        "goal": "Guess the vehicle I am thinking of.",
+        "target_entity": "Helicopter - rotorcraft capable of vertical takeoff and landing, used for a variety of purposes like transport, search and rescue, and aerial observation",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_218",
+        "title": "Koala",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Koala - arboreal marsupial native to Australia, known for its fuzzy ears, large nose, and diet primarily consisting of eucalyptus leaves, often found sleeping in trees",
+        "category": "animals"
+    },
+    {
+        "id": "entity_220",
+        "title": "Harley-Davidson",
+        "description": "I am thinking of a motorcycle brand. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the motorcycle brand I am thinking of.",
+        "target_entity": "Harley-Davidson - iconic American motorcycle manufacturer, known for heavyweight motorcycles designed for cruising on highways.",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_221",
+        "title": "Olympics",
+        "description": "I am thinking of an international sporting event. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the sporting event I am thinking of.",
+        "target_entity": "Olympics - leading international sporting events featuring summer and winter sports competitions, celebrated every four years by athletes from around the world.",
+        "category": "event"
+    },
+    {
+        "id": "entity_222",
+        "title": "Polar Bear",
+        "description": "I am thinking of an arctic animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the arctic animal I am thinking of.",
+        "target_entity": "Polar Bear - large bear species found in the Arctic circle, known for its white fur, powerful build, and deep-sea hunting abilities.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_223",
+        "title": "Bermuda Triangle",
+        "description": "I am thinking of a mysterious place. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the mysterious place I am thinking of.",
+        "target_entity": "Bermuda Triangle - a loosely defined region in the North Atlantic Ocean, notorious for the mysterious disappearances of ships and aircraft.",
+        "category": "mysterious_place"
+    },
+    {
+        "id": "entity_224",
+        "title": "Socrates",
+        "description": "I am thinking of a historical philosopher. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical philosopher I am thinking of.",
+        "target_entity": "Socrates - an ancient Greek philosopher who is credited as one of the founders of Western philosophy and known for his method of questioning, as depicted by his student Plato.",
+        "category": "historical_person"
+    },
+    {
+        "id": "entity_225",
+        "title": "Instagram",
+        "description": "I am thinking of a social media platform. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the social media platform I am thinking of.",
+        "target_entity": "Instagram - a popular social networking app that allows users to share photos and videos, known for its filters, Stories feature, and visual content focus, owned by Facebook.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_226",
+        "title": "Stephen Hawking",
+        "description": "I am thinking of a modern scientist. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the modern scientist I am thinking of.",
+        "target_entity": "Stephen Hawking - a theoretical physicist known for his work on black holes and cosmology, recognized for authoring 'A Brief History of Time' and overcoming motor neurone disease to communicate using technology.",
+        "category": "modern_person"
+    },
+    {
+        "id": "entity_227",
+        "title": "Ratatouille",
+        "description": "I am thinking of a dish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dish I am thinking of.",
+        "target_entity": "Ratatouille - a classic French Proven\u00e7al stewed vegetable dish made of eggplant, zucchini, bell peppers, and tomatoes, flavored with herbes de Provence.",
+        "category": "food"
+    },
+    {
+        "id": "entity_228",
+        "title": "Tulip",
+        "description": "I am thinking of a flower. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the flower I am thinking of.",
+        "target_entity": "Tulip - brightly colored, bulbous flower popular in gardens, symbol of spring, available in many colors, associated with the Netherlands",
+        "category": "plant"
+    },
+    {
+        "id": "entity_229",
+        "title": "Nutcracker",
+        "description": "I am thinking of a ballet. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ballet I am thinking of.",
+        "target_entity": "The Nutcracker - famous ballet by Tchaikovsky, performed around Christmas, features a toy soldier and the Sugar Plum Fairy, music widely recognized",
+        "category": "ballet"
+    },
+    {
+        "id": "entity_230",
+        "title": "Galapagos Islands",
+        "description": "I am thinking of a well-known place. Try to guess what it is!",
+        "goal": "Guess the place I am thinking of.",
+        "target_entity": "Galapagos Islands - an archipelago of volcanic islands distributed on either side of the Equator in the Pacific Ocean, known for unique species studied by Charles Darwin",
+        "category": "place"
+    },
+    {
+        "id": "entity_231",
+        "title": "Dodo",
+        "description": "I am thinking of an extinct animal. Try to guess what it is!",
+        "goal": "Guess the extinct animal I am thinking of.",
+        "target_entity": "Dodo - flightless bird that lived on the island of Mauritius, extinct by the late 17th century, known for its large size and inability to fly",
+        "category": "extinct animal"
+    },
+    {
+        "id": "entity_232",
+        "title": "Yoga",
+        "description": "I am thinking of a popular wellness activity. Try to guess what it is!",
+        "goal": "Guess the wellness activity I am thinking of.",
+        "target_entity": "Yoga - a spiritual and physical practice involving poses, breathwork and meditation aimed at promoting mental and physical well-being, originated in ancient India",
+        "category": "wellness activity"
+    },
+    {
+        "id": "entity_233",
+        "title": "Instant Pot",
+        "description": "I am thinking of a popular kitchen appliance. Try to guess what it is!",
+        "goal": "Guess the kitchen appliance I am thinking of.",
+        "target_entity": "Instant Pot - a brand of multicookers, which are electronically controlled, combining the functions of a pressure cooker, slow cooker, rice cooker, steamer, saut\u00e9 pan, and more",
+        "category": "kitchen appliance"
+    },
+    {
+        "id": "entity_234",
+        "title": "Mermaid",
+        "description": "I am thinking of a legendary sea creature. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the legendary sea creature I am thinking of.",
+        "target_entity": "Mermaid - a mythological aquatic creature with the head and upper body of a female human and the tail of a fish, often associated with folklore from various cultures",
+        "category": "legendary creature"
+    },
+    {
+        "id": "entity_235",
+        "title": "Baseball",
+        "description": "I am thinking of a sport. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Baseball - a bat-and-ball game played between two opposing teams, involves hitting a ball and running bases to score runs.",
+        "category": "sport"
+    },
+    {
+        "id": "entity_237",
+        "title": "Roller Coaster",
+        "description": "I am thinking of an amusement park ride. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the amusement park ride I am thinking of.",
+        "target_entity": "Roller Coaster - a type of ride involving tracks with steep drops, tight turns, and inversions, known for exhilaration and speed.",
+        "category": "object"
+    },
+    {
+        "id": "entity_238",
+        "title": "Silicon Valley",
+        "description": "I am thinking of a renowned technology hub. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the technology hub I am thinking of.",
+        "target_entity": "Silicon Valley - region in the southern part of the San Francisco Bay Area, California, known for being the global center for high technology and innovation.",
+        "category": "place"
+    },
+    {
+        "id": "entity_239",
+        "title": "Las Vegas",
+        "description": "I am thinking of a famous city known for entertainment. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Las Vegas - city in the United States known for vibrant nightlife, centered around 24-hour casinos and other entertainment options, located in Nevada.",
+        "category": "city"
+    },
+    {
+        "id": "entity_240",
+        "title": "Hammer",
+        "description": "I am thinking of a hand tool. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the hand tool I am thinking of.",
+        "target_entity": "Hammer - hand tool used for driving nails, fitting parts, forging metal, consists of a heavy 'head' fixed to a long handle.",
+        "category": "object"
+    },
+    {
+        "id": "entity_241",
+        "title": "Pandemic",
+        "description": "I am thinking of a global event. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the global event I am thinking of.",
+        "target_entity": "Pandemic - an outbreak of a disease that occurs on a global scale affecting a large number of people.",
+        "category": "event"
+    },
+    {
+        "id": "entity_242",
+        "title": "Manhattan",
+        "description": "I am thinking of a famous cocktail. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous cocktail I am thinking of.",
+        "target_entity": "Manhattan - a cocktail made with whiskey, sweet vermouth, and bitters, often garnished with a cherry.",
+        "category": "beverage"
+    },
+    {
+        "id": "entity_243",
+        "title": "Swan Lake",
+        "description": "I am thinking of a famous ballet. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous ballet I am thinking of.",
+        "target_entity": "Swan Lake - a ballet composed by Tchaikovsky, known for its story of love and betrayal and the iconic dance of the four little swans.",
+        "category": "performance_art"
+    },
+    {
+        "id": "entity_244",
+        "title": "Bulldog",
+        "description": "I am thinking of a breed of dog. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the breed of dog I am thinking of.",
+        "target_entity": "Bulldog - a medium-sized breed of dog known for its loose skin, distinctive pushed-in nose, and loyal demeanor.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_245",
+        "title": "Golf",
+        "description": "I am thinking of a sport. Try to guess what it is!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Golf - a precision club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible.",
+        "category": "sport"
+    },
+    {
+        "id": "entity_247",
+        "title": "Summer",
+        "description": "I am thinking of a season. Try to guess what it is!",
+        "goal": "Guess the season I am thinking of.",
+        "target_entity": "Summer - the warmest season of the year, occurring between spring and autumn, characterized by long days, short nights, and often associated with vacations and outdoor activities.",
+        "category": "season"
+    },
+    {
+        "id": "entity_248",
+        "title": "Dolphin",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Dolphin - a highly intelligent marine mammal known for their playful behavior and acrobatic ability, characterized by a streamlined body and a pronounced beak",
+        "category": "animal"
+    },
+    {
+        "id": "entity_250",
+        "title": "King Tutankhamun",
+        "description": "I am thinking of an ancient ruler. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the ancient ruler I am thinking of.",
+        "target_entity": "King Tutankhamun - an Egyptian pharaoh of the 18th dynasty, famous for his intact tomb discovered in the Valley of the Kings, symbolized by a golden burial mask",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_251",
+        "title": "Bach's Brandenburg Concertos",
+        "description": "I am thinking of a classical music work. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the classical music work I am thinking of.",
+        "target_entity": "Bach's Brandenburg Concertos - a collection of six orchestral compositions by Johann Sebastian Bach, noted for their lively tempos and virtuosic use of instruments",
+        "category": "classical_music"
+    },
+    {
+        "id": "entity_253",
+        "title": "The Louvre Museum",
+        "description": "I am thinking of a famous museum. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the museum I am thinking of.",
+        "target_entity": "The Louvre Museum - the world's largest art museum and a historic monument in Paris, France, hosting thousands of works including the Mona Lisa",
+        "category": "museum"
+    },
+    {
+        "id": "entity_254",
+        "title": "Mount Fuji",
+        "description": "I am thinking of a significant geographic location. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the geographic location I am thinking of.",
+        "target_entity": "Mount Fuji - a stratovolcano and the highest mountain in Japan, iconically symmetrical and considered a cultural and spiritual symbol in Japanese art and tradition.",
+        "category": "geographic_location"
+    },
+    {
+        "id": "entity_255",
+        "title": "Liberty Bell",
+        "description": "I am thinking of an important American symbol. Try to guess what it is!",
+        "goal": "Guess the symbol I am thinking of.",
+        "target_entity": "Liberty Bell - iconic symbol of American independence located in Philadelphia, known for its distinctive crack and historic association with freedom and liberty.",
+        "category": "historical_symbol"
+    },
+    {
+        "id": "entity_256",
+        "title": "Yellowstone National Park",
+        "description": "I am thinking of a national park. Try to guess which one by asking yes/no questions!",
+        "goal": "Guess the national park I am thinking of.",
+        "target_entity": "Yellowstone National Park - the first national park in the USA, known for its geothermal features like the Old Faithful geyser, diverse wildlife, and stunning landscapes.",
+        "category": "natural_park"
+    },
+    {
+        "id": "entity_257",
+        "title": "Vampire",
+        "description": "I am thinking of a mythical creature. Try to guess what it is!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Vampire - a legendary creature in folklore known for feeding on the vital essence of the living (blood) and typically characterized by their aversion to sunlight and garlic.",
+        "category": "mythical_creature"
+    },
+    {
+        "id": "entity_258",
+        "title": "Magic 8 Ball",
+        "description": "I am thinking of a novelty fortune-telling toy. Try to guess what it is!",
+        "goal": "Guess the toy I am thinking of.",
+        "target_entity": "Magic 8 Ball - a toy used for fortune-telling or seeking advice, with an icosahedral die floating in liquid that is visible through a window, revealing answers to yes or no questions.",
+        "category": "toy"
+    },
+    {
+        "id": "entity_260",
+        "title": "Comet",
+        "description": "I am thinking of a celestial phenomenon. Try to guess what it is!",
+        "goal": "Guess the celestial phenomenon I am thinking of.",
+        "target_entity": "Comet - icy bodies in space that release gas or dust; known for their glowing comas and spectacular tails when they pass close to the Sun.",
+        "category": "celestial_phenomenon"
+    },
+    {
+        "id": "entity_262",
+        "title": "Pythagoras",
+        "description": "I am thinking of an ancient mathematician. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the mathematician I am thinking of.",
+        "target_entity": "Pythagoras - ancient Greek mathematician and philosopher, known for the Pythagorean theorem, which relates the sides of a right triangle.",
+        "category": "mathematician"
+    },
+    {
+        "id": "entity_263",
+        "title": "Mickey Mouse",
+        "description": "I am thinking of a cartoon character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the cartoon character I am thinking of.",
+        "target_entity": "Mickey Mouse - a beloved Disney character who features large round ears and a cheerful demeanor, and is considered one of the most famous cartoon characters in the world.",
+        "category": "cartoon_character"
+    },
+    {
+        "id": "entity_264",
+        "title": "Black Hole",
+        "description": "I am thinking of an astronomical phenomenon. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the astronomical phenomenon I am thinking of.",
+        "target_entity": "Black Hole - a region of space where gravity is so intense that nothing, not even light, can escape from it, often formed from collapsed stars.",
+        "category": "astronomical_phenomenon"
+    },
+    {
+        "id": "entity_265",
+        "title": "Labrador Retriever",
+        "description": "I am thinking of a dog breed. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the dog breed I am thinking of.",
+        "target_entity": "Labrador Retriever - one of the most popular dog breeds globally, known for its friendly nature, intelligence, and versatility in roles like service and rescue.",
+        "category": "dog_breed"
+    },
+    {
+        "id": "entity_270",
+        "title": "Machu Picchu",
+        "description": "I am thinking of an ancient site. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the ancient site I am thinking of.",
+        "target_entity": "Machu Picchu - a 15th-century Inca citadel located in the Andes Mountains in Peru, known for its archaeological significance and breathtaking views.",
+        "category": "ancient_site"
+    },
+    {
+        "id": "entity_271",
+        "title": "Rock Music",
+        "description": "I am thinking of a music genre. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the music genre I am thinking of.",
+        "target_entity": "Rock Music - a genre of popular music that evolved in the 1950s, characterized by a strong beat, electric guitar, and often rebellious themes.",
+        "category": "music_genre"
+    },
+    {
+        "id": "entity_272",
+        "title": "Simpsons",
+        "description": "I am thinking of a television show. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the television show I am thinking of.",
+        "target_entity": "Simpsons - an animated television series created by Matt Groening, known for its satirical depiction of American life through the Simpson family.",
+        "category": "television_show"
+    },
+    {
+        "id": "entity_273",
+        "title": "ATP",
+        "description": "I am thinking of a molecule. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the molecule I am thinking of.",
+        "target_entity": "ATP - Adenosine Triphosphate, a molecule that carries energy within cells, essential for metabolism and biochemical reactions.",
+        "category": "molecule"
+    },
+    {
+        "id": "entity_274",
+        "title": "Pluto",
+        "description": "I am thinking of a celestial body. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the celestial body I am thinking of.",
+        "target_entity": "Pluto - dwarf planet in the Kuiper Belt, previously considered the ninth planet in the solar system, known for its icy surface",
+        "category": "celestial body"
+    },
+    {
+        "id": "entity_275",
+        "title": "Virtual Reality Headset",
+        "description": "I am thinking of an immersive technology device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the technology device I am thinking of.",
+        "target_entity": "Virtual Reality Headset - a device that provides an immersive visual experience by placing users inside a simulated environment, used in gaming, simulations, and training.",
+        "category": "technology_device"
+    },
+    {
+        "id": "entity_276",
+        "title": "Cape Town",
+        "description": "I am thinking of a vibrant city. Try to guess where it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Cape Town - coastal city in South Africa known for the iconic Table Mountain, vibrant arts scene, and multicultural heritage.",
+        "category": "cities"
+    },
+    {
+        "id": "entity_277",
+        "title": "Pacific Ocean",
+        "description": "I am thinking of a major body of water. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the body of water I am thinking of.",
+        "target_entity": "Pacific Ocean - the largest and deepest of Earth's oceanic divisions, stretching from the Arctic Ocean in the north to the Southern Ocean in the south.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_278",
+        "title": "Tony Stark",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Tony Stark - billionaire genius, playboy, philanthropist, also known as Iron Man in the Marvel Universe, founder of Stark Industries, wears an advanced suit of armor",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_279",
+        "title": "Pisa Tower",
+        "description": "I am thinking of a historical structure. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the historical structure I am thinking of.",
+        "target_entity": "Pisa Tower - the Leaning Tower of Pisa, a freestanding bell tower in Italy, famous for its unintended tilt due to unstable foundation soil",
+        "category": "historical_structure"
+    },
+    {
+        "id": "entity_280",
+        "title": "Quidditch",
+        "description": "I am thinking of a fictional sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fictional sport I am thinking of.",
+        "target_entity": "Quidditch - a sport played by witches and wizards in the Harry Potter series, played on flying broomsticks with four balls and seven players on each team, including positions such as Seeker and Keeper",
+        "category": "fictional_sport"
+    },
+    {
+        "id": "entity_281",
+        "title": "The Matrix",
+        "description": "I am thinking of a popular movie. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the movie I am thinking of.",
+        "target_entity": "The Matrix - a science fiction film directed by the Wachowskis, known for its groundbreaking special effects and action scenes, explores themes of reality and illusion, featuring characters like Neo and Morpheus",
+        "category": "movie"
+    },
+    {
+        "id": "entity_282",
+        "title": "Attila the Hun",
+        "description": "I am thinking of a historical figure. Try to guess who it is!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Attila the Hun - leader of the Hunnic Empire from 434 to 453, known for his fierce invasions of Eastern and Western Roman empires, earned the nickname 'the scourge of God'",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_283",
+        "title": "Apollo 11",
+        "description": "I am thinking of a historical event. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the historical event I am thinking of.",
+        "target_entity": "Apollo 11 - the NASA mission during which humans first landed on the Moon, July 1969, astronauts Neil Armstrong and Buzz Aldrin became the first and second humans to walk on the lunar surface",
+        "category": "historical_event"
+    },
+    {
+        "id": "entity_284",
+        "title": "Mount Rushmore",
+        "description": "I am thinking of a famous monument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the monument I am thinking of.",
+        "target_entity": "Mount Rushmore - a massive sculpture carved into the Black Hills region of South Dakota featuring the faces of four U.S. presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln.",
+        "category": "monument"
+    },
+    {
+        "id": "entity_285",
+        "title": "Sydney Opera House",
+        "description": "I am thinking of a renowned performing arts center. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the performing arts center I am thinking of.",
+        "target_entity": "Sydney Opera House - a multi-venue performing arts center in Sydney, Australia, famous for its distinct sail-like architecture designed by J\u00f8rn Utzon.",
+        "category": "landmark"
+    },
+    {
+        "id": "entity_287",
+        "title": "Martin Luther King Jr.",
+        "description": "I am thinking of a historical figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Martin Luther King Jr. - influential American civil rights leader who advocated for nonviolent resistance, known for his 'I Have a Dream' speech and leadership during the Civil Rights Movement.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_288",
+        "title": "Caesar Salad",
+        "description": "I am thinking of a type of salad. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the type of salad I am thinking of.",
+        "target_entity": "Caesar Salad - a salad consisting of romaine lettuce, croutons, parmesan cheese, and Caesar dressing, often with added grilled chicken.",
+        "category": "food"
+    },
+    {
+        "id": "entity_290",
+        "title": "Alexandria",
+        "description": "I am thinking of an ancient city. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the ancient city I am thinking of.",
+        "target_entity": "Alexandria - an ancient city in Egypt founded by Alexander the Great, known for its lighthouse, once one of the Seven Wonders of the Ancient World, and the legendary Library of Alexandria.",
+        "category": "ancient_city"
+    },
+    {
+        "id": "entity_293",
+        "title": "Shrek",
+        "description": "I am thinking of an animated character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the animated character I am thinking of.",
+        "target_entity": "Shrek - a green ogre from the animated film series 'Shrek', known for his initially grumpy demeanor and eventual heroic acts, as well as his catchphrase 'What are you doing in my swamp?'",
+        "category": "animated_character"
+    },
+    {
+        "id": "entity_296",
+        "title": "Samsung Galaxy S21",
+        "description": "I am thinking of a smartphone model. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the smartphone model I am thinking of.",
+        "target_entity": "Samsung Galaxy S21 - a high-end Android smartphone known for its advanced camera system, vibrant display, and powerful processor, produced by Samsung",
+        "category": "device"
+    },
+    {
+        "id": "entity_298",
+        "title": "Tsunami",
+        "description": "I am thinking of a natural disaster. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural disaster I am thinking of.",
+        "target_entity": "Tsunami - a series of waves in a water body caused by the displacement of a large volume of water, typically resulting from an earthquake or volcanic eruption beneath or near the ocean.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_299",
+        "title": "Apple Inc.",
+        "description": "I am thinking of a leading technology company. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the leading technology company I am thinking of.",
+        "target_entity": "Apple Inc. - American technology company known for its innovative electronics, including the iPhone, iPad, and Mac computers",
+        "category": "company"
+    },
+    {
+        "id": "entity_300",
+        "title": "Hubble Space Telescope",
+        "description": "I am thinking of a famous piece of astronomy technology. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous piece of astronomy technology I am thinking of.",
+        "target_entity": "Hubble Space Telescope - a large telescope in space, launched by NASA, provides detailed images of distant galaxies, stars, and planetary systems",
+        "category": "astronomy_technology"
+    },
+    {
+        "id": "entity_302",
+        "title": "Dwayne 'The Rock' Johnson",
+        "description": "I am thinking of a famous actor and wrestler. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the famous actor and wrestler I am thinking of.",
+        "target_entity": "Dwayne 'The Rock' Johnson - actor and former professional wrestler, known for charismatic personality, action movie roles, and professional wrestling in WWE",
+        "category": "celebrity"
+    },
+    {
+        "id": "entity_304",
+        "title": "iPad",
+        "description": "I am thinking of a popular tablet device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the tablet device I am thinking of.",
+        "target_entity": "iPad - a line of tablet computers designed and marketed by Apple Inc., featuring a multi-touch screen interface, used for browsing, reading, gaming, and more.",
+        "category": "device"
+    },
+    {
+        "id": "entity_306",
+        "title": "Abraham Lincoln",
+        "description": "I am thinking of a historic US president. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the US president I am thinking of.",
+        "target_entity": "Abraham Lincoln - the 16th president of the United States, known for leading the country during the Civil War and abolishing slavery with the Emancipation Proclamation.",
+        "category": "historical_person"
+    },
+    {
+        "id": "entity_307",
+        "title": "Whale Shark",
+        "description": "I am thinking of a marine animal. Try to guess what it is!",
+        "goal": "Guess the marine animal I am thinking of.",
+        "target_entity": "Whale Shark - the largest fish species, known for its gentle nature, distinct spot patterns on its back, and filter-feeding habits primarily on plankton.",
+        "category": "marine_animal"
+    },
+    {
+        "id": "entity_309",
+        "title": "Colosseum",
+        "description": "I am thinking of an ancient structure. Try to guess what it is!",
+        "goal": "Guess the ancient structure I am thinking of.",
+        "target_entity": "Colosseum - a massive ancient amphitheater in Rome, Italy, known for hosting gladiatorial contests and public spectacles during the Roman Empire.",
+        "category": "ancient_structure"
+    },
+    {
+        "id": "entity_310",
+        "title": "Sagrada Familia",
+        "description": "I am thinking of a building. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the building I am thinking of.",
+        "target_entity": "Sagrada Familia - a large, unfinished Roman Catholic basilica in Barcelona, Spain, designed by architect Antoni Gaud\u00ed and known for its intricate facades and towers.",
+        "category": "building"
+    },
+    {
+        "id": "entity_311",
+        "title": "Chopsticks",
+        "description": "I am thinking of a utensil. Try to guess what it is!",
+        "goal": "Guess the utensil I am thinking of.",
+        "target_entity": "Chopsticks - a pair of slender sticks, usually made of wood or bamboo, used in many Asian countries as the primary utensils for eating.",
+        "category": "utensil"
+    },
+    {
+        "id": "entity_312",
+        "title": "Times Square",
+        "description": "I am thinking of a place. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the place I am thinking of.",
+        "target_entity": "Times Square - a major commercial and entertainment hub in New York City, famous for its bright lights, electronic billboards, and bustling atmosphere.",
+        "category": "place"
+    },
+    {
+        "id": "entity_314",
+        "title": "Renaissance",
+        "description": "I am thinking of a historical period. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the historical period I am thinking of.",
+        "target_entity": "Renaissance - cultural movement spanning the 14th to the 17th century, known for renewed interest in classical art, science, and literature, originating in Italy.",
+        "category": "historical_period"
+    },
+    {
+        "id": "entity_315",
+        "title": "Cristiano Ronaldo",
+        "description": "I am thinking of a famous athlete. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the athlete I am thinking of.",
+        "target_entity": "Cristiano Ronaldo - Portuguese professional footballer, one of the greatest players of all time, has won multiple Ballon d'Or awards and various league titles across Europe.",
+        "category": "person"
+    },
+    {
+        "id": "entity_316",
+        "title": "Aurora Borealis",
+        "description": "I am thinking of a natural light display. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the natural light display I am thinking of.",
+        "target_entity": "Aurora Borealis - natural light display predominantly seen in high-latitude regions, known as the Northern Lights, caused by collisions between electrically charged particles from the sun and the Earth's atmosphere.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_319",
+        "title": "Wizard of Oz",
+        "description": "I am thinking of a classic movie. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the classic movie I am thinking of.",
+        "target_entity": "Wizard of Oz - a 1939 American musical fantasy film known for its vibrant use of Technicolor, iconic songs, and the story of Dorothy, a young girl in a magical land",
+        "category": "movie"
+    },
+    {
+        "id": "entity_320",
+        "title": "Lemon",
+        "description": "I am thinking of a citrus fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the citrus fruit I am thinking of.",
+        "target_entity": "Lemon - a sour, yellow citrus fruit known for its high vitamin C content, often used in drinks and culinary dishes",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_321",
+        "title": "Darth Vader",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Darth Vader - a central character in the Star Wars franchise, recognized for his black armor, deep voice, and role as a Sith Lord, originally known as Anakin Skywalker",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_322",
+        "title": "Cell Phone",
+        "description": "I am thinking of a communication device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the communication device I am thinking of.",
+        "target_entity": "Cell Phone - a handheld device that allows for communication via voice calls and messaging, increasingly used for internet access and multimedia",
+        "category": "device"
+    },
+    {
+        "id": "entity_323",
+        "title": "Jenga",
+        "description": "I am thinking of a game. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the game I am thinking of.",
+        "target_entity": "Jenga - a game consisting of wooden blocks stacked in a tower, where players take turns removing a block and balancing it on top, aiming to keep the tower from falling",
+        "category": "game"
+    },
+    {
+        "id": "entity_324",
+        "title": "Avocado",
+        "description": "I am thinking of a type of fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the type of fruit I am thinking of.",
+        "target_entity": "Avocado - a nutrient-rich fruit with a creamy texture and a large seed, commonly used in guacamole and salads. High in healthy fats.",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_325",
+        "title": "Serengeti National Park",
+        "description": "I am thinking of a famous national park. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the famous national park I am thinking of.",
+        "target_entity": "Serengeti National Park - located in Tanzania, known for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+        "category": "national_park"
+    },
+    {
+        "id": "entity_326",
+        "title": "Alexander the Great",
+        "description": "I am thinking of a famous historical leader. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical leader I am thinking of.",
+        "target_entity": "Alexander the Great - King of Macedonia who created one of the largest empires in ancient history by the age of 30, known for spreading Greek culture.",
+        "category": "historical_leader"
+    },
+    {
+        "id": "entity_328",
+        "title": "Milky Way Galaxy",
+        "description": "I am thinking of a galaxy in the universe. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the galaxy I am thinking of.",
+        "target_entity": "Milky Way Galaxy - the galaxy that contains our solar system, a barred spiral galaxy with a visible band of light caused by stars viewed from Earth.",
+        "category": "galaxy"
+    },
+    {
+        "id": "entity_329",
+        "title": "Everglades",
+        "description": "I am thinking of a U.S. national park. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the U.S. national park I am thinking of.",
+        "target_entity": "Everglades - a network of wetlands in Florida known for its wildlife, particularly alligators, as well as mangroves and sawgrass marshes.",
+        "category": "US_national_park"
+    },
+    {
+        "id": "entity_330",
+        "title": "Berlin",
+        "description": "I am thinking of a capital city. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the capital city I am thinking of.",
+        "target_entity": "Berlin - the capital of Germany, known for its vibrant culture, modern art scene, and historical sites including the Berlin Wall remnants.",
+        "category": "place"
+    },
+    {
+        "id": "entity_332",
+        "title": "James Bond",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "James Bond - a fictional British secret agent created by Ian Fleming, known for his code number 007, suave demeanor, and love of gadgets.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_336",
+        "title": "Stonehenge",
+        "description": "I am thinking of an ancient monument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the monument I am thinking of.",
+        "target_entity": "Stonehenge - a prehistoric monument located in Wiltshire, England, famous for its ring of standing stones and its archaeological significance.",
+        "category": "historical_site"
+    },
+    {
+        "id": "entity_337",
+        "title": "Steve Jobs",
+        "description": "I am thinking of a renowned tech entrepreneur. Try to guess who it is!",
+        "goal": "Guess the tech entrepreneur I am thinking of.",
+        "target_entity": "Steve Jobs - co-founder of Apple Inc., known for his pioneering work in personal computing, mobile devices, and digital media distribution.",
+        "category": "modern_figure"
+    },
+    {
+        "id": "entity_338",
+        "title": "French Baguette",
+        "description": "I am thinking of a famous type of bread. Try to guess what it is!",
+        "goal": "Guess the type of bread I am thinking of.",
+        "target_entity": "French Baguette - a long, thin loaf of French bread known for its crisp crust and chewy interior.",
+        "category": "food"
+    },
+    {
+        "id": "entity_339",
+        "title": "Salsa Dancing",
+        "description": "I am thinking of a lively dance style. Try to guess what it is!",
+        "goal": "Guess the dance style I am thinking of.",
+        "target_entity": "Salsa Dancing - a popular Latin dance characterized by vibrant movements, rhythms, and a blend of Afro-Cuban and Caribbean influences.",
+        "category": "dance"
+    },
+    {
+        "id": "entity_340",
+        "title": "Jackie Chan",
+        "description": "I am thinking of a legendary martial artist and actor. Try to guess who it is!",
+        "goal": "Guess the actor I am thinking of.",
+        "target_entity": "Jackie Chan - a world-renowned martial artist and actor known for his acrobatic fighting style, comedic timing, and innovative stunts.",
+        "category": "modern_figure"
+    },
+    {
+        "id": "entity_343",
+        "title": "Ganges River",
+        "description": "I am thinking of a famous river. Try to guess which one it is!",
+        "goal": "Guess the river I am thinking of.",
+        "target_entity": "Ganges River - sacred river in India, known for its cultural and religious significance as well as its major role in Indian agriculture.",
+        "category": "natural_feature"
+    },
+    {
+        "id": "entity_344",
+        "title": "Mother Teresa",
+        "description": "I am thinking of a humanitarian figure. Try to guess who it is!",
+        "goal": "Guess the humanitarian figure I am thinking of.",
+        "target_entity": "Mother Teresa - Roman Catholic nun known for her selfless humanitarian work among the poor in Kolkata, Nobel Peace Prize laureate.",
+        "category": "humanitarian"
+    },
+    {
+        "id": "entity_347",
+        "title": "Michael Jordan",
+        "description": "I am thinking of a famous athlete. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the athlete I am thinking of.",
+        "target_entity": "Michael Jordan - regarded as one of the greatest basketball players, known for his time with the Chicago Bulls, six-time NBA champion and league MVP",
+        "category": "historical_person"
+    },
+    {
+        "id": "entity_348",
+        "title": "Da Vinci's The Last Supper",
+        "description": "I am thinking of a famous artwork. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the artwork I am thinking of.",
+        "target_entity": "The Last Supper - a renowned mural by Leonardo da Vinci depicting the last meal of Jesus with his disciples, known for its composition and use of perspective",
+        "category": "artwork"
+    },
+    {
+        "id": "entity_350",
+        "title": "Peacock",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Peacock - a large and colorful bird known for its iridescent tail feathers that fan out in a stunning display during courtship.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_351",
+        "title": "Da Vinci Code",
+        "description": "I am thinking of a book. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the book I am thinking of.",
+        "target_entity": "Da Vinci Code - a mystery and thriller novel by Dan Brown, revolving around a symbologist uncovering secrets related to Christianity.",
+        "category": "book"
+    },
+    {
+        "id": "entity_352",
+        "title": "Arctic Circle",
+        "description": "I am thinking of a geographical location. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the geographical location I am thinking of.",
+        "target_entity": "Arctic Circle - a polar region at the northernmost part of the Earth, characterized by extreme conditions and unique wildlife.",
+        "category": "geographical_location"
+    },
+    {
+        "id": "entity_353",
+        "title": "Flashlight",
+        "description": "I am thinking of a common tool. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the tool I am thinking of.",
+        "target_entity": "Flashlight - a portable hand-held electric light powered usually by batteries, used for illumination in dark places.",
+        "category": "tool"
+    },
+    {
+        "id": "entity_354",
+        "title": "The Hobbit",
+        "description": "I am thinking of a book. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the book I am thinking of.",
+        "target_entity": "The Hobbit - a fantasy novel by J.R.R. Tolkien, which follows the quest of home-loving hobbit, Bilbo Baggins, to win a share of treasure guarded by Smaug the dragon.",
+        "category": "book"
+    },
+    {
+        "id": "entity_355",
+        "title": "King Kong",
+        "description": "I am thinking of a fictional character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "King Kong - a giant ape character who first appeared in the 1933 film of the same name, known for its tragic story and battle atop New York's Empire State Building.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_356",
+        "title": "Mahjong",
+        "description": "I am thinking of a traditional game. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the traditional game I am thinking of.",
+        "target_entity": "Mahjong - a tile-based game that originated in China, commonly played by four players, involves skill, strategy, and a degree of chance.",
+        "category": "traditional_game"
+    },
+    {
+        "id": "entity_359",
+        "title": "Avatar",
+        "description": "I am thinking of a popular movie. Try to guess what it is!",
+        "goal": "Guess the movie I am thinking of.",
+        "target_entity": "Avatar - a sci-fi film directed by James Cameron, notable for its groundbreaking use of 3D technology and imaginative alien world called Pandora.",
+        "category": "movie"
+    },
+    {
+        "id": "entity_360",
+        "title": "H2O",
+        "description": "I am thinking of a chemical compound. Try to guess what it is!",
+        "goal": "Guess the chemical compound I am thinking of.",
+        "target_entity": "H2O - known as water, a vital compound composed of two hydrogen atoms and one oxygen atom, essential for life.",
+        "category": "chemical_compound"
+    },
+    {
+        "id": "entity_361",
+        "title": "Poker",
+        "description": "I am thinking of a popular card game. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the card game I am thinking of.",
+        "target_entity": "Poker - a family of card games involving betting and individual play, where the winner is determined by the ranks and combinations of players' cards.",
+        "category": "game"
+    },
+    {
+        "id": "entity_362",
+        "title": "Ferris Wheel",
+        "description": "I am thinking of an amusement ride. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the amusement ride I am thinking of.",
+        "target_entity": "Ferris Wheel - a large, rotating upright wheel with passenger cars attached along its circumference, designed to provide panoramic views of an area.",
+        "category": "amusement_ride"
+    },
+    {
+        "id": "entity_364",
+        "title": "Chihuahua",
+        "description": "I am thinking of a dog breed. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dog breed I am thinking of.",
+        "target_entity": "Chihuahua - small dog breed known for its tiny size, large ears, and lively personality, one of the oldest and most popular toy breeds",
+        "category": "animal"
+    },
+    {
+        "id": "entity_365",
+        "title": "Isaac Newton",
+        "description": "I am thinking of a historical figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "Isaac Newton - a renowned English mathematician and physicist, known for formulating the laws of motion and universal gravitation during the 17th century, contributed greatly to the scientific revolution",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_366",
+        "title": "Hawaii",
+        "description": "I am thinking of an island group. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the island group I am thinking of.",
+        "target_entity": "Hawaii - the only U.S. state located in the Pacific Ocean, comprised of volcanic islands, known for its tropical climate, natural scenery, and rich cultural history",
+        "category": "island_group"
+    },
+    {
+        "id": "entity_367",
+        "title": "Elvis Presley",
+        "description": "I am thinking of an iconic singer. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the singer I am thinking of.",
+        "target_entity": "Elvis Presley - an American singer and actor, known as the 'King of Rock and Roll,' influential in the popular music scene, famous for hits like 'Jailhouse Rock' and 'Can't Help Falling in Love'",
+        "category": "singer"
+    },
+    {
+        "id": "entity_368",
+        "title": "Roger Federer",
+        "description": "I am thinking of a famous athlete. Try to guess who it is!",
+        "goal": "Guess the famous athlete I am thinking of.",
+        "target_entity": "Roger Federer - a Swiss professional tennis player known for his elegant style, numerous Grand Slam titles, and status as one of the greatest players in tennis history.",
+        "category": "athlete"
+    },
+    {
+        "id": "entity_369",
+        "title": "The Odyssey",
+        "description": "I am thinking of a classic piece of literature. Try to guess which one!",
+        "goal": "Guess the classic piece of literature I am thinking of.",
+        "target_entity": "The Odyssey - an ancient Greek epic poem by Homer, detailing the adventurous journey and homecoming of Odysseus after the Trojan War.",
+        "category": "literature"
+    },
+    {
+        "id": "entity_370",
+        "title": "The Chronicles of Narnia",
+        "description": "I am thinking of a book series. Try to guess what it is!",
+        "goal": "Guess the book series I am thinking of.",
+        "target_entity": "The Chronicles of Narnia - a series of seven fantasy novels written by C.S. Lewis, set in the fictional realm of Narnia and featuring the adventures of the Pevensie siblings.",
+        "category": "book_series"
+    },
+    {
+        "id": "entity_371",
+        "title": "Porsche 911",
+        "description": "I am thinking of a famous car model. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous car model I am thinking of.",
+        "target_entity": "Porsche 911 - a high-performance sports car made by Porsche AG of Germany, known for its distinctive design and rear-engine layout.",
+        "category": "vehicle"
+    },
+    {
+        "id": "entity_372",
+        "title": "River Nile",
+        "description": "I am thinking of a famous river. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous river I am thinking of.",
+        "target_entity": "River Nile - a major north-flowing river in northeastern Africa, commonly regarded as the longest river in the world.",
+        "category": "natural_water"
+    },
+    {
+        "id": "entity_373",
+        "title": "Bluetooth",
+        "description": "I am thinking of a type of technology. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the type of technology I am thinking of.",
+        "target_entity": "Bluetooth - a wireless technology standard used for exchanging data between fixed and mobile devices over short distances.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_374",
+        "title": "Cycling",
+        "description": "I am thinking of a physical activity. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the physical activity I am thinking of.",
+        "target_entity": "Cycling - the use of bicycles for transport, recreation, exercise or sport, known for its health and environmental benefits.",
+        "category": "physical_activity"
+    },
+    {
+        "id": "entity_375",
+        "title": "Mt. Everest",
+        "description": "I am thinking of a famous mountain. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the famous mountain I am thinking of.",
+        "target_entity": "Mt. Everest - Earth's highest mountain above sea level, located in the Himalayas, with a peak at 8,848 meters (29,029 feet), attracting climbers worldwide.",
+        "category": "mountain"
+    },
+    {
+        "id": "entity_376",
+        "title": "Tomato",
+        "description": "I am thinking of a common fruit used in cooking. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Tomato - red, edible fruit commonly used as a vegetable in salads, sauces, and many cuisines, contains lycopene and is botanically a berry.",
+        "category": "food"
+    },
+    {
+        "id": "entity_379",
+        "title": "Wolf",
+        "description": "I am thinking of a wild animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Wolf - a carnivorous mammal of the family Canidae, known for living and hunting in packs, and is a key predator in its ecosystem.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_380",
+        "title": "Windows 10",
+        "description": "I am thinking of a popular computer operating system. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the operating system I am thinking of.",
+        "target_entity": "Windows 10 - a personal computer operating system developed by Microsoft as part of the Windows NT family, known for its user-friendly interface and wide compatibility.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_381",
+        "title": "Himalayan Salt",
+        "description": "I am thinking of a type of salt. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the salt I am thinking of.",
+        "target_entity": "Himalayan Salt - salt rock crystal mined from the Punjab region of Pakistan, known for its pink hue and mineral content, often used in cooking and decorative lamps.",
+        "category": "food"
+    },
+    {
+        "id": "entity_382",
+        "title": "Wi-Fi Router",
+        "description": "I am thinking of a common home networking device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the networking device I am thinking of.",
+        "target_entity": "Wi-Fi Router - a device that forwards data packets between computer networks, allowing multiple devices to connect to the internet wirelessly.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_383",
+        "title": "Wolverine",
+        "description": "I am thinking of a superhero from comic books. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the superhero I am thinking of.",
+        "target_entity": "Wolverine - a Marvel Comics character known for his adamantium-laced skeleton, regenerative healing factor, and retractable claws.",
+        "category": "superhero"
+    },
+    {
+        "id": "entity_384",
+        "title": "Ramen",
+        "description": "I am thinking of a dish. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dish I am thinking of.",
+        "target_entity": "Ramen - a Japanese noodle soup consisting of Chinese-style wheat noodles served in a meat or fish-based broth, often flavored with soy sauce or miso.",
+        "category": "food"
+    },
+    {
+        "id": "entity_385",
+        "title": "Saxophone",
+        "description": "I am thinking of a musical instrument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical instrument I am thinking of.",
+        "target_entity": "Saxophone - a woodwind instrument made of brass, known for its smooth and rich tone, used in jazz, classical music, and bands.",
+        "category": "musical_instrument"
+    },
+    {
+        "id": "entity_386",
+        "title": "Bigfoot",
+        "description": "I am thinking of a mythical creature. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the mythical creature I am thinking of.",
+        "target_entity": "Bigfoot - also known as Sasquatch, is an ape-like creature purportedly inhabiting forests, mainly in the Pacific Northwest region of North America.",
+        "category": "mythical_creature"
+    },
+    {
+        "id": "entity_387",
+        "title": "Sakura",
+        "description": "I am thinking of a type of tree or plant. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the tree or plant I am thinking of.",
+        "target_entity": "Sakura - also known as cherry blossoms, are famous for their beautiful pink and white flowers that bloom in spring, widely associated with Japan.",
+        "category": "plant"
+    },
+    {
+        "id": "entity_388",
+        "title": "Kiwi",
+        "description": "I am thinking of a fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Kiwi - a small, brown, fuzzy fruit with bright green flesh and tiny black seeds, known for its sweet-tart flavor and high vitamin C content.",
+        "category": "food"
+    },
+    {
+        "id": "entity_391",
+        "title": "Microwave Oven",
+        "description": "I am thinking of a kitchen appliance. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the kitchen appliance I am thinking of.",
+        "target_entity": "Microwave Oven - a kitchen appliance that heats and cooks food by exposing it to electromagnetic radiation in the microwave frequency range, popular for its speed and convenience.",
+        "category": "object"
+    },
+    {
+        "id": "entity_392",
+        "title": "Jellyfish",
+        "description": "I am thinking of a sea creature. Try to guess what it is!",
+        "goal": "Guess the sea creature I am thinking of.",
+        "target_entity": "Jellyfish - a gelatinous marine animal with umbrella-shaped bell and long trailing tentacles, known for its stinging abilities.",
+        "category": "marine_creature"
+    },
+    {
+        "id": "entity_393",
+        "title": "Orange",
+        "description": "I am thinking of a fruit. Try to guess which one!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Orange - a citrus fruit known for its vibrant color and juicy, sweet taste, rich in vitamin C.",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_394",
+        "title": "Nobel Prize",
+        "description": "I am thinking of an award. Try to guess which one!",
+        "goal": "Guess the award I am thinking of.",
+        "target_entity": "Nobel Prize - prestigious international awards bestowed in several categories by Swedish and Norwegian institutions in recognition of academic, cultural, or scientific advances.",
+        "category": "award"
+    },
+    {
+        "id": "entity_395",
+        "title": "Harrier Jump Jet",
+        "description": "I am thinking of an aircraft. Try to guess which one!",
+        "goal": "Guess the aircraft I am thinking of.",
+        "target_entity": "Harrier Jump Jet - a family of jet-powered attack aircraft capable of vertical/short takeoff and landing operations.",
+        "category": "aircraft"
+    },
+    {
+        "id": "entity_397",
+        "title": "Twitter",
+        "description": "I am thinking of a social media platform. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the social media platform I am thinking of.",
+        "target_entity": "Twitter - a microblogging platform known for its short posts called tweets, a major player in social media, often used for news updates and debates.",
+        "category": "social_media"
+    },
+    {
+        "id": "entity_399",
+        "title": "London Underground",
+        "description": "I am thinking of a public transport system. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the transport system I am thinking of.",
+        "target_entity": "London Underground - the rapid transit system serving London and the surrounding areas, known as 'the Tube', one of the oldest and busiest in the world.",
+        "category": "transport"
+    },
+    {
+        "id": "entity_400",
+        "title": "Vincent van Gogh",
+        "description": "I am thinking of a famous painter. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the painter I am thinking of.",
+        "target_entity": "Vincent van Gogh - a post-impressionist painter known for his vivid use of color and emotional impact, famous for works like 'Starry Night'.",
+        "category": "artist"
+    },
+    {
+        "id": "entity_402",
+        "title": "Plato",
+        "description": "I am thinking of a renowned philosopher. Try to guess who it is!",
+        "goal": "Guess the philosopher I am thinking of.",
+        "target_entity": "Plato - an ancient Greek philosopher, a student of Socrates and teacher of Aristotle, known for his works on philosophy, politics, and ethics.",
+        "category": "philosopher"
+    },
+    {
+        "id": "entity_403",
+        "title": "Thunderstorm",
+        "description": "I am thinking of a type of weather event. Try to guess what it is!",
+        "goal": "Guess the weather event I am thinking of.",
+        "target_entity": "Thunderstorm - a storm characterized by the presence of lightning and thunder, often accompanied by strong winds, heavy rain, and sometimes hail.",
+        "category": "weather"
+    },
+    {
+        "id": "entity_405",
+        "title": "Ancient Egypt",
+        "description": "I am thinking of a historical civilization. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the historical civilization I am thinking of.",
+        "target_entity": "Ancient Egypt - a civilization known for its pyramids, pharaohs, hieroglyphics, and presence along the Nile River, significant in early human history",
+        "category": "historical_civilization"
+    },
+    {
+        "id": "entity_406",
+        "title": "Breaking Bad",
+        "description": "I am thinking of a television show. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the television show I am thinking of.",
+        "target_entity": "Breaking Bad - a television drama series about a chemistry teacher turned methamphetamine manufacturer, known for its suspenseful plot and complex characters",
+        "category": "television_show"
+    },
+    {
+        "id": "entity_408",
+        "title": "Photosynthesis",
+        "description": "I am thinking of a biological process. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the biological process I am thinking of.",
+        "target_entity": "Photosynthesis - the process by which green plants and some other organisms use sunlight to synthesize foods with carbon dioxide and water.",
+        "category": "process"
+    },
+    {
+        "id": "entity_409",
+        "title": "Internet",
+        "description": "I am thinking of a revolutionary invention. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the invention I am thinking of.",
+        "target_entity": "Internet - a global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_410",
+        "title": "Tokyo",
+        "description": "I am thinking of a major global city. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Tokyo - the bustling capital city of Japan, known for its skyscrapers, cherry blossoms, and blending traditional culture with modern technology.",
+        "category": "place"
+    },
+    {
+        "id": "entity_411",
+        "title": "Elon Musk",
+        "description": "I am thinking of a prominent tech entrepreneur. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the tech entrepreneur I am thinking of.",
+        "target_entity": "Elon Musk - a business magnate and CEO known for his roles at SpaceX, Tesla, and involvement in advancing sustainable energy and space exploration.",
+        "category": "modern_person"
+    },
+    {
+        "id": "entity_412",
+        "title": "Peregrine Falcon",
+        "description": "I am thinking of an animal. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Peregrine Falcon - a bird of prey known for its incredible diving speed, which can exceed 240 mph, making it the fastest bird in the world.",
+        "category": "animals"
+    },
+    {
+        "id": "entity_414",
+        "title": "Rolling Stones",
+        "description": "I am thinking of a famous music band. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the music band I am thinking of.",
+        "target_entity": "Rolling Stones - an iconic rock band from the UK, formed in 1962, known for hits like 'Satisfaction' and 'Paint It Black', and its energetic stage performances.",
+        "category": "music"
+    },
+    {
+        "id": "entity_415",
+        "title": "Lunar Eclipse",
+        "description": "I am thinking of an astronomical event. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the astronomical event I am thinking of.",
+        "target_entity": "Lunar Eclipse - occurs when Earth passes between the Sun and the Moon, causing Earth's shadow to cover the Moon, resulting in the moon appearing reddish.",
+        "category": "astronomy"
+    },
+    {
+        "id": "entity_416",
+        "title": "Nile River",
+        "description": "I am thinking of a famous river. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the river I am thinking of.",
+        "target_entity": "Nile River - the longest river in the world, flowing north through northeastern Africa, historically vital to Egyptian civilization.",
+        "category": "geography"
+    },
+    {
+        "id": "entity_417",
+        "title": "Hamlet",
+        "description": "I am thinking of a famous literary work. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the literary work I am thinking of.",
+        "target_entity": "Hamlet - a tragedy play by William Shakespeare, famous for its themes of revenge, madness, and existentialism, featuring the titular Prince of Denmark.",
+        "category": "literature"
+    },
+    {
+        "id": "entity_418",
+        "title": "Ice Hockey",
+        "description": "I am thinking of a sport. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the sport I am thinking of.",
+        "target_entity": "Ice Hockey - a fast-paced team sport played on ice, known for its use of skates, pucks, and sticks, and popular in countries like Canada and Russia.",
+        "category": "sports"
+    },
+    {
+        "id": "entity_419",
+        "title": "Carrot",
+        "description": "I am thinking of a vegetable. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the vegetable I am thinking of.",
+        "target_entity": "Carrot - an orange, crunchy root vegetable known for its sweet flavor and high beta-carotene content, commonly used in salads and cooking.",
+        "category": "food"
+    },
+    {
+        "id": "entity_420",
+        "title": "The Lord of the Rings",
+        "description": "I am thinking of a famous book series. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the book series I am thinking of.",
+        "target_entity": "The Lord of the Rings - an epic fantasy series written by J.R.R. Tolkien, featuring the journey of Hobbits, elves, and other beings in Middle-earth to destroy a powerful ring.",
+        "category": "book"
+    },
+    {
+        "id": "entity_423",
+        "title": "Cerberus",
+        "description": "I am thinking of a mythological creature. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the mythological creature I am thinking of.",
+        "target_entity": "Cerberus - a multi-headed dog that guarded the gates of the Underworld to prevent the dead from leaving in Greek mythology.",
+        "category": "mythology"
+    },
+    {
+        "id": "entity_426",
+        "title": "Mount Vesuvius",
+        "description": "I am thinking of a volcano. Try to guess what it is!",
+        "goal": "Guess the volcano I am thinking of.",
+        "target_entity": "Mount Vesuvius - a volcano located in Italy, famous for its eruption in AD 79 that led to the destruction of the Roman cities of Pompeii and Herculaneum.",
+        "category": "natural_phenomenon"
+    },
+    {
+        "id": "entity_428",
+        "title": "Lincoln Memorial",
+        "description": "I am thinking of a monument in the USA. Try to guess what it is!",
+        "goal": "Guess the monument I am thinking of.",
+        "target_entity": "Lincoln Memorial - a national monument in Washington, D.C., built to honor the 16th President of the United States, Abraham Lincoln, featuring a large seated sculpture of Lincoln.",
+        "category": "landmark"
+    },
+    {
+        "id": "entity_429",
+        "title": "J.R.R. Tolkien",
+        "description": "I am thinking of a famous author. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the author I am thinking of.",
+        "target_entity": "J.R.R. Tolkien - an English writer, known for creating 'The Hobbit' and 'The Lord of the Rings' series, notable for rich storytelling and elaborate world-building.",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_430",
+        "title": "Homer Simpson",
+        "description": "I am thinking of a famous TV character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the TV character I am thinking of.",
+        "target_entity": "Homer Simpson - a fictional character from the animated TV show 'The Simpsons', known for his humorous antics, love for donuts, and catchphrase 'D\u2019oh!'",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_431",
+        "title": "Charlie Chaplin",
+        "description": "I am thinking of a famous entertainer. Try to guess who it is!",
+        "goal": "Guess the entertainer I am thinking of.",
+        "target_entity": "Charlie Chaplin - an English comic actor, filmmaker, and composer, renowned for his slapstick comedy and films like 'The Tramp' and 'Modern Times.'",
+        "category": "entertainer"
+    },
+    {
+        "id": "entity_432",
+        "title": "Smartwatch",
+        "description": "I am thinking of a type of wearable technology. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the wearable technology I am thinking of.",
+        "target_entity": "Smartwatch - a wearable device that combines features of a traditional watch with digital functions such as notifications, fitness tracking, and apps.",
+        "category": "device"
+    },
+    {
+        "id": "entity_433",
+        "title": "The Moon",
+        "description": "I am thinking of a celestial body. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the celestial body I am thinking of.",
+        "target_entity": "The Moon - Earth's only natural satellite, known for its phases, impact on tides, and as the site of humanity's first off-Earth landing.",
+        "category": "celestial body"
+    },
+    {
+        "id": "entity_434",
+        "title": "George Washington",
+        "description": "I am thinking of a historical figure. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the historical figure I am thinking of.",
+        "target_entity": "George Washington - the first President of the United States and a Founding Father, known for leading the American Revolutionary War and setting many presidential precedents.",
+        "category": "historical_figure"
+    },
+    {
+        "id": "entity_436",
+        "title": "Neil Armstrong",
+        "description": "I am thinking of a famous astronaut. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the astronaut I am thinking of.",
+        "target_entity": "Neil Armstrong - an American astronaut and aeronautical engineer who was the first person to walk on the Moon during the Apollo 11 mission on July 20, 1969.",
+        "category": "modern_figure"
+    },
+    {
+        "id": "entity_437",
+        "title": "Coffee",
+        "description": "I am thinking of a popular beverage. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the beverage I am thinking of.",
+        "target_entity": "Coffee - a brewed drink prepared from roasted coffee beans, known for its stimulating effects due to caffeine content and widespread cultural significance.",
+        "category": "beverage"
+    },
+    {
+        "id": "entity_438",
+        "title": "Mozzarella Cheese",
+        "description": "I am thinking of a type of cheese. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the type of cheese I am thinking of.",
+        "target_entity": "Mozzarella Cheese - a traditionally southern Italian cheese made from Italian buffalo's milk by the pasta filata method, known for its moist, soft texture and mild flavor.",
+        "category": "food"
+    },
+    {
+        "id": "entity_439",
+        "title": "Raisin",
+        "description": "I am thinking of a type of dried fruit. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the dried fruit I am thinking of.",
+        "target_entity": "Raisin - a dried grape used in cooking, baking, and brewing, known for its sweet flavor and being a good source of energy.",
+        "category": "food"
+    },
+    {
+        "id": "entity_440",
+        "title": "Australian Shepherd",
+        "description": "I am thinking of a dog breed. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the dog breed I am thinking of.",
+        "target_entity": "Australian Shepherd - a highly intelligent and energetic dog breed known for herding livestock, recognizable by their merle coats and striking eye colors.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_441",
+        "title": "Cheesecake",
+        "description": "I am thinking of a delicious dessert. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dessert I am thinking of.",
+        "target_entity": "Cheesecake - a rich, creamy dessert made of sweetened cream cheese, eggs, sugar, and a crust, often topped with fruit or chocolate.",
+        "category": "food"
+    },
+    {
+        "id": "entity_443",
+        "title": "Christmas",
+        "description": "I am thinking of a holiday. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the holiday I am thinking of.",
+        "target_entity": "Christmas - a Christian holiday celebrating the birth of Jesus, traditionally observed on December 25th, featuring customs like gift-giving, decorations, and festive meals.",
+        "category": "holiday"
+    },
+    {
+        "id": "entity_444",
+        "title": "Pineapple",
+        "description": "I am thinking of a tropical fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the tropical fruit I am thinking of.",
+        "target_entity": "Pineapple - a tropical fruit with a spiky exterior and sweet, yellow flesh, known for its unique taste and use in dishes and juices.",
+        "category": "food"
+    },
+    {
+        "id": "entity_447",
+        "title": "Amazon Echo",
+        "description": "I am thinking of a smart home device. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the smart home device I am thinking of.",
+        "target_entity": "Amazon Echo - a line of smart speakers developed by Amazon, equipped with the virtual assistant Alexa who can control smart devices, play music, and more.",
+        "category": "device"
+    },
+    {
+        "id": "entity_449",
+        "title": "Cello",
+        "description": "I am thinking of a musical instrument. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical instrument I am thinking of.",
+        "target_entity": "Cello - a string instrument known for its rich, deep sound, played with a bow, and commonly used in orchestras and chamber music.",
+        "category": "musical_instrument"
+    },
+    {
+        "id": "entity_450",
+        "title": "Redwood",
+        "description": "I am thinking of a type of tree. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the tree I am thinking of.",
+        "target_entity": "Redwood - a type of tree noted for its incredible height and longevity, found primarily in coastal California, with bark resistant to fire and insects.",
+        "category": "plant"
+    },
+    {
+        "id": "entity_451",
+        "title": "T-Rex",
+        "description": "I am thinking of a dinosaur. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dinosaur I am thinking of.",
+        "target_entity": "Tyrannosaurus Rex - a large carnivorous dinosaur known for its massive size, sharp teeth, and small forelimbs, often regarded as the king of its era.",
+        "category": "prehistoric"
+    },
+    {
+        "id": "entity_452",
+        "title": "Zebra",
+        "description": "I am thinking of an animal known for its stripes. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the animal I am thinking of.",
+        "target_entity": "Zebra - an African equid known for its distinctive black-and-white striped coat, living in savanna and woodland areas.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_453",
+        "title": "Parrot",
+        "description": "I am thinking of a bird. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the bird I am thinking of.",
+        "target_entity": "Parrot - a colorful bird known for its intelligence and ability to imitate human speech, found predominantly in tropical and subtropical regions.",
+        "category": "bird"
+    },
+    {
+        "id": "entity_454",
+        "title": "Comic Con",
+        "description": "I am thinking of an event. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the event I am thinking of.",
+        "target_entity": "Comic Con - a popular convention celebrating comic books, movies, and pop culture, featuring panels, workshops, and cosplay competitions.",
+        "category": "event"
+    },
+    {
+        "id": "entity_455",
+        "title": "Pok\u00e9mon",
+        "description": "I am thinking of a franchise. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the franchise I am thinking of.",
+        "target_entity": "Pok\u00e9mon - a media franchise created by Satoshi Tajiri, involves fictional creatures that players catch and train to battle each other, popular worldwide across games, TV shows, and merchandise.",
+        "category": "franchise"
+    },
+    {
+        "id": "entity_456",
+        "title": "Super Bowl",
+        "description": "I am thinking of a sporting event. Try to guess which one!",
+        "goal": "Guess the sporting event I am thinking of.",
+        "target_entity": "Super Bowl - the annual championship game of the National Football League (NFL), usually held in the United States, known for spectacular halftime shows and millions of viewers.",
+        "category": "sporting_event"
+    },
+    {
+        "id": "entity_457",
+        "title": "YouTube",
+        "description": "I am thinking of an online platform. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the online platform I am thinking of.",
+        "target_entity": "YouTube - a video sharing service where users can watch, like, share, comment and upload their own videos, known as a hub for content creators across various genres.",
+        "category": "online_platform"
+    },
+    {
+        "id": "entity_458",
+        "title": "Cappuccino",
+        "description": "I am thinking of a beverage. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the beverage I am thinking of.",
+        "target_entity": "Cappuccino - a type of coffee drink traditionally prepared with espresso, hot milk, and steamed milk foam, originating from Italy and known for its creamy taste.",
+        "category": "beverage"
+    },
+    {
+        "id": "entity_459",
+        "title": "Baby Shark",
+        "description": "I am thinking of a popular children's song. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the children's song I am thinking of.",
+        "target_entity": "Baby Shark - a catchy children's song about a family of sharks, famous for its repetitive lyrics and dance.",
+        "category": "song"
+    },
+    {
+        "id": "entity_460",
+        "title": "Usain Bolt",
+        "description": "I am thinking of a famous athlete. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the athlete I am thinking of.",
+        "target_entity": "Usain Bolt - Jamaican sprinter, considered the fastest man in the world, holding world records in the 100m, 200m, and 4x100m relay.",
+        "category": "athlete"
+    },
+    {
+        "id": "entity_461",
+        "title": "Segway",
+        "description": "I am thinking of a unique mode of transportation. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the transportation mode I am thinking of.",
+        "target_entity": "Segway - a two-wheeled, self-balancing personal transporter, known for its use in tours and urban environments.",
+        "category": "transportation"
+    },
+    {
+        "id": "entity_462",
+        "title": "Winnie the Pooh",
+        "description": "I am thinking of a beloved fictional character. Try to guess who it is!",
+        "goal": "Guess the fictional character I am thinking of.",
+        "target_entity": "Winnie the Pooh - a friendly, honey-loving bear from the children's stories by A.A. Milne, known for his adventures in the Hundred Acre Wood.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_464",
+        "title": "Acropolis of Athens",
+        "description": "I am thinking of an ancient citadel. Try to guess which one!",
+        "goal": "Guess the ancient citadel I am thinking of.",
+        "target_entity": "Acropolis of Athens - an ancient complex in Greece, famous for the Parthenon and as a symbol of classical civilization.",
+        "category": "ancient_structure"
+    },
+    {
+        "id": "entity_465",
+        "title": "Microsoft Word",
+        "description": "I am thinking of a widely used software application. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the software application I am thinking of.",
+        "target_entity": "Microsoft Word - a word processing software developed by Microsoft, used for creating, editing, and formatting documents.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_466",
+        "title": "Chichen Itza",
+        "description": "I am thinking of an ancient site. Try to guess which one!",
+        "goal": "Guess the ancient site I am thinking of.",
+        "target_entity": "Chichen Itza - a large pre-Columbian archaeological site located in Mexico, built by the Maya civilization, featuring the iconic pyramid El Castillo.",
+        "category": "ancient_site"
+    },
+    {
+        "id": "entity_469",
+        "title": "Sandwich",
+        "description": "I am thinking of a type of food. Try to guess what it is!",
+        "goal": "Guess the type of food I am thinking of.",
+        "target_entity": "Sandwich - dish consisting of two or more slices of bread with fillings such as meats, cheeses, or vegetables, known for its versatility and convenience",
+        "category": "food"
+    },
+    {
+        "id": "entity_472",
+        "title": "Papaya",
+        "description": "I am thinking of a fruit. Try to guess what it is!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Papaya - tropical fruit known for its orange flesh and sweet taste, rich in enzymes that aid digestion",
+        "category": "fruit"
+    },
+    {
+        "id": "entity_473",
+        "title": "Unicorn",
+        "description": "I am thinking of a legendary creature. Try to guess what it is!",
+        "goal": "Guess the legendary creature I am thinking of.",
+        "target_entity": "Unicorn - mythical horse-like creature with a single spiraling horn on its forehead, symbolizes purity and grace",
+        "category": "legendary_creature"
+    },
+    {
+        "id": "entity_474",
+        "title": "Jules Verne",
+        "description": "I am thinking of an author. Try to guess who it is!",
+        "goal": "Guess the author I am thinking of.",
+        "target_entity": "Jules Verne - French writer known for his pioneering science fiction novels such as 'Twenty Thousand Leagues Under the Sea' and 'Journey to the Center of the Earth'",
+        "category": "author"
+    },
+    {
+        "id": "entity_475",
+        "title": "The Hanging Gardens of Babylon",
+        "description": "I am thinking of one of the Seven Wonders of the Ancient World. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the ancient wonder I am thinking of.",
+        "target_entity": "The Hanging Gardens of Babylon - fabled gardens that were said to be built in ancient Mesopotamia, known for their extraordinary terrace gardens.",
+        "category": "ancient_wonder"
+    },
+    {
+        "id": "entity_477",
+        "title": "Rio de Janeiro",
+        "description": "I am thinking of a city. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the city I am thinking of.",
+        "target_entity": "Rio de Janeiro - a vibrant city in Brazil known for its stunning beaches, the iconic Christ the Redeemer statue, and the famous Carnival festival.",
+        "category": "city"
+    },
+    {
+        "id": "entity_479",
+        "title": "Hogwarts Castle",
+        "description": "I am thinking of a fictional place. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the fictional place I am thinking of.",
+        "target_entity": "Hogwarts Castle - the main setting for J.K. Rowling's Harry Potter series, known as a school of witchcraft and wizardry.",
+        "category": "fictional_place"
+    },
+    {
+        "id": "entity_480",
+        "title": "Jasmine",
+        "description": "I am thinking of a type of plant. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the plant I am thinking of.",
+        "target_entity": "Jasmine - a fragrant flowering plant known for its white or yellow blossoms, used in perfumes and tea flavoring.",
+        "category": "plant"
+    },
+    {
+        "id": "entity_482",
+        "title": "Charles Dickens",
+        "description": "I am thinking of a famous author. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the author I am thinking of.",
+        "target_entity": "Charles Dickens - a celebrated English writer known for novels like 'A Tale of Two Cities' and 'Great Expectations', characterized by vivid characters and social commentary.",
+        "category": "famous_person"
+    },
+    {
+        "id": "entity_485",
+        "title": "Buddha",
+        "description": "I am thinking of a prominent religious figure. Try to guess who!",
+        "goal": "Guess the religious figure I am thinking of.",
+        "target_entity": "Buddha - founder of Buddhism, known for his teachings on enlightenment and the path to spiritual liberation.",
+        "category": "religious_figures"
+    },
+    {
+        "id": "entity_487",
+        "title": "Adele",
+        "description": "I am thinking of a singer. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the singer I am thinking of.",
+        "target_entity": "Adele - a British singer-songwriter known for her powerful voice and emotional ballads such as 'Hello' and 'Rolling in the Deep', with multiple Grammy Awards to her name.",
+        "category": "singer"
+    },
+    {
+        "id": "entity_490",
+        "title": "Watermelon",
+        "description": "I am thinking of a fruit. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the fruit I am thinking of.",
+        "target_entity": "Watermelon - a large fruit with thick green rind and sweet, juicy red or pink flesh, often associated with summer and picnics.",
+        "category": "food"
+    },
+    {
+        "id": "entity_491",
+        "title": "Rock and Roll",
+        "description": "I am thinking of a musical genre. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the musical genre I am thinking of.",
+        "target_entity": "Rock and Roll - a genre of popular music that originated in the United States in the late 1940s and 1950s, characterized by a heavy beat and simple melodies.",
+        "category": "music_genre"
+    },
+    {
+        "id": "entity_493",
+        "title": "Barbie",
+        "description": "I am thinking of a toy brand. Try to guess what it is!",
+        "goal": "Guess the toy brand I am thinking of.",
+        "target_entity": "Barbie - a fashion doll brand launched by the American toy company Mattel, widely known for its influence on children\u2019s toy markets.",
+        "category": "toy_brand"
+    },
+    {
+        "id": "entity_494",
+        "title": "Tom Cruise",
+        "description": "I am thinking of a movie actor. Try to guess who it is!",
+        "goal": "Guess the movie actor I am thinking of.",
+        "target_entity": "Tom Cruise - an American actor known for his roles in blockbuster movies like Top Gun and Mission: Impossible.",
+        "category": "movie_actor"
+    },
+    {
+        "id": "entity_495",
+        "title": "To Kill a Mockingbird",
+        "description": "I am thinking of a classic novel. Try to guess which one it is by asking yes/no questions!",
+        "goal": "Guess the novel I am thinking of.",
+        "target_entity": "'To Kill a Mockingbird' - a novel by Harper Lee, published in 1960, known for its themes of racial injustice and moral growth in the American South.",
+        "category": "literature"
+    },
+    {
+        "id": "entity_496",
+        "title": "Mediterranean Sea",
+        "description": "I am thinking of a major sea. Try to guess which one it is!",
+        "goal": "Guess the major sea I am thinking of.",
+        "target_entity": "Mediterranean Sea - a sea connected to the Atlantic Ocean, surrounded by the Mediterranean Basin, known for its historical significance and cultural influence.",
+        "category": "body_of_water"
+    },
+    {
+        "id": "entity_498",
+        "title": "Cloud Computing",
+        "description": "I am thinking of a technology concept. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the technology concept I am thinking of.",
+        "target_entity": "Cloud Computing - the delivery of computing services over the Internet, enabling on-demand availability of resources like storage and processing power without direct active management by the user.",
+        "category": "technology"
+    },
+    {
+        "id": "entity_499",
+        "title": "Dalmatian",
+        "description": "I am thinking of a dog breed. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the dog breed I am thinking of.",
+        "target_entity": "Dalmatian - a breed of large dog noted for its unique white coat marked with black or liver spots, historically used as a carriage dog.",
+        "category": "animal"
+    },
+    {
+        "id": "entity_500",
+        "title": "Rugby",
+        "description": "I am thinking of a contact sport. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the contact sport I am thinking of.",
+        "target_entity": "Rugby - a team sport that originated in England, played with an oval-shaped ball, with two teams of 15 players, known for its tackling and scrums.",
+        "category": "sport"
+    },
+    {
+        "id": "entity_501",
+        "title": "Jane Eyre",
+        "description": "I am thinking of a literary character. Try to guess who it is by asking yes/no questions!",
+        "goal": "Guess the literary character I am thinking of.",
+        "target_entity": "Jane Eyre - the protagonist of the novel 'Jane Eyre' by Charlotte Bront\u00eb, known for her strong will, moral integrity, and resilience in the face of adversity.",
+        "category": "fictional_character"
+    },
+    {
+        "id": "entity_502",
+        "title": "Drone",
+        "description": "I am thinking of a modern gadget. Try to guess what it is by asking yes/no questions!",
+        "goal": "Guess the modern gadget I am thinking of.",
+        "target_entity": "Drone - an unmanned aerial vehicle controlled remotely or autonomously, used for photography, surveillance, delivery, and recreational purposes.",
+        "category": "gadget"
+    }
+]
