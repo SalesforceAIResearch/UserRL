@@ -1,0 +1,4159 @@
+[
+    {
+        "id": "503f8dca-86ad-42e7-8ccc-386e5b4fe0ab",
+        "category": "Research and Development",
+        "task": "Find the latest research on diabetes treatment.",
+        "missing_details": [
+            {
+                "description": "Type of diabetes",
+                "importance": "2",
+                "inquiry": "Could you tell me which type of diabetes you are interested in?",
+                "options": [
+                    "Type 1",
+                    "Type 2",
+                    "Gestational"
+                ]
+            },
+            {
+                "description": "Aspect of treatment",
+                "importance": "2",
+                "inquiry": "Are you looking for specific aspects of diabetes treatment such as medication, lifestyle changes, or technology?",
+                "options": [
+                    "Medication",
+                    "Lifestyle changes",
+                    "Technology"
+                ]
+            },
+            {
+                "description": "Source of research",
+                "importance": "2",
+                "inquiry": "Do you prefer research from any particular source, like academic journals, clinical trials, or specific medical institutions?",
+                "options": [
+                    "Academic journals",
+                    "Clinical trials",
+                    "Medical institutions"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6bfb98e8-24ee-4e8f-8efa-c5a2038fc2bf",
+        "category": "Education and Research Resources",
+        "task": "Find a recipe for homemade pizza.",
+        "missing_details": [
+            {
+                "description": "Type of pizza",
+                "importance": "2",
+                "inquiry": "What type of pizza are you interested in making?",
+                "options": [
+                    "Neapolitan",
+                    "New York-style",
+                    "Deep dish"
+                ]
+            },
+            {
+                "description": "Dietary restrictions",
+                "importance": "2",
+                "inquiry": "Do you have any dietary restrictions or preferences?",
+                "options": [
+                    "Gluten-free",
+                    "Vegan",
+                    "No restrictions"
+                ]
+            },
+            {
+                "description": "Level of cooking expertise",
+                "importance": "2",
+                "inquiry": "What is your level of cooking expertise?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Expert"
+                ]
+            },
+            {
+                "description": "Specific toppings",
+                "importance": "1",
+                "inquiry": "Are there any specific toppings you'd like to have on your pizza?",
+                "options": [
+                    "Pepperoni",
+                    "Mushrooms",
+                    "Vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8f4e29f2-1d0b-4f67-ac8e-09b6050a7793",
+        "category": "Education and Research Resources",
+        "task": "Find the latest news about the global warming.",
+        "missing_details": [
+            {
+                "description": "Time frame for 'latest' news",
+                "importance": "2",
+                "inquiry": "Could you specify what time frame you consider as 'latest' for the news on global warming?",
+                "options": [
+                    "Past 24 hours",
+                    "Past week",
+                    "Past month"
+                ]
+            },
+            {
+                "description": "Preferred news sources",
+                "importance": "1",
+                "inquiry": "Do you have any preferred sources for the news on global warming?",
+                "options": [
+                    "Major news outlets",
+                    "Scientific journals",
+                    "Environmental blogs"
+                ]
+            },
+            {
+                "description": "Type of news content",
+                "importance": "1",
+                "inquiry": "What type of content are you looking for in the news about global warming?",
+                "options": [
+                    "Scientific research",
+                    "Policy and legislation",
+                    "Opinion pieces"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a0ff4317-b615-4820-a4e4-35ca9bf382aa",
+        "category": "Education and Research Resources",
+        "task": "Search for an explanation of the String Theory.",
+        "missing_details": [
+            {
+                "description": "Complexity level of the explanation",
+                "importance": "2",
+                "inquiry": "What level of complexity are you looking for in the explanation of String Theory?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Type of explanation",
+                "importance": "2",
+                "inquiry": "Do you want a summary, a detailed analysis, or a focus on a particular aspect of String Theory?",
+                "options": [
+                    "Summary",
+                    "Detailed analysis",
+                    "Focus on a particular aspect"
+                ]
+            },
+            {
+                "description": "Preferred medium",
+                "importance": "1",
+                "inquiry": "Which medium would you prefer for the explanation? An article, video, or podcast?",
+                "options": [
+                    "Article",
+                    "Video",
+                    "Podcast"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8d7b9871-cfc6-4a0e-9de9-a5fe5509f627",
+        "category": "System Management",
+        "task": "Find out the file type and size of each file inside a specific directory.",
+        "missing_details": [
+            {
+                "description": "The specific directory to be analyzed",
+                "importance": "3",
+                "inquiry": "Could you please specify which directory you would like to analyze for file type and size?",
+                "options": [
+                    "Home directory",
+                    "Documents",
+                    "Custom directory path (please provide the path)"
+                ]
+            },
+            {
+                "description": "Definition of 'file type'",
+                "importance": "2",
+                "inquiry": "What do you mean by 'file type'? Are you referring to the MIME type, file extension, or something else?",
+                "options": [
+                    "MIME type",
+                    "File extension",
+                    "Other (please specify)"
+                ]
+            },
+            {
+                "description": "Preferred units for file size",
+                "importance": "2",
+                "inquiry": "In which units would you like the file sizes to be reported?",
+                "options": [
+                    "Bytes",
+                    "Kilobytes",
+                    "Megabytes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1ffbc307-9a0f-41e8-9dbb-80ec9322a0aa",
+        "category": "Education and Research Resources",
+        "task": "Find a dataset about the global climate change for the last century.",
+        "missing_details": [
+            {
+                "description": "Type of climate data",
+                "importance": "2",
+                "inquiry": "Could you specify what type of climate data you are interested in?",
+                "options": [
+                    "Temperature records",
+                    "CO2 levels",
+                    "Sea level rise"
+                ]
+            },
+            {
+                "description": "Dataset format",
+                "importance": "2",
+                "inquiry": "In which format do you need the dataset?",
+                "options": [
+                    "CSV",
+                    "JSON",
+                    "SQL database"
+                ]
+            },
+            {
+                "description": "Data granularity",
+                "importance": "2",
+                "inquiry": "What granularity of data are you looking for?",
+                "options": [
+                    "Yearly",
+                    "Monthly",
+                    "Daily"
+                ]
+            },
+            {
+                "description": "Source preference",
+                "importance": "1",
+                "inquiry": "Do you have any preference for the source of the dataset?",
+                "options": [
+                    "Academic institutions",
+                    "Government agencies",
+                    "Independent research organizations"
+                ]
+            },
+            {
+                "description": "Intended use or audience",
+                "importance": "1",
+                "inquiry": "What is the intended use or audience for the dataset?",
+                "options": [
+                    "Research purposes",
+                    "Educational material",
+                    "Policy-making"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4c257b44-9e3d-43f1-9e3d-773bedb5a010",
+        "category": "System Management",
+        "task": "Write a bash command to monitor CPU and memory usage continuously.",
+        "missing_details": [
+            {
+                "description": "Level of detail or format for the output",
+                "importance": "2",
+                "inquiry": "Do you require a specific level of detail or format for the output of the monitoring command?",
+                "options": [
+                    "Simple percentage output",
+                    "Detailed process-wise statistics",
+                    "Graphical representation"
+                ]
+            },
+            {
+                "description": "Duration for the monitoring",
+                "importance": "2",
+                "inquiry": "Should the command run indefinitely or for a specific duration?",
+                "options": [
+                    "Run indefinitely",
+                    "Run for a set amount of time"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "50878d3c-f4b8-4287-8f06-56b7dce1bb18",
+        "category": "Education and Research Resources",
+        "task": "Search for a free PDF of the book 'Pride and Prejudice'.",
+        "missing_details": [
+            {
+                "description": "Legality and source preference",
+                "importance": "3",
+                "inquiry": "Do you prefer to download the book from an official and legal source, or is any source acceptable?",
+                "options": [
+                    "Legal sources only",
+                    "Any source is fine"
+                ]
+            },
+            {
+                "description": "Specific edition or translation preference",
+                "importance": "2",
+                "inquiry": "Are you looking for a specific edition or translation of 'Pride and Prejudice', or is any edition acceptable?",
+                "options": [
+                    "Specific edition",
+                    "Any edition is fine"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7cfe7266-aa2b-4d94-8a62-4e8fd488a8a9",
+        "category": "Lifestyle Guides",
+        "task": "Compile a list of heart-healthy recipes that are easy to prepare.",
+        "missing_details": [
+            {
+                "description": "User's cooking skill level",
+                "importance": "2",
+                "inquiry": "Could you tell me about your cooking skill level? This will help me find recipes that match your abilities in the kitchen.",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Expert"
+                ]
+            },
+            {
+                "description": "Time available for preparation",
+                "importance": "2",
+                "inquiry": "How much time do you usually have to prepare meals? This will help me select recipes that fit into your schedule.",
+                "options": [
+                    "Under 30 minutes",
+                    "30-60 minutes",
+                    "More than 60 minutes"
+                ]
+            },
+            {
+                "description": "Dietary restrictions or allergies",
+                "importance": "3",
+                "inquiry": "Do you have any dietary restrictions or allergies I should be aware of when selecting recipes?",
+                "options": [
+                    "No restrictions",
+                    "Vegetarian",
+                    "Vegan",
+                    "Gluten-free",
+                    "Other allergies or restrictions"
+                ]
+            },
+            {
+                "description": "Preference for types of cuisine",
+                "importance": "2",
+                "inquiry": "Do you have a preference for certain types of cuisine? I want to make sure the recipes are appealing to your taste.",
+                "options": [
+                    "No preference",
+                    "Asian",
+                    "Mediterranean",
+                    "Latin American",
+                    "Other specific cuisines"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "48697cad-28e0-4a2e-a0a4-84433ab86aba",
+        "category": "Data Analysis",
+        "task": "Compare the themes of two classic novels.",
+        "missing_details": [
+            {
+                "description": "Specific novels to be compared",
+                "importance": "3",
+                "inquiry": "Could you tell me which two classic novels you would like to compare?",
+                "options": [
+                    "Pride and Prejudice and Jane Eyre",
+                    "1984 and Brave New World",
+                    "The Great Gatsby and To Kill a Mockingbird"
+                ]
+            },
+            {
+                "description": "Type of themes for comparison",
+                "importance": "2",
+                "inquiry": "What specific themes are you interested in comparing between these novels?",
+                "options": [
+                    "Love and relationships",
+                    "Social class and status",
+                    "Individual vs. society"
+                ]
+            },
+            {
+                "description": "Purpose of the comparison",
+                "importance": "2",
+                "inquiry": "What is the purpose of this comparison? Is it for an academic essay, personal interest, or something else?",
+                "options": [
+                    "Academic essay",
+                    "Personal interest",
+                    "Book club discussion"
+                ]
+            },
+            {
+                "description": "Depth of analysis required",
+                "importance": "2",
+                "inquiry": "How in-depth should the analysis be? Are you looking for a brief overview or a detailed examination?",
+                "options": [
+                    "Brief overview",
+                    "Detailed examination",
+                    "Critical analysis with secondary sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "907e95ce-bc82-49b0-85c6-989821a58347",
+        "category": "Writing",
+        "task": "Give tips on improving my storytelling abilities for writing fiction.",
+        "missing_details": [
+            {
+                "description": "Type of fiction",
+                "importance": "2",
+                "inquiry": "What type of fiction are you interested in improving your storytelling abilities for?",
+                "options": [
+                    "Fantasy",
+                    "Science Fiction",
+                    "Mystery"
+                ]
+            },
+            {
+                "description": "Current skill level",
+                "importance": "2",
+                "inquiry": "Can you describe your current skill level or experience in writing fiction?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Specific areas of improvement",
+                "importance": "2",
+                "inquiry": "Are there specific areas in storytelling you'd like to focus on improving?",
+                "options": [
+                    "Character development",
+                    "Plot structure",
+                    "Setting and world-building"
+                ]
+            },
+            {
+                "description": "Style or format of tips",
+                "importance": "1",
+                "inquiry": "Do you prefer a specific style or format for the storytelling tips?",
+                "options": [
+                    "General guidelines",
+                    "Practical exercises",
+                    "Illustrative examples"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "0a412987-2e70-4545-a7ba-29d31b66032a",
+        "category": "File Management",
+        "task": "Write a script to organize a directory of files by their extension types.",
+        "missing_details": [
+            {
+                "description": "Preferred scripting language",
+                "importance": "3",
+                "inquiry": "Which scripting language would you like to use for the script?",
+                "options": [
+                    "Python",
+                    "Bash",
+                    "PowerShell"
+                ]
+            },
+            {
+                "description": "Directory structure after sorting",
+                "importance": "2",
+                "inquiry": "How would you like the directory structure to be after sorting the files?",
+                "options": [
+                    "Create a separate folder for each file type",
+                    "Keep all files in the same directory but rename them"
+                ]
+            },
+            {
+                "description": "Handling files without extensions",
+                "importance": "2",
+                "inquiry": "What should the script do with files that do not have an extension?",
+                "options": [
+                    "Move them to a specific 'No Extension' folder",
+                    "Leave them in the original location",
+                    "Remove them from the directory"
+                ]
+            },
+            {
+                "description": "Handling duplicate filenames",
+                "importance": "2",
+                "inquiry": "How should the script handle files with duplicate names after sorting by extension?",
+                "options": [
+                    "Rename the duplicates by appending a number",
+                    "Overwrite the existing files",
+                    "Prompt for user decision for each duplicate"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9515da68-806e-49ac-baf4-a080ecad9028",
+        "category": "Fashion Industry",
+        "task": "Sketch a concept for a sustainable fashion line.",
+        "missing_details": [
+            {
+                "description": "Type of fashion line",
+                "importance": "3",
+                "inquiry": "What type of fashion line are you looking to design? For example, are you focusing on casual wear, formal wear, sportswear, etc.?",
+                "options": [
+                    "Casual wear",
+                    "Formal wear",
+                    "Sportswear"
+                ]
+            },
+            {
+                "description": "Target audience",
+                "importance": "2",
+                "inquiry": "Who is the target audience for your sustainable fashion line? Could you specify an age range, gender, or other demographic characteristics?",
+                "options": [
+                    "Women 20-35",
+                    "Men 30-50",
+                    "Unisex all ages"
+                ]
+            },
+            {
+                "description": "Style preferences",
+                "importance": "2",
+                "inquiry": "What style preferences should the fashion line adhere to? Are you looking for something minimalist, bold, or avant-garde?",
+                "options": [
+                    "Minimalist",
+                    "Bold",
+                    "Avant-garde"
+                ]
+            },
+            {
+                "description": "Sustainability practices",
+                "importance": "3",
+                "inquiry": "Which sustainability practices are you interested in incorporating into the fashion line? For instance, are you focusing on materials, production methods, or something else?",
+                "options": [
+                    "Recycled materials",
+                    "Ethical production",
+                    "Zero-waste design"
+                ]
+            },
+            {
+                "description": "Extent of concept development",
+                "importance": "2",
+                "inquiry": "To what extent do you want the concept developed? Are you looking for a rough sketch, a detailed illustration, or a full collection overview?",
+                "options": [
+                    "Rough sketch",
+                    "Detailed illustration",
+                    "Full collection overview"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4fe231f4-7381-4120-9661-2652a470172e",
+        "category": "Health Management",
+        "task": "Devise a workout plan for a beginner looking to improve cardiovascular health.",
+        "missing_details": [
+            {
+                "description": "Current fitness level",
+                "importance": "3",
+                "inquiry": "Could you tell me about your current fitness level?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Time commitment availability",
+                "importance": "2",
+                "inquiry": "How much time can you commit to working out each week?",
+                "options": [
+                    "Less than 2 hours",
+                    "2-4 hours",
+                    "More than 4 hours"
+                ]
+            },
+            {
+                "description": "Preferred types of exercise",
+                "importance": "2",
+                "inquiry": "Do you have any preferred types of exercise or activities you enjoy?",
+                "options": [
+                    "Running",
+                    "Swimming",
+                    "Cycling",
+                    "Group fitness classes"
+                ]
+            },
+            {
+                "description": "Existing medical conditions",
+                "importance": "3",
+                "inquiry": "Do you have any existing medical conditions that should be considered when creating your workout plan?",
+                "options": [
+                    "Heart conditions",
+                    "Joint issues",
+                    "None"
+                ]
+            },
+            {
+                "description": "Personal goals",
+                "importance": "2",
+                "inquiry": "What are your personal goals in terms of cardiovascular health? Are you looking to lose weight, improve endurance, or something else?",
+                "options": [
+                    "Weight loss",
+                    "Improving endurance",
+                    "General well-being"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4c56ff42-9ba9-446a-9078-8758bba816c6",
+        "category": "Cybersecurity",
+        "task": "Research methods to secure a home WiFi network.",
+        "missing_details": [
+            {
+                "description": "User's level of technical expertise",
+                "importance": "2",
+                "inquiry": "Could you tell me about your level of technical expertise? Are you a beginner, intermediate, or advanced user when it comes to networking and security?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Type of equipment",
+                "importance": "2",
+                "inquiry": "What type of WiFi networking equipment are you using? Is it a standard router, a mesh network, or some other setup?",
+                "options": [
+                    "Standard router",
+                    "Mesh network",
+                    "Other setup"
+                ]
+            },
+            {
+                "description": "Specific security concerns",
+                "importance": "2",
+                "inquiry": "Are there any specific security concerns you're worried about? For example, are you looking to prevent unauthorized access, protect against malware, or something else?",
+                "options": [
+                    "Prevent unauthorized access",
+                    "Protect against malware",
+                    "Other concerns"
+                ]
+            },
+            {
+                "description": "Preference for free or paid solutions",
+                "importance": "1",
+                "inquiry": "Do you have a preference for free security solutions, or are you willing to invest in paid options?",
+                "options": [
+                    "Prefer free solutions",
+                    "Willing to invest in paid options",
+                    "No preference"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e851e22d-3c13-406b-9ed5-979f3f0606d0",
+        "category": "Technology News and Reviews",
+        "task": "Recommend the best smartwatches available in 2023.",
+        "missing_details": [
+            {
+                "description": "Budget range",
+                "importance": "2",
+                "inquiry": "What is your budget range for the smartwatch?",
+                "options": [
+                    "Under $200",
+                    "$200 - $500",
+                    "Above $500"
+                ]
+            },
+            {
+                "description": "Intended use",
+                "importance": "2",
+                "inquiry": "What's the primary use for the smartwatch you're looking for?",
+                "options": [
+                    "Fitness tracking",
+                    "General use (notifications, calls, etc.)",
+                    "Specialized use (diving, hiking, etc.)"
+                ]
+            },
+            {
+                "description": "Compatibility",
+                "importance": "3",
+                "inquiry": "Which smartphone operating system does the smartwatch need to be compatible with?",
+                "options": [
+                    "iOS",
+                    "Android",
+                    "Both"
+                ]
+            },
+            {
+                "description": "Brand preference",
+                "importance": "1",
+                "inquiry": "Do you have any brand preferences for the smartwatch?",
+                "options": [
+                    "Apple",
+                    "Samsung",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Specific features",
+                "importance": "1",
+                "inquiry": "Are there any specific features you're looking for in a smartwatch?",
+                "options": [
+                    "GPS",
+                    "Heart rate monitor",
+                    "Water resistance"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "72c9e7a6-75e7-460a-9bac-dd800f8d791f",
+        "category": "Cybersecurity",
+        "task": "Find information about the latest phishing scams.",
+        "missing_details": [
+            {
+                "description": "Type of phishing scams",
+                "importance": "2",
+                "inquiry": "What type of phishing scams are you interested in learning about?",
+                "options": [
+                    "Email phishing",
+                    "SMS phishing",
+                    "Social media phishing"
+                ]
+            },
+            {
+                "description": "Source of information",
+                "importance": "2",
+                "inquiry": "From which sources would you like to gather information on phishing scams?",
+                "options": [
+                    "Cybersecurity blogs",
+                    "Government reports",
+                    "Cybersecurity firms' releases"
+                ]
+            },
+            {
+                "description": "Purpose of information",
+                "importance": "2",
+                "inquiry": "What's the purpose of gathering information on these phishing scams?",
+                "options": [
+                    "For personal awareness",
+                    "For company briefing",
+                    "For educational content creation"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "0272000a-5682-4730-ae1e-2c1124e084d6",
+        "category": "Research and Development",
+        "task": "Investigate the significance of cherry blossoms in Japanese culture.",
+        "missing_details": [
+            {
+                "description": "Type of information needed",
+                "importance": "2",
+                "inquiry": "Could you specify what type of information you are looking for regarding cherry blossoms? For example, are you interested in historical background, current festivals, or symbolism in art and literature?",
+                "options": [
+                    "Historical background",
+                    "Current festivals",
+                    "Symbolism in art and literature"
+                ]
+            },
+            {
+                "description": "Depth of research",
+                "importance": "2",
+                "inquiry": "What level of detail are you expecting for this research? Are you looking for an in-depth academic analysis or a more general cultural overview?",
+                "options": [
+                    "In-depth academic analysis",
+                    "General cultural overview"
+                ]
+            },
+            {
+                "description": "Format of information",
+                "importance": "2",
+                "inquiry": "How would you like the information to be presented? Are you looking for a written report, an oral presentation, a video summary, or something else?",
+                "options": [
+                    "Written report",
+                    "Oral presentation",
+                    "Video summary"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bd8821d9-83e8-4307-9598-57e60cbe991c",
+        "category": "Fashion Industry",
+        "task": "Find the most popular men's fashion trends this spring.",
+        "missing_details": [
+            {
+                "description": "Metrics or sources to determine popularity",
+                "importance": "2",
+                "inquiry": "Could you specify what metrics or sources you'd like to use to define popularity? For example, are you interested in trends from social media, fashion magazines, or sales data?",
+                "options": [
+                    "Social media influence",
+                    "Fashion magazine features",
+                    "Sales data"
+                ]
+            },
+            {
+                "description": "User's personal style preferences",
+                "importance": "2",
+                "inquiry": "Do you have any specific personal style preferences that we should consider when finding fashion trends?",
+                "options": [
+                    "Streetwear",
+                    "Classic",
+                    "Athleisure"
+                ]
+            },
+            {
+                "description": "Geographic region",
+                "importance": "2",
+                "inquiry": "Which geographic region are you focusing on? Different regions may have varying trends due to climate and cultural differences.",
+                "options": [
+                    "North America",
+                    "Europe",
+                    "Asia"
+                ]
+            },
+            {
+                "description": "Specific fashion categories",
+                "importance": "2",
+                "inquiry": "Are you looking for trends in specific categories of men's fashion, such as casual wear, formal wear, or accessories?",
+                "options": [
+                    "Casual wear",
+                    "Formal wear",
+                    "Accessories"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "496eea60-cc33-4c3d-b026-3db2b1b2c414",
+        "category": "Education Planning",
+        "task": "Set up a study plan for my upcoming law school exams in two months.",
+        "missing_details": [
+            {
+                "description": "Specific subjects or topics for the exams",
+                "importance": "3",
+                "inquiry": "Which specific subjects or topics do you need to include in your study plan for the law school exams?",
+                "options": [
+                    "Constitutional Law",
+                    "Criminal Law",
+                    "Contracts"
+                ]
+            },
+            {
+                "description": "Preferred study methods",
+                "importance": "2",
+                "inquiry": "What are your preferred study methods or techniques that you'd like to incorporate into your study plan?",
+                "options": [
+                    "Reading and summarizing",
+                    "Practice exams",
+                    "Group study sessions"
+                ]
+            },
+            {
+                "description": "Time availability for study",
+                "importance": "3",
+                "inquiry": "How much time can you dedicate to studying each day or week?",
+                "options": [
+                    "2 hours a day",
+                    "5 hours a day",
+                    "Flexible schedule"
+                ]
+            },
+            {
+                "description": "Format of the exams",
+                "importance": "2",
+                "inquiry": "What is the format of the law school exams you're preparing for?",
+                "options": [
+                    "Multiple choice",
+                    "Essay",
+                    "Oral"
+                ]
+            },
+            {
+                "description": "Current level of preparation",
+                "importance": "2",
+                "inquiry": "How prepared do you feel currently for the exams, and which areas do you feel you need to focus on more?",
+                "options": [
+                    "Well-prepared and need to review",
+                    "Moderately prepared with some weak areas",
+                    "Need extensive preparation in most areas"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "0e108aab-851b-4da4-b8dd-abc7c4f47f7d",
+        "category": "Diet and Nutrition",
+        "task": "Find a healthy recipe for tonight's dinner.",
+        "missing_details": [
+            {
+                "description": "Dietary restrictions",
+                "importance": "2",
+                "inquiry": "Do you have any dietary restrictions or allergies I should be aware of when selecting a recipe?",
+                "options": [
+                    "Vegetarian",
+                    "Gluten-free",
+                    "No restrictions"
+                ]
+            },
+            {
+                "description": "Preferred cuisine",
+                "importance": "2",
+                "inquiry": "Is there a particular cuisine you're in the mood for tonight?",
+                "options": [
+                    "Italian",
+                    "Asian",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Cooking time",
+                "importance": "2",
+                "inquiry": "How much time do you have to prepare dinner tonight?",
+                "options": [
+                    "Less than 30 minutes",
+                    "30 to 60 minutes",
+                    "More than an hour"
+                ]
+            },
+            {
+                "description": "Complexity of the recipe",
+                "importance": "1",
+                "inquiry": "Are you looking for a simple recipe or are you up for a bit of a challenge?",
+                "options": [
+                    "Simple and easy",
+                    "Intermediate",
+                    "Complex"
+                ]
+            },
+            {
+                "description": "Specific nutritional goals",
+                "importance": "1",
+                "inquiry": "Are you following any specific nutritional goals, like low-carb or high-protein?",
+                "options": [
+                    "Low-carb",
+                    "High-protein",
+                    "No specific goals"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "25b63c31-e934-4446-b27e-11396fafe5b7",
+        "category": "Education and Research Resources",
+        "task": "Find out about the latest online learning platforms.",
+        "missing_details": [
+            {
+                "description": "Type of online learning platforms",
+                "importance": "2",
+                "inquiry": "Could you specify the type of online learning platforms you're interested in?",
+                "options": [
+                    "K-12 education",
+                    "Higher education",
+                    "Professional development"
+                ]
+            },
+            {
+                "description": "Geographic focus",
+                "importance": "2",
+                "inquiry": "Are you looking for platforms with a global reach or specific to a particular region?",
+                "options": [
+                    "Global platforms",
+                    "Region-specific platforms"
+                ]
+            },
+            {
+                "description": "Criteria for 'latest'",
+                "importance": "2",
+                "inquiry": "What do you mean by 'latest'? Are you interested in platforms that are newly launched or those that have recently updated their features?",
+                "options": [
+                    "Newly launched platforms",
+                    "Platforms with recent updates"
+                ]
+            },
+            {
+                "description": "User's purpose for the information",
+                "importance": "3",
+                "inquiry": "What's the purpose of finding out about these platforms? Are you looking to use them, invest in them, or something else?",
+                "options": [
+                    "Personal use",
+                    "Investment research",
+                    "Educational research"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "339d20af-d055-45da-8031-28c88662d135",
+        "category": "Health Management",
+        "task": "Develop a Python script that logs daily food intake and calculates nutritional information.",
+        "missing_details": [
+            {
+                "description": "Specific nutritional information to calculate",
+                "importance": "3",
+                "inquiry": "Could you specify which nutritional information you want the script to calculate?",
+                "options": [
+                    "Calories",
+                    "Macronutrients (proteins, fats, carbohydrates)",
+                    "Micronutrients (vitamins, minerals)"
+                ]
+            },
+            {
+                "description": "Preferred food intake logging format",
+                "importance": "2",
+                "inquiry": "What format should the food intake be logged in the script? Do you have any preferences?",
+                "options": [
+                    "Text file",
+                    "Spreadsheet (CSV)",
+                    "Database"
+                ]
+            },
+            {
+                "description": "User interface preferences",
+                "importance": "2",
+                "inquiry": "How would you like to interact with the script? Should it have a graphical user interface, command line interface, or is it meant to be incorporated into another system?",
+                "options": [
+                    "Graphical user interface",
+                    "Command line interface",
+                    "API for integration"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c2bbd0a7-095a-47c5-827b-f482f1fa30fe",
+        "category": "Home Gardening Tools",
+        "task": "Create a seasonal planting guide for temperate climates based on current month.",
+        "missing_details": [
+            {
+                "description": "Types of plants",
+                "importance": "2",
+                "inquiry": "What types of plants are you interested in for the planting guide?",
+                "options": [
+                    "Vegetables",
+                    "Flowers",
+                    "Trees & Shrubs"
+                ]
+            },
+            {
+                "description": "Specific temperate region",
+                "importance": "2",
+                "inquiry": "Could you specify the temperate region or country you're focusing on?",
+                "options": [
+                    "North America",
+                    "Europe",
+                    "East Asia"
+                ]
+            },
+            {
+                "description": "Inclusion of care instructions",
+                "importance": "2",
+                "inquiry": "Do you want the guide to include care instructions or just the planting times?",
+                "options": [
+                    "Care instructions",
+                    "Planting times only"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2da8dde9-2c5b-4894-8493-971d7a7906d9",
+        "category": "Data Analysis",
+        "task": "Analyze the latest trending hashtags on Twitter.",
+        "missing_details": [
+            {
+                "description": "Scope of analysis",
+                "importance": "3",
+                "inquiry": "Could you specify the scope of the analysis you're looking for? Are you interested in global trends or trends within a specific region or country?",
+                "options": [
+                    "Global",
+                    "Specific region",
+                    "Specific country"
+                ]
+            },
+            {
+                "description": "Purpose of analysis",
+                "importance": "2",
+                "inquiry": "What is the purpose of this analysis? Are you looking to understand general social media behavior, find topics for content creation, or something else?",
+                "options": [
+                    "Understanding social behavior",
+                    "Content creation",
+                    "Market research"
+                ]
+            },
+            {
+                "description": "Industry or topic focus",
+                "importance": "2",
+                "inquiry": "Do you have a particular industry or topic you are focusing on for this analysis?",
+                "options": [
+                    "Technology",
+                    "Entertainment",
+                    "Healthcare"
+                ]
+            },
+            {
+                "description": "End goal of analysis",
+                "importance": "3",
+                "inquiry": "What do you plan to do with the insights from this analysis? Is it for reporting, strategic planning, or engaging with trends?",
+                "options": [
+                    "Reporting",
+                    "Strategic planning",
+                    "Engaging with trends"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e81db994-05dd-4c37-896b-5456f054dbbc",
+        "category": "Remote Employment",
+        "task": "Suggest tools for effective team communication in a remote setting.",
+        "missing_details": [
+            {
+                "description": "Size of the team",
+                "importance": "2",
+                "inquiry": "How large is the team that will be using these communication tools?",
+                "options": [
+                    "Small (1-10 members)",
+                    "Medium (11-50 members)",
+                    "Large (50+ members)"
+                ]
+            },
+            {
+                "description": "Type of communication",
+                "importance": "2",
+                "inquiry": "What types of communication does your team primarily engage in?",
+                "options": [
+                    "Text-based (chat, email)",
+                    "Video/audio calls",
+                    "Project management and collaboration"
+                ]
+            },
+            {
+                "description": "Level of security required",
+                "importance": "2",
+                "inquiry": "What level of security is required for your team's communication tools?",
+                "options": [
+                    "Standard encryption",
+                    "Advanced security features",
+                    "Compliance with specific regulations (e.g., HIPAA, GDPR)"
+                ]
+            },
+            {
+                "description": "Existing tools in use",
+                "importance": "1",
+                "inquiry": "Are there any existing communication tools that your team is currently using?",
+                "options": [
+                    "Yes, we are using some tools already",
+                    "No, we are starting from scratch",
+                    "Not sure"
+                ]
+            },
+            {
+                "description": "Budget constraints",
+                "importance": "2",
+                "inquiry": "Are there any budget constraints for acquiring these communication tools?",
+                "options": [
+                    "Free or low-cost tools only",
+                    "Moderate budget",
+                    "No budget constraints"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6c31df02-29a7-40b6-a121-dfe1107583b0",
+        "category": "Music Education and Activities",
+        "task": "Find the next music festival happening in my city.",
+        "missing_details": [
+            {
+                "description": "city where the festival should be located",
+                "importance": "3",
+                "inquiry": "Could you tell me which city you're looking for music festivals in?",
+                "options": [
+                    "New York",
+                    "Los Angeles",
+                    "Chicago"
+                ]
+            },
+            {
+                "description": "music genre or artist preference",
+                "importance": "2",
+                "inquiry": "Do you have a preferred music genre or specific artists you're interested in for the festival?",
+                "options": [
+                    "Rock",
+                    "Electronic",
+                    "Indie"
+                ]
+            },
+            {
+                "description": "date or time frame",
+                "importance": "2",
+                "inquiry": "Is there a specific date or time frame you have in mind for attending the festival?",
+                "options": [
+                    "This month",
+                    "Next 3 months",
+                    "Summer season"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6f827638-f1a1-43fa-9071-5a036f2be34a",
+        "category": "Travel Tips",
+        "task": "Provide a list of affordable yet must-visit places in Southeast Asia for backpackers.",
+        "missing_details": [
+            {
+                "description": "specific budget range",
+                "importance": "2",
+                "inquiry": "Could you please specify your budget range for the places you'd like to visit?",
+                "options": [
+                    "Under $30 per day",
+                    "$30-$50 per day",
+                    "Over $50 per day"
+                ]
+            },
+            {
+                "description": "duration of the trip",
+                "importance": "2",
+                "inquiry": "How long is the trip you're planning?",
+                "options": [
+                    "Less than a week",
+                    "1-2 weeks",
+                    "More than 2 weeks"
+                ]
+            },
+            {
+                "description": "specific interests or types of places",
+                "importance": "2",
+                "inquiry": "What type of places are you interested in visiting? Cultural sites, natural wonders, urban areas, or a mix of everything?",
+                "options": [
+                    "Cultural sites",
+                    "Natural wonders",
+                    "Urban areas",
+                    "Mix of everything"
+                ]
+            },
+            {
+                "description": "information on accommodations and transportation",
+                "importance": "1",
+                "inquiry": "Do you need recommendations for accommodations and transportation as well, or just the places to visit?",
+                "options": [
+                    "Accommodations and transportation",
+                    "Just places to visit"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b3d7128a-690f-4616-8ce4-1cb68977838a",
+        "category": "Artificial Intelligence and Space Science",
+        "task": "Use the Python Notebook to execute a text summarization python code.",
+        "missing_details": [
+            {
+                "description": "Type of summarization",
+                "importance": "2",
+                "inquiry": "What type of text summarization would you like to perform, extractive or abstractive?",
+                "options": [
+                    "Extractive",
+                    "Abstractive"
+                ]
+            },
+            {
+                "description": "Source of text",
+                "importance": "2",
+                "inquiry": "From where will you be sourcing the text that needs to be summarized?",
+                "options": [
+                    "Document",
+                    "URL",
+                    "Manual Input"
+                ]
+            },
+            {
+                "description": "Length of summary",
+                "importance": "2",
+                "inquiry": "How long would you like the summary to be?",
+                "options": [
+                    "One sentence",
+                    "One paragraph",
+                    "Custom length"
+                ]
+            },
+            {
+                "description": "Libraries or tools preference",
+                "importance": "1",
+                "inquiry": "Do you have any preference for specific libraries or tools to use for text summarization in the Python Notebook?",
+                "options": [
+                    "NLTK",
+                    "spaCy",
+                    "Hugging Face Transformers"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8cd03e16-c4ec-4bb3-843e-6e867f1bd946",
+        "category": "Health Management",
+        "task": "Create a morning exercise routine for beginners.",
+        "missing_details": [
+            {
+                "description": "Type of exercises preferred",
+                "importance": "2",
+                "inquiry": "What type of exercises are you interested in including in your morning routine?",
+                "options": [
+                    "Cardiovascular exercises",
+                    "Strength training",
+                    "Flexibility and stretching"
+                ]
+            },
+            {
+                "description": "Duration of the exercise routine",
+                "importance": "2",
+                "inquiry": "How much time are you willing to dedicate to your morning exercise routine?",
+                "options": [
+                    "15-20 minutes",
+                    "30-45 minutes",
+                    "1 hour"
+                ]
+            },
+            {
+                "description": "User's fitness level",
+                "importance": "2",
+                "inquiry": "Could you describe your current fitness level or experience with exercise?",
+                "options": [
+                    "Complete beginner",
+                    "Some experience",
+                    "Regularly active"
+                ]
+            },
+            {
+                "description": "Specific health goals",
+                "importance": "2",
+                "inquiry": "Do you have any specific health or fitness goals you're aiming to achieve with this routine?",
+                "options": [
+                    "Weight loss",
+                    "Building muscle",
+                    "Improving flexibility"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4e81d33f-135a-4ae4-b56e-9dda5a2de82a",
+        "category": "Environmental Sciences",
+        "task": "Monitor the environment temperature, log the data, and alert if any abnormal value is detected.",
+        "missing_details": [
+            {
+                "description": "Frequency of environment temperature monitoring",
+                "importance": "2",
+                "inquiry": "How often would you like the environment temperature to be monitored?",
+                "options": [
+                    "Every minute",
+                    "Every 5 minutes",
+                    "Hourly"
+                ]
+            },
+            {
+                "description": "Definition of abnormal temperature value",
+                "importance": "3",
+                "inquiry": "What temperature range would you consider to be normal, and thus what should trigger an alert as an abnormal value?",
+                "options": [
+                    "Outside 20-25C",
+                    "Below 15C or above 30C",
+                    "Specific thresholds for different times of the day"
+                ]
+            },
+            {
+                "description": "Method of data logging",
+                "importance": "2",
+                "inquiry": "How would you prefer to log the temperature data?",
+                "options": [
+                    "In a local database",
+                    "On a cloud service",
+                    "In a spreadsheet"
+                ]
+            },
+            {
+                "description": "Preferred method of alerting",
+                "importance": "2",
+                "inquiry": "How should alerts be delivered when an abnormal value is detected?",
+                "options": [
+                    "Email notification",
+                    "SMS message",
+                    "In-app notification"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9c6acb9d-2129-428c-9c58-759b534a5e20",
+        "category": "Finance",
+        "task": "How can I save money on my monthly expenses?",
+        "missing_details": [
+            {
+                "description": "Details about current expenses",
+                "importance": "3",
+                "inquiry": "Could you please provide more details about your current monthly expenses? For example, how much are you spending on housing, utilities, food, transportation, and any other significant categories?",
+                "options": [
+                    "Housing, utilities, food, transportation",
+                    "Entertainment, insurance, loans, subscriptions"
+                ]
+            },
+            {
+                "description": "Budget or income information",
+                "importance": "2",
+                "inquiry": "Do you have a specific budget you're trying to adhere to, or could you share your income level? This information would help in determining realistic saving strategies for you.",
+                "options": [
+                    "Set budget amount",
+                    "Income range"
+                ]
+            },
+            {
+                "description": "Financial goals or saving targets",
+                "importance": "2",
+                "inquiry": "Do you have any specific financial goals or saving targets you're aiming for each month?",
+                "options": [
+                    "Save for a big purchase",
+                    "Build emergency fund",
+                    "General savings increase"
+                ]
+            },
+            {
+                "description": "Preferred savings methods",
+                "importance": "1",
+                "inquiry": "Are there any methods of saving you've already considered or prefer? For example, are you interested in using budgeting apps, cutting certain expenses, or increasing your income?",
+                "options": [
+                    "Using budgeting apps",
+                    "Cutting expenses",
+                    "Increasing income"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5ee21152-bee3-42b1-8870-aac43861558e",
+        "category": "Education and Research Resources",
+        "task": "Find resources for researching family history on the internet.",
+        "missing_details": [
+            {
+                "description": "Types of resources",
+                "importance": "2",
+                "inquiry": "What types of resources are you looking for to research your family history?",
+                "options": [
+                    "Databases",
+                    "Forums",
+                    "Tutorials"
+                ]
+            },
+            {
+                "description": "Experience level with genealogy",
+                "importance": "2",
+                "inquiry": "Could you tell me about your experience level with genealogical research?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Experienced"
+                ]
+            },
+            {
+                "description": "Specific regions or countries of interest",
+                "importance": "3",
+                "inquiry": "Are there specific regions or countries you're focusing on in your family history research?",
+                "options": [
+                    "North America",
+                    "Europe",
+                    "Asia"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dafcb0fd-0331-4064-a4b1-bb11996dd3bb",
+        "category": "Personal Improvement",
+        "task": "How do I take professional-looking photos with my smartphone?",
+        "missing_details": [
+            {
+                "description": "Type of photography interest",
+                "importance": "2",
+                "inquiry": "What type of photos are you looking to take with your smartphone? For example, are you interested in portrait, landscape, or product photography?",
+                "options": [
+                    "Portrait",
+                    "Landscape",
+                    "Product photography"
+                ]
+            },
+            {
+                "description": "Specific smartphone model",
+                "importance": "2",
+                "inquiry": "Can you tell me the model of your smartphone? Different models may have different camera capabilities.",
+                "options": [
+                    "iPhone (specify model)",
+                    "Samsung Galaxy (specify model)",
+                    "Other (specify model)"
+                ]
+            },
+            {
+                "description": "Photography skills or techniques of interest",
+                "importance": "2",
+                "inquiry": "Are there specific photography skills or techniques you would like to learn about, such as composition, lighting, or editing?",
+                "options": [
+                    "Composition",
+                    "Lighting",
+                    "Editing"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "fb4a6d25-9229-4ad3-acae-48c1f3b9ffd4",
+        "category": "Lifestyle Guides",
+        "task": "Find the most popular vegan recipes this month.",
+        "missing_details": [
+            {
+                "description": "Criteria for popularity",
+                "importance": "2",
+                "inquiry": "Could you please specify what criteria you'd like to use to determine the popularity of the vegan recipes?",
+                "options": [
+                    "Number of social media likes",
+                    "Website ratings",
+                    "Number of times downloaded"
+                ]
+            },
+            {
+                "description": "Type of cuisine",
+                "importance": "2",
+                "inquiry": "Are you looking for a specific type of cuisine for the vegan recipes?",
+                "options": [
+                    "Italian",
+                    "Mexican",
+                    "Asian"
+                ]
+            },
+            {
+                "description": "Source of recipes",
+                "importance": "2",
+                "inquiry": "Where would you like me to source these popular vegan recipes from?",
+                "options": [
+                    "Food blogs",
+                    "Social media platforms",
+                    "Vegan-specific recipe websites"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "06a2f251-5b90-4326-8742-f04b44db0dd0",
+        "category": "Research and Development",
+        "task": "Compare the fuel efficiency and maintenance costs of the latest hybrid cars.",
+        "missing_details": [
+            {
+                "description": "Specific models or brands to compare",
+                "importance": "3",
+                "inquiry": "Could you specify which hybrid car models or brands you're interested in comparing?",
+                "options": [
+                    "Toyota Prius, Honda Insight",
+                    "Hyundai Ioniq, Kia Niro",
+                    "Ford Fusion Hybrid, Chevrolet Volt"
+                ]
+            },
+            {
+                "description": "Definition of 'latest'",
+                "importance": "2",
+                "inquiry": "What do you consider as 'latest' models? Are you referring to the current year, last two years, or another range?",
+                "options": [
+                    "Current year models only",
+                    "Models from the last two years",
+                    "Models from the last five years"
+                ]
+            },
+            {
+                "description": "Geographic region for maintenance costs",
+                "importance": "2",
+                "inquiry": "For maintenance costs, does a specific geographic region apply, or should the comparison be general?",
+                "options": [
+                    "United States",
+                    "Europe",
+                    "General/International"
+                ]
+            },
+            {
+                "description": "Price range preference",
+                "importance": "1",
+                "inquiry": "Do you have a price range in mind for the hybrid cars you'd like to compare?",
+                "options": [
+                    "Under $25,000",
+                    "$25,000 to $40,000",
+                    "Above $40,000"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "705dbe4e-366f-4618-aff1-85fef9f67fc1",
+        "category": "Technology News and Reviews",
+        "task": "What's new in the world of smartphones?",
+        "missing_details": [
+            {
+                "description": "Specific aspect of smartphone technology",
+                "importance": "2",
+                "inquiry": "Could you specify which aspect of smartphone technology you're interested in?",
+                "options": [
+                    "New models and designs",
+                    "Software and operating system updates",
+                    "Innovative features and capabilities"
+                ]
+            },
+            {
+                "description": "Time frame for 'new'",
+                "importance": "2",
+                "inquiry": "What time frame are you considering for 'what's new' in smartphones?",
+                "options": [
+                    "Last 3 months",
+                    "Last 6 months",
+                    "Within the last year"
+                ]
+            },
+            {
+                "description": "Interest in specific brands or operating systems",
+                "importance": "1",
+                "inquiry": "Are you interested in updates from specific brands or operating systems?",
+                "options": [
+                    "Any brand or OS",
+                    "Android devices",
+                    "iOS devices"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5cf93c2e-57c1-4f4d-ae2a-fa0b23276bbf",
+        "category": "Detective Work",
+        "task": "Check if an email address is associated with spam activities.",
+        "missing_details": [
+            {
+                "description": "Specific email address to investigate",
+                "importance": "3",
+                "inquiry": "Could you please provide the specific email address you want to investigate for spam activities?",
+                "options": [
+                    "Example: user@example.com",
+                    "Example: contact@domain.com"
+                ]
+            },
+            {
+                "description": "Type of spam activities of concern",
+                "importance": "2",
+                "inquiry": "What type of spam activities are you concerned about with this email address?",
+                "options": [
+                    "Phishing attempts",
+                    "Unsolicited marketing",
+                    "Malware distribution"
+                ]
+            },
+            {
+                "description": "Preferred investigation methods or resources",
+                "importance": "2",
+                "inquiry": "Do you have any preferred methods or resources for us to use in this investigation?",
+                "options": [
+                    "Online reputation check services",
+                    "Email blacklist databases",
+                    "Manual analysis of email headers and content"
+                ]
+            },
+            {
+                "description": "Actions to take if the email is associated with spam",
+                "importance": "2",
+                "inquiry": "What actions would you like to be taken if the email address is found to be associated with spam activities?",
+                "options": [
+                    "Report to authorities",
+                    "Block the email address",
+                    "Monitor for further activities"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "35a052fc-d329-47a2-9543-1761a1b62ef7",
+        "category": "Linguistics",
+        "task": "Help me improve my Spanish speaking abilities.",
+        "missing_details": [
+            {
+                "description": "Current level of Spanish speaking abilities",
+                "importance": "3",
+                "inquiry": "What is your current level of Spanish speaking abilities?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Desired level of proficiency",
+                "importance": "2",
+                "inquiry": "What level of proficiency in Spanish speaking are you aiming for?",
+                "options": [
+                    "Conversational fluency",
+                    "Business proficiency",
+                    "Full fluency"
+                ]
+            },
+            {
+                "description": "Preferred methods of learning",
+                "importance": "2",
+                "inquiry": "How do you prefer to learn and practice your Spanish speaking skills?",
+                "options": [
+                    "Online courses",
+                    "Private tutoring",
+                    "Language exchange with native speakers"
+                ]
+            },
+            {
+                "description": "Time frame for improvement",
+                "importance": "2",
+                "inquiry": "By when do you want to see improvement in your Spanish speaking abilities?",
+                "options": [
+                    "Within 3 months",
+                    "3 to 6 months",
+                    "More than 6 months"
+                ]
+            },
+            {
+                "description": "Specific areas of focus",
+                "importance": "2",
+                "inquiry": "Are there specific areas of Spanish speaking you want to focus on improving?",
+                "options": [
+                    "Vocabulary",
+                    "Grammar",
+                    "Pronunciation"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5fb1d92d-4ff1-410b-a114-1ae701d6f2ab",
+        "category": "Technology Insights",
+        "task": "Keep me updated on the latest breakthroughs in renewable energy technology.",
+        "missing_details": [
+            {
+                "description": "Frequency of updates",
+                "importance": "2",
+                "inquiry": "How often would you like to receive updates on renewable energy breakthroughs?",
+                "options": [
+                    "Daily",
+                    "Weekly",
+                    "Monthly"
+                ]
+            },
+            {
+                "description": "Type of renewable energy technologies",
+                "importance": "2",
+                "inquiry": "Are there specific types of renewable energy technologies you're particularly interested in?",
+                "options": [
+                    "Solar power",
+                    "Wind power",
+                    "Hydroelectric power"
+                ]
+            },
+            {
+                "description": "Preferred sources or level of detail",
+                "importance": "2",
+                "inquiry": "Do you have any preferred sources for this information, or a specific level of detail you're looking for?",
+                "options": [
+                    "Scientific journals",
+                    "Mainstream media",
+                    "Industry reports"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "83db5d3e-1b64-480a-b9af-59664f07780c",
+        "category": "Software Development",
+        "task": "Create a markdown document that documents the steps to install Python on a new system.",
+        "missing_details": [
+            {
+                "description": "Operating system for which the guide is intended",
+                "importance": "3",
+                "inquiry": "Could you please specify the operating system for which you need the Python installation guide?",
+                "options": [
+                    "Windows",
+                    "macOS",
+                    "Linux"
+                ]
+            },
+            {
+                "description": "Python version to install",
+                "importance": "2",
+                "inquiry": "Which version of Python would you like to install?",
+                "options": [
+                    "Python 2.x",
+                    "Python 3.x"
+                ]
+            },
+            {
+                "description": "Preference for package manager",
+                "importance": "1",
+                "inquiry": "Do you have a preference for a specific package manager to use for the installation?",
+                "options": [
+                    "apt (for Debian-based Linux)",
+                    "brew (for macOS)",
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "aad283ed-5a1f-4062-ab17-7aa8c53dac64",
+        "category": "Technology News and Reviews",
+        "task": "Compare the latest models of hybrid laptops on the market in terms of performance and price.",
+        "missing_details": [
+            {
+                "description": "Specific models or brands to compare",
+                "importance": "3",
+                "inquiry": "Could you specify which models or brands of hybrid laptops you're interested in comparing?",
+                "options": [
+                    "Dell XPS, HP Spectre, Microsoft Surface",
+                    "Lenovo Yoga, Asus ZenBook, Acer Spin",
+                    "Apple MacBook, Google Pixelbook, Samsung Galaxy Book"
+                ]
+            },
+            {
+                "description": "Aspects of performance to focus on",
+                "importance": "2",
+                "inquiry": "Which aspects of performance are you most interested in comparing (e.g., processor speed, graphics capabilities, battery life)?",
+                "options": [
+                    "Processor speed, RAM, storage",
+                    "Graphics capabilities, display quality, build material",
+                    "Battery life, portability, input devices"
+                ]
+            },
+            {
+                "description": "Price range or budget",
+                "importance": "2",
+                "inquiry": "Do you have a specific price range or budget in mind for the laptops you want to compare?",
+                "options": [
+                    "Under $1000",
+                    "$1000 - $1500",
+                    "Above $1500"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1bba8a67-53a8-4191-bb9b-58c1dc77da47",
+        "category": "Programming Challenges",
+        "task": "Write a Python script that sorts images based on their content.",
+        "missing_details": [
+            {
+                "description": "Criteria for sorting images",
+                "importance": "3",
+                "inquiry": "Could you specify the criteria you'd like to use for sorting the images based on their content?",
+                "options": [
+                    "Sort by object presence",
+                    "Sort by dominant color",
+                    "Sort by scene type"
+                ]
+            },
+            {
+                "description": "Source of images",
+                "importance": "2",
+                "inquiry": "Where will the images be sourced from? Is there a specific directory, database, or online source?",
+                "options": [
+                    "Local directory",
+                    "Database",
+                    "Online source"
+                ]
+            },
+            {
+                "description": "Output format",
+                "importance": "2",
+                "inquiry": "What output format do you prefer for the sorted images? Should they remain in their original format, be categorized into folders, or something else?",
+                "options": [
+                    "Categorized into folders",
+                    "Annotated in a CSV file",
+                    "Remain in original format"
+                ]
+            },
+            {
+                "description": "Preferred libraries or methods",
+                "importance": "2",
+                "inquiry": "Do you have any preferred libraries or methods that should be used for processing the images?",
+                "options": [
+                    "OpenCV",
+                    "Pillow",
+                    "TensorFlow or PyTorch for deep learning methods"
+                ]
+            },
+            {
+                "description": "Level of accuracy expected",
+                "importance": "2",
+                "inquiry": "What level of accuracy are you expecting for the image sorting?",
+                "options": [
+                    "High accuracy with manual verification",
+                    "Moderate accuracy for general sorting",
+                    "Low accuracy for a prototype or proof of concept"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1f4468af-5536-47ad-9ae0-062ce00a3ba6",
+        "category": "Travel Tips",
+        "task": "Identify the best time to visit Australia for beach activities.",
+        "missing_details": [
+            {
+                "description": "Weather preferences for beach activities",
+                "importance": "2",
+                "inquiry": "What kind of weather do you prefer for beach activities?",
+                "options": [
+                    "Hot and sunny",
+                    "Warm but not too hot",
+                    "Mild temperatures with less sun"
+                ]
+            },
+            {
+                "description": "Crowd preferences at the beach",
+                "importance": "2",
+                "inquiry": "Do you prefer beaches that are less crowded or don't mind the crowd?",
+                "options": [
+                    "Quiet and secluded",
+                    "Lively with some people around",
+                    "Don't mind if it's crowded"
+                ]
+            },
+            {
+                "description": "Specific regions in Australia",
+                "importance": "2",
+                "inquiry": "Are there any specific regions or cities in Australia you're interested in for beach activities?",
+                "options": [
+                    "East Coast (e.g., Sydney, Gold Coast)",
+                    "West Coast (e.g., Perth, Broome)",
+                    "No specific preference"
+                ]
+            },
+            {
+                "description": "Budget considerations",
+                "importance": "1",
+                "inquiry": "Do you have any budget considerations for your trip to Australia?",
+                "options": [
+                    "Looking for budget-friendly options",
+                    "Willing to spend for a premium experience",
+                    "No specific budget in mind"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6f1e0c5a-f45c-4d61-bbf7-7fc739bc1b7a",
+        "category": "Lifestyle Guides",
+        "task": "Craft a vegetarian meal plan for one week that includes all essential nutrients.",
+        "missing_details": [
+            {
+                "description": "Caloric needs",
+                "importance": "3",
+                "inquiry": "What is your daily caloric intake goal for this meal plan?",
+                "options": [
+                    "1200-1500 calories",
+                    "1500-2000 calories",
+                    "2000-2500 calories"
+                ]
+            },
+            {
+                "description": "Specific type of vegetarian diet",
+                "importance": "2",
+                "inquiry": "Are you following any specific type of vegetarian diet, such as lacto, ovo, or vegan?",
+                "options": [
+                    "Lacto-vegetarian",
+                    "Ovo-vegetarian",
+                    "Vegan"
+                ]
+            },
+            {
+                "description": "Meal variety preferences",
+                "importance": "2",
+                "inquiry": "Do you prefer a variety of meals throughout the week or a simple plan with repeated meals?",
+                "options": [
+                    "A variety of meals",
+                    "Simple plan with repeated meals"
+                ]
+            },
+            {
+                "description": "Budget constraints",
+                "importance": "2",
+                "inquiry": "Do you have a budget range for your weekly groceries?",
+                "options": [
+                    "No budget constraints",
+                    "$30-$50",
+                    "$50-$70"
+                ]
+            },
+            {
+                "description": "Cooking time preferences",
+                "importance": "2",
+                "inquiry": "How much time are you willing to spend preparing each meal?",
+                "options": [
+                    "Under 30 minutes",
+                    "30-60 minutes",
+                    "Over an hour"
+                ]
+            },
+            {
+                "description": "Allergies or intolerances",
+                "importance": "3",
+                "inquiry": "Do you have any food allergies or intolerances we should be aware of when crafting your meal plan?",
+                "options": [
+                    "No allergies",
+                    "Gluten intolerance",
+                    "Nut allergy"
+                ]
+            },
+            {
+                "description": "Number of meals and snacks",
+                "importance": "2",
+                "inquiry": "How many meals and snacks do you plan on having each day?",
+                "options": [
+                    "3 meals, no snacks",
+                    "3 meals with snacks",
+                    "5 smaller meals"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7a955b64-7dd6-4a52-8a76-99c30e3482e4",
+        "category": "Data Analysis",
+        "task": "Help me create a monthly budget plan to save for a new car.",
+        "missing_details": [
+            {
+                "description": "Current financial situation",
+                "importance": "3",
+                "inquiry": "Could you tell me more about your current financial situation? For example, do you have any existing savings or debts?",
+                "options": [
+                    "I have some savings and no debt",
+                    "I have no savings and some debt",
+                    "I have both savings and debt"
+                ]
+            },
+            {
+                "description": "Target amount for the new car",
+                "importance": "3",
+                "inquiry": "What is the target amount you're aiming to save for the new car?",
+                "options": [
+                    "Under $20,000",
+                    "Between $20,000 and $35,000",
+                    "Above $35,000"
+                ]
+            },
+            {
+                "description": "Timeline for savings",
+                "importance": "2",
+                "inquiry": "By when do you want to purchase the new car? This will help determine the monthly savings needed.",
+                "options": [
+                    "Within 1 year",
+                    "1 to 2 years",
+                    "More than 2 years"
+                ]
+            },
+            {
+                "description": "Monthly income and expenses",
+                "importance": "3",
+                "inquiry": "What is your monthly income, and what are your regular monthly expenses?",
+                "options": [
+                    "Income under $3,000, varying expenses",
+                    "Income $3,000 to $5,000, fixed expenses",
+                    "Income above $5,000, high expenses"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a2618f7b-183a-4be0-8e52-c60dcb98d09e",
+        "category": "Finance",
+        "task": "Determine the average cost of living in New York City.",
+        "missing_details": [
+            {
+                "description": "Time frame for average cost data",
+                "importance": "2",
+                "inquiry": "What time frame are you looking for when asking about the average cost of living? For example, are you interested in the current year, last year, or a multi-year average?",
+                "options": [
+                    "Current year",
+                    "Last year",
+                    "Multi-year average"
+                ]
+            },
+            {
+                "description": "Specific categories of cost",
+                "importance": "2",
+                "inquiry": "Are you interested in specific categories of the cost of living such as housing, transportation, groceries, or utilities?",
+                "options": [
+                    "Housing",
+                    "Transportation",
+                    "Groceries",
+                    "Utilities",
+                    "All categories"
+                ]
+            },
+            {
+                "description": "Preference for a specific borough or neighborhood",
+                "importance": "2",
+                "inquiry": "Do you have a preference for a specific borough or neighborhood in New York City, or are you looking for a general average across the whole city?",
+                "options": [
+                    "Specific borough (e.g., Manhattan, Brooklyn)",
+                    "Specific neighborhood (please specify)",
+                    "General average for the whole city"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7a63951a-4f7a-43af-abc2-324987db2bab",
+        "category": "Culinary Exploration",
+        "task": "I'm hosting a vegan dinner party this weekend, can you suggest a three-course meal with recipes?",
+        "missing_details": [
+            {
+                "description": "Number of guests",
+                "importance": "2",
+                "inquiry": "How many guests are you expecting for your vegan dinner party?",
+                "options": [
+                    "4-6",
+                    "7-10",
+                    "More than 10"
+                ]
+            },
+            {
+                "description": "Dietary restrictions or allergies",
+                "importance": "3",
+                "inquiry": "Do any of your guests have specific dietary restrictions or allergies I should be aware of?",
+                "options": [
+                    "Gluten-free",
+                    "Nut allergy",
+                    "No specific restrictions"
+                ]
+            },
+            {
+                "description": "Cuisine preference",
+                "importance": "2",
+                "inquiry": "Do you have a preference for a particular cuisine style for the dinner party?",
+                "options": [
+                    "Italian",
+                    "Asian",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Level of cooking difficulty",
+                "importance": "2",
+                "inquiry": "What level of cooking difficulty are you comfortable with for preparing the meal?",
+                "options": [
+                    "Simple and easy",
+                    "Moderately challenging",
+                    "Advanced culinary skills"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dc88a6aa-b44d-4d68-a1c2-5b18ea547a2b",
+        "category": "Music Education and Activities",
+        "task": "Discover upcoming electronic music festivals I could attend this summer.",
+        "missing_details": [
+            {
+                "description": "Location preference",
+                "importance": "2",
+                "inquiry": "Which regions or countries are you considering for attending an electronic music festival?",
+                "options": [
+                    "Local area",
+                    "Anywhere in my country",
+                    "International"
+                ]
+            },
+            {
+                "description": "Budget",
+                "importance": "2",
+                "inquiry": "Do you have a budget in mind for the festival, including tickets, travel, and accommodations?",
+                "options": [
+                    "Economy",
+                    "Mid-range",
+                    "No budget limit"
+                ]
+            },
+            {
+                "description": "Specific dates",
+                "importance": "2",
+                "inquiry": "Are there specific dates or a particular month this summer when you would like to attend a festival?",
+                "options": [
+                    "June",
+                    "July",
+                    "August"
+                ]
+            },
+            {
+                "description": "Artist or style preference",
+                "importance": "1",
+                "inquiry": "Are you looking for festivals featuring any specific artists or styles of electronic music?",
+                "options": [
+                    "Specific artists",
+                    "Certain styles",
+                    "No preference"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "75be4ab1-82f2-4986-a17a-e5619bbcb4f3",
+        "category": "Literature Analysis",
+        "task": "Summarize the main themes of the latest Pulitzer Prize-winning novel.",
+        "missing_details": [
+            {
+                "description": "Specific year or name of the Pulitzer Prize-winning novel",
+                "importance": "3",
+                "inquiry": "Could you please specify which year's Pulitzer Prize-winning novel you would like me to summarize, or the name of the novel if you know it?",
+                "options": [
+                    "The most recent winner as of 2023",
+                    "The winner from a specific year (please specify the year)",
+                    "The name of the novel, if known"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b66bfdc8-c793-49ba-8d5c-21b5449a7417",
+        "category": "Art Education",
+        "task": "I'm interested in graphic design, can you show me how to create a basic logo using a free online tool?",
+        "missing_details": [
+            {
+                "description": "Preferred style or theme for the logo",
+                "importance": "2",
+                "inquiry": "What kind of style or theme do you have in mind for your logo?",
+                "options": [
+                    "Minimalist",
+                    "Vintage",
+                    "Modern"
+                ]
+            },
+            {
+                "description": "Specific online tool preference",
+                "importance": "2",
+                "inquiry": "Do you have any specific free online tool in mind that you'd like to use for creating the logo?",
+                "options": [
+                    "Canva",
+                    "Gravit Designer",
+                    "Vectr"
+                ]
+            },
+            {
+                "description": "User's skill level",
+                "importance": "2",
+                "inquiry": "Could you let me know your current skill level in graphic design?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Experienced"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b1ed84c1-8bf6-4a42-8a84-0a4c8bb5ba2c",
+        "category": "Beverage",
+        "task": "Find the recipe of the world's best cocktails.",
+        "missing_details": [
+            {
+                "description": "Criteria for 'world's best'",
+                "importance": "3",
+                "inquiry": "What criteria should we use to define the 'world's best' cocktails? Are you looking for award-winning cocktails, popularity, expert opinions, or something else?",
+                "options": [
+                    "Award-winning",
+                    "Most popular",
+                    "Expert recommended"
+                ]
+            },
+            {
+                "description": "Type of cocktails",
+                "importance": "2",
+                "inquiry": "Are you interested in a specific type of cocktails, such as classic, modern, or based on a specific ingredient?",
+                "options": [
+                    "Classic",
+                    "Modern",
+                    "Specific ingredient"
+                ]
+            },
+            {
+                "description": "Source or authority",
+                "importance": "2",
+                "inquiry": "Do you have a preferred source or authority that you trust for cocktail recipes, such as a famous bartender or a reputable website?",
+                "options": [
+                    "Famous bartender",
+                    "Reputable website",
+                    "Cocktail competition"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "007d5585-e465-4fd6-8a01-f6d7d44d80fa",
+        "category": "Health Management",
+        "task": "Monitor my daily steps and alert me if I fall below a certain threshold.",
+        "missing_details": [
+            {
+                "description": "Threshold for daily steps",
+                "importance": "3",
+                "inquiry": "What is the specific threshold of daily steps you would like to set for the alert?",
+                "options": [
+                    "5,000 steps",
+                    "10,000 steps",
+                    "15,000 steps"
+                ]
+            },
+            {
+                "description": "Alert method preference",
+                "importance": "2",
+                "inquiry": "How would you like to be alerted when you fall below the daily step threshold?",
+                "options": [
+                    "Smartphone notification",
+                    "Email",
+                    "SMS text message"
+                ]
+            },
+            {
+                "description": "Health tracking device or app preference",
+                "importance": "2",
+                "inquiry": "Do you have a preference for a specific health tracking device or app to monitor your steps?",
+                "options": [
+                    "Fitbit",
+                    "Apple Health",
+                    "Google Fit"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c4b66996-f334-4e72-82d7-8e691e91766d",
+        "category": "Fashion Industry",
+        "task": "Predict the upcoming summer fashion trends using recent search data.",
+        "missing_details": [
+            {
+                "description": "Geographical region or market",
+                "importance": "3",
+                "inquiry": "Could you specify the geographical region or market for which you'd like the summer fashion trends to be predicted?",
+                "options": [
+                    "North America",
+                    "Europe",
+                    "Asia"
+                ]
+            },
+            {
+                "description": "Data sources",
+                "importance": "2",
+                "inquiry": "Which sources of search data would you like to use for the prediction?",
+                "options": [
+                    "Google Trends",
+                    "Social media platforms",
+                    "Fashion retail websites"
+                ]
+            },
+            {
+                "description": "Time frame for search data",
+                "importance": "2",
+                "inquiry": "What time frame should the search data cover for the analysis?",
+                "options": [
+                    "Last 3 months",
+                    "Last 6 months",
+                    "Last year"
+                ]
+            },
+            {
+                "description": "Type of fashion trends",
+                "importance": "2",
+                "inquiry": "What type of fashion trends are you interested in predicting?",
+                "options": [
+                    "Clothing styles",
+                    "Accessories",
+                    "Color schemes"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c089f7a1-1ce6-47d9-be85-5edf533c6daf",
+        "category": "Cybersecurity",
+        "task": "Detect network vulnerabilities using Python scripts.",
+        "missing_details": [
+            {
+                "description": "Type of network to be tested",
+                "importance": "3",
+                "inquiry": "Could you specify the type of network you're looking to test for vulnerabilities?",
+                "options": [
+                    "Web application",
+                    "Local area network (LAN)",
+                    "Wide area network (WAN)"
+                ]
+            },
+            {
+                "description": "Specific vulnerabilities to look for",
+                "importance": "2",
+                "inquiry": "Are there any specific vulnerabilities you're interested in detecting?",
+                "options": [
+                    "SQL injection",
+                    "Cross-site scripting (XSS)",
+                    "Denial of service (DoS)"
+                ]
+            },
+            {
+                "description": "Level of intrusiveness",
+                "importance": "2",
+                "inquiry": "What level of intrusiveness should the penetration testing have?",
+                "options": [
+                    "Non-intrusive scanning",
+                    "Intrusive testing"
+                ]
+            },
+            {
+                "description": "Scope of the network",
+                "importance": "3",
+                "inquiry": "What is the scope of the network you want to test? Do you have any particular targets within the network?",
+                "options": [
+                    "Entire network",
+                    "Specific devices or systems",
+                    "Public-facing services"
+                ]
+            },
+            {
+                "description": "Python tools or libraries",
+                "importance": "2",
+                "inquiry": "Are you looking for recommendations on Python tools or libraries for vulnerability detection, or do you have any preferred ones?",
+                "options": [
+                    "Recommend tools",
+                    "Use preferred tools (please specify)"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "be4c1b08-6f30-4745-9ad4-0240c8e8b51d",
+        "category": "Health Management",
+        "task": "Locate the nearest yoga class with the best reviews in my city.",
+        "missing_details": [
+            {
+                "description": "User's city",
+                "importance": "3",
+                "inquiry": "Could you tell me which city you are located in?",
+                "options": [
+                    "New York",
+                    "Los Angeles",
+                    "Chicago"
+                ]
+            },
+            {
+                "description": "Distance willing to travel",
+                "importance": "2",
+                "inquiry": "How far are you willing to travel for the yoga class?",
+                "options": [
+                    "Within 5 miles",
+                    "5-10 miles",
+                    "More than 10 miles"
+                ]
+            },
+            {
+                "description": "Criteria for best reviews",
+                "importance": "2",
+                "inquiry": "What do you consider as the 'best reviews'? Are you looking for a certain star rating or number of positive reviews?",
+                "options": [
+                    "4+ stars",
+                    "Mostly positive reviews",
+                    "Top-rated in the last 6 months"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "34eda757-158e-4bf7-8ea9-0ce1dfdd53f1",
+        "category": "Education Planning",
+        "task": "Create a study schedule for my upcoming CPA exams.",
+        "missing_details": [
+            {
+                "description": "Available time for studying",
+                "importance": "3",
+                "inquiry": "How many hours per week are you able to dedicate to studying for your CPA exams?",
+                "options": [
+                    "5-10 hours",
+                    "10-20 hours",
+                    "20+ hours"
+                ]
+            },
+            {
+                "description": "Exam dates",
+                "importance": "3",
+                "inquiry": "When are your CPA exam dates scheduled?",
+                "options": [
+                    "Within the next month",
+                    "1-2 months from now",
+                    "More than 2 months away"
+                ]
+            },
+            {
+                "description": "Subjects or areas of focus",
+                "importance": "2",
+                "inquiry": "Are there specific subjects or areas within the CPA exams that you want to focus on more intensively?",
+                "options": [
+                    "Financial Accounting and Reporting (FAR)",
+                    "Auditing and Attestation (AUD)",
+                    "Regulation (REG)",
+                    "Business Environment and Concepts (BEC)"
+                ]
+            },
+            {
+                "description": "Preferred study methods or resources",
+                "importance": "2",
+                "inquiry": "Do you have any preferred study methods or resources that you would like to incorporate into your study schedule?",
+                "options": [
+                    "Video lectures",
+                    "Practice questions",
+                    "Reading textbooks/materials"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b6feeb89-39f3-400e-96b2-f5a5027813ab",
+        "category": "Health Management",
+        "task": "What are the natural remedies to improve sleep quality?",
+        "missing_details": [
+            {
+                "description": "Specific sleep issues",
+                "importance": "2",
+                "inquiry": "Could you specify the sleep issues you're experiencing? For example, are you having trouble falling asleep, staying asleep, or something else?",
+                "options": [
+                    "Trouble falling asleep",
+                    "Waking up frequently",
+                    "Restless sleep"
+                ]
+            },
+            {
+                "description": "Preferences or restrictions",
+                "importance": "2",
+                "inquiry": "Do you have any specific preferences or restrictions for natural remedies, such as allergies or existing health conditions?",
+                "options": [
+                    "Allergies to certain herbs",
+                    "Pregnancy",
+                    "No restrictions"
+                ]
+            },
+            {
+                "description": "Type of natural remedies",
+                "importance": "2",
+                "inquiry": "Are you looking for dietary, lifestyle, or herbal remedies to improve your sleep quality?",
+                "options": [
+                    "Dietary remedies",
+                    "Lifestyle changes",
+                    "Herbal supplements"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "87210f8a-baf8-4a11-9439-09c3fb0f00e8",
+        "category": "Technology Insights",
+        "task": "Write a review comparing the latest models of Android and iOS smartphones.",
+        "missing_details": [
+            {
+                "description": "Specific models to compare",
+                "importance": "3",
+                "inquiry": "Could you please specify which latest models of Android and iOS smartphones you would like to compare?",
+                "options": [
+                    "Samsung Galaxy S22 vs. iPhone 13",
+                    "Google Pixel 6 vs. iPhone 13",
+                    "OnePlus 9 Pro vs. iPhone 13"
+                ]
+            },
+            {
+                "description": "Aspects to focus on in the comparison",
+                "importance": "2",
+                "inquiry": "What specific aspects of the smartphones would you like the review to focus on?",
+                "options": [
+                    "Camera quality",
+                    "Battery life",
+                    "Performance and speed"
+                ]
+            },
+            {
+                "description": "Format or length of the review",
+                "importance": "1",
+                "inquiry": "Is there a particular format or length requirement for the review?",
+                "options": [
+                    "Detailed comparison with pros and cons",
+                    "Brief overview with key highlights",
+                    "In-depth analysis with technical specifications"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4672bf29-13fa-4768-9daa-7e9967c6cdc5",
+        "category": "Gastronomy",
+        "task": "Find a popular recipe for Mexican Tacos.",
+        "missing_details": [
+            {
+                "description": "Type of tacos",
+                "importance": "2",
+                "inquiry": "What type of tacos are you interested in?",
+                "options": [
+                    "Beef",
+                    "Chicken",
+                    "Vegetarian"
+                ]
+            },
+            {
+                "description": "Dietary restrictions",
+                "importance": "2",
+                "inquiry": "Do you have any dietary restrictions we should be aware of while searching for a taco recipe?",
+                "options": [
+                    "Gluten-free",
+                    "Dairy-free",
+                    "No restrictions"
+                ]
+            },
+            {
+                "description": "Preferred level of spiciness",
+                "importance": "1",
+                "inquiry": "How spicy do you like your tacos?",
+                "options": [
+                    "Mild",
+                    "Medium",
+                    "Hot"
+                ]
+            },
+            {
+                "description": "Traditional or modern recipe",
+                "importance": "1",
+                "inquiry": "Are you looking for a traditional Mexican taco recipe or something with a modern twist?",
+                "options": [
+                    "Traditional",
+                    "Modern",
+                    "No preference"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "06c2b5dd-7750-4cb6-8aad-1ff6554b98fb",
+        "category": "Music Education and Activities",
+        "task": "Teach me how to read sheet music for the piano.",
+        "missing_details": [
+            {
+                "description": "User's current level of knowledge in reading sheet music",
+                "importance": "3",
+                "inquiry": "Can you tell me about your current experience with reading sheet music? Are you a beginner, intermediate, or do you have some familiarity?",
+                "options": [
+                    "Beginner - no experience",
+                    "Intermediate - some experience but not confident",
+                    "Familiar - I can read music but want to improve"
+                ]
+            },
+            {
+                "description": "Preferred pace of learning",
+                "importance": "2",
+                "inquiry": "How quickly are you looking to learn to read sheet music? Do you prefer a fast-paced learning environment or a more gradual approach?",
+                "options": [
+                    "Fast-paced - I want to learn quickly",
+                    "Gradual - I prefer to take my time to understand fully"
+                ]
+            },
+            {
+                "description": "Preferred learning method",
+                "importance": "2",
+                "inquiry": "Do you have a preferred learning method? For example, do you like to learn by watching videos, listening to explanations, or practicing hands-on?",
+                "options": [
+                    "Visual - through videos and diagrams",
+                    "Auditory - through explanations and listening",
+                    "Kinesthetic - through hands-on practice and exercises"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7258124f-7867-4f9d-b67c-2a1fc675c8c6",
+        "category": "Project Management",
+        "task": "Generate a list of novel and creative tasks.",
+        "missing_details": [
+            {
+                "description": "Context or domain for the tasks",
+                "importance": "3",
+                "inquiry": "Could you please specify the context or domain for which you would like to generate novel and creative tasks?",
+                "options": [
+                    "Personal development",
+                    "Work-related activities",
+                    "Entertainment"
+                ]
+            },
+            {
+                "description": "Intended audience for the tasks",
+                "importance": "2",
+                "inquiry": "Who is the intended audience for these tasks? Are they for children, adults, professionals, or another specific group?",
+                "options": [
+                    "Children",
+                    "Adults",
+                    "Professionals"
+                ]
+            },
+            {
+                "description": "Difficulty level of the tasks",
+                "importance": "2",
+                "inquiry": "What difficulty level do you have in mind for these tasks? Should they be easy, intermediate, or challenging?",
+                "options": [
+                    "Easy",
+                    "Intermediate",
+                    "Challenging"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2ea8d34e-62b5-4981-af54-3b29e80e6697",
+        "category": "Computer Hardware and Maintenance",
+        "task": "Write bash command to check my system specification.",
+        "missing_details": [
+            {
+                "description": "Specific system specifications of interest",
+                "importance": "2",
+                "inquiry": "Could you please specify which system specifications you're interested in checking? For instance, are you looking for CPU details, memory usage, disk information, or network settings?",
+                "options": [
+                    "CPU details",
+                    "Memory usage",
+                    "Disk information",
+                    "Network settings"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "209e5924-a421-4ed0-9338-933756c802ed",
+        "category": "Art Education",
+        "task": "Teach me how to paint a landscape using watercolors.",
+        "missing_details": [
+            {
+                "description": "Type of landscape",
+                "importance": "2",
+                "inquiry": "What type of landscape are you interested in painting? For example, are you looking to paint mountains, a beach, or a forest scene?",
+                "options": [
+                    "Mountain",
+                    "Beach",
+                    "Forest"
+                ]
+            },
+            {
+                "description": "User's skill level",
+                "importance": "2",
+                "inquiry": "Could you tell me about your current skill level in watercolor painting? Are you a beginner, intermediate, or advanced painter?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Preferred learning style",
+                "importance": "2",
+                "inquiry": "How do you prefer to learn? Do you like step-by-step tutorials, watching video demonstrations, or reading detailed guides with illustrations?",
+                "options": [
+                    "Step-by-step tutorials",
+                    "Video demonstrations",
+                    "Illustrated guides"
+                ]
+            },
+            {
+                "description": "Need for material or technique information",
+                "importance": "2",
+                "inquiry": "Do you need recommendations for watercolor materials or specific techniques to use for landscape painting?",
+                "options": [
+                    "Material recommendations",
+                    "Technique guidance",
+                    "Both materials and techniques"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "79491a4a-b30b-48ff-a57b-9aa57efa41b9",
+        "category": "Marketing",
+        "task": "Search for the most notable trends in digital marketing for the year 2021.",
+        "missing_details": [
+            {
+                "description": "Type of trends",
+                "importance": "2",
+                "inquiry": "What specific types of trends in digital marketing are you interested in?",
+                "options": [
+                    "Content marketing",
+                    "SEO strategies",
+                    "Social media marketing"
+                ]
+            },
+            {
+                "description": "Source preference",
+                "importance": "2",
+                "inquiry": "Do you have any preferred sources for this information?",
+                "options": [
+                    "Industry reports",
+                    "Marketing blogs",
+                    "Academic journals"
+                ]
+            },
+            {
+                "description": "Depth of detail",
+                "importance": "2",
+                "inquiry": "How detailed would you like the information on digital marketing trends to be?",
+                "options": [
+                    "Overview",
+                    "In-depth analysis",
+                    "Case studies"
+                ]
+            },
+            {
+                "description": "Purpose of search",
+                "importance": "2",
+                "inquiry": "Could you please specify the purpose of your search for digital marketing trends?",
+                "options": [
+                    "For a business strategy",
+                    "For an academic report",
+                    "For personal learning"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a3daf088-557d-40ce-aed5-ae9e32012189",
+        "category": "Astrophotography",
+        "task": "What equipment do I need to start astrophotography?",
+        "missing_details": [
+            {
+                "description": "Type of celestial objects user wants to photograph",
+                "importance": "2",
+                "inquiry": "What type of celestial objects are you interested in photographing?",
+                "options": [
+                    "Planets",
+                    "Deep sky objects like galaxies and nebulae",
+                    "Wide-field star landscapes"
+                ]
+            },
+            {
+                "description": "User's experience level in photography",
+                "importance": "2",
+                "inquiry": "What is your experience level in photography or astrophotography?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "User's budget for equipment",
+                "importance": "2",
+                "inquiry": "What budget range do you have for astrophotography equipment?",
+                "options": [
+                    "Under $500",
+                    "$500-$1500",
+                    "Above $1500"
+                ]
+            },
+            {
+                "description": "Desired image quality",
+                "importance": "2",
+                "inquiry": "What level of image quality are you aiming for in your astrophotography?",
+                "options": [
+                    "Basic quality for hobbyist",
+                    "High quality for serious amateur",
+                    "Professional quality"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "62884910-c86c-4d58-8aec-044a5e1a3487",
+        "category": "Communication",
+        "task": "Write a script to automate emails for a list of recipients based on certain events.",
+        "missing_details": [
+            {
+                "description": "Specific events that trigger the emails",
+                "importance": "3",
+                "inquiry": "Could you specify the events that should trigger the automated emails?",
+                "options": [
+                    "New user registration",
+                    "Purchase confirmation",
+                    "Appointment reminder"
+                ]
+            },
+            {
+                "description": "Content of the emails",
+                "importance": "3",
+                "inquiry": "What content should be included in the automated emails?",
+                "options": [
+                    "Welcome message",
+                    "Order details",
+                    "Next steps or call to action"
+                ]
+            },
+            {
+                "description": "Email platform to be used",
+                "importance": "2",
+                "inquiry": "Which email platform or service will be used for sending the automated emails?",
+                "options": [
+                    "Gmail",
+                    "Outlook",
+                    "Mailchimp"
+                ]
+            },
+            {
+                "description": "Personalization or conditions for the recipients",
+                "importance": "2",
+                "inquiry": "Do you want to include any personalization or conditions for the recipients in the emails?",
+                "options": [
+                    "Personalized greeting with the recipient's name",
+                    "Conditional content based on user behavior",
+                    "No personalization needed"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "eeeb25ae-aa14-4a67-8694-486f718a03a8",
+        "category": "Career Development",
+        "task": "What are the most common questions asked in tech interviews and how should I answer them?",
+        "missing_details": [
+            {
+                "description": "Type of tech role or industry",
+                "importance": "2",
+                "inquiry": "Could you specify the type of tech role or industry you are interviewing for?",
+                "options": [
+                    "Software Engineering",
+                    "Data Science",
+                    "Product Management"
+                ]
+            },
+            {
+                "description": "User's experience level",
+                "importance": "2",
+                "inquiry": "What is your current experience level in the tech field?",
+                "options": [
+                    "Entry-level",
+                    "Mid-level",
+                    "Senior-level"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dd73bbda-7456-4ed2-9897-983de370e760",
+        "category": "Digital Asset Management",
+        "task": "Find a way to convert audio files from one format to another using python.",
+        "missing_details": [
+            {
+                "description": "Source and target audio formats",
+                "importance": "3",
+                "inquiry": "Could you please specify the source and target audio formats you want to convert between?",
+                "options": [
+                    "MP3 to WAV",
+                    "WAV to FLAC",
+                    "AAC to OGG"
+                ]
+            },
+            {
+                "description": "Preferred Python libraries or methods",
+                "importance": "2",
+                "inquiry": "Do you have any preferred Python libraries or methods for the audio conversion task, or should I suggest some options?",
+                "options": [
+                    "Use of ffmpeg with PyDub",
+                    "Use of the wave module",
+                    "Use of the librosa library"
+                ]
+            },
+            {
+                "description": "User's familiarity with Python",
+                "importance": "2",
+                "inquiry": "How familiar are you with Python programming? This will help me tailor the solution to your experience level.",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "229e78da-758e-49fa-934e-e0152cf249ba",
+        "category": "Computer Hardware and Maintenance",
+        "task": "Write a bash command that gives information about the system's hardware configuration",
+        "missing_details": [
+            {
+                "description": "Specific hardware information required",
+                "importance": "3",
+                "inquiry": "Could you please specify which hardware details you are interested in obtaining?",
+                "options": [
+                    "CPU and memory information",
+                    "Storage and disk details",
+                    "Network interface statistics"
+                ]
+            },
+            {
+                "description": "Depth of information needed",
+                "importance": "2",
+                "inquiry": "How detailed should the information be? Are you looking for a summary or in-depth details?",
+                "options": [
+                    "A brief summary",
+                    "In-depth hardware details",
+                    "Full system report"
+                ]
+            },
+            {
+                "description": "Purpose of the command",
+                "importance": "2",
+                "inquiry": "May I know the purpose of retrieving this hardware information? Is it for monitoring, troubleshooting, or another reason?",
+                "options": [
+                    "System monitoring",
+                    "Troubleshooting",
+                    "General overview"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a3c4611a-1624-4feb-aeb8-e407b8f368e2",
+        "category": "Culinary Exploration",
+        "task": "Find a traditional recipe for French onion soup.",
+        "missing_details": [
+            {
+                "description": "Definition of 'traditional'",
+                "importance": "2",
+                "inquiry": "What do you mean by 'traditional'? Are you looking for a recipe that is authentic to a specific region in France, or would any classic version do?",
+                "options": [
+                    "Authentic to a specific region in France",
+                    "Any classic version"
+                ]
+            },
+            {
+                "description": "Dietary restrictions or preferences",
+                "importance": "2",
+                "inquiry": "Do you have any dietary restrictions or preferences that need to be considered for the French onion soup recipe?",
+                "options": [
+                    "Vegetarian",
+                    "Gluten-free",
+                    "No preferences"
+                ]
+            },
+            {
+                "description": "Preferred cooking method",
+                "importance": "1",
+                "inquiry": "Do you have a preferred cooking method for the French onion soup?",
+                "options": [
+                    "Stovetop",
+                    "Slow cooker",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Skill level or cooking time preference",
+                "importance": "1",
+                "inquiry": "Are you looking for a recipe that matches a certain skill level or cooking time?",
+                "options": [
+                    "Beginner-friendly",
+                    "Quick to prepare",
+                    "No specific requirements"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d977094a-7812-4b5a-8236-3db5a26275f9",
+        "category": "Educational Tools",
+        "task": "Develop a concept for a mobile game that teaches basic math.",
+        "missing_details": [
+            {
+                "description": "Target age range",
+                "importance": "3",
+                "inquiry": "Could you tell me the age range of the children you're targeting with this educational game?",
+                "options": [
+                    "4-6 years",
+                    "7-9 years",
+                    "10-12 years"
+                ]
+            },
+            {
+                "description": "Complexity level of math",
+                "importance": "3",
+                "inquiry": "What level of math complexity are you looking to include in the game? Are we teaching basic arithmetic, or are there other concepts you want to cover?",
+                "options": [
+                    "Basic arithmetic",
+                    "Addition and subtraction",
+                    "Multiplication and division"
+                ]
+            },
+            {
+                "description": "Gameplay style",
+                "importance": "2",
+                "inquiry": "What style of gameplay are you envisioning for this math game? Should it be more like a puzzle, adventure, or something else?",
+                "options": [
+                    "Puzzle",
+                    "Adventure",
+                    "Quiz format"
+                ]
+            },
+            {
+                "description": "Platform preference",
+                "importance": "2",
+                "inquiry": "Do you have any preferred platforms or technological specifications for the game? For example, should it be available for both Android and iOS, or is there a focus on one?",
+                "options": [
+                    "Android",
+                    "iOS",
+                    "Both Android and iOS"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f7b65518-aa18-40e3-b9ed-a733625df5c3",
+        "category": "Data Analysis",
+        "task": "Analyze the performance of the tech sector in the stock market last quarter.",
+        "missing_details": [
+            {
+                "description": "Specific stock market",
+                "importance": "2",
+                "inquiry": "Could you specify which stock market you are interested in for the tech sector analysis?",
+                "options": [
+                    "NYSE",
+                    "NASDAQ",
+                    "Global markets"
+                ]
+            },
+            {
+                "description": "Specific companies or indices",
+                "importance": "2",
+                "inquiry": "Do you want to analyze specific companies or indices within the tech sector?",
+                "options": [
+                    "Top-performing companies",
+                    "Major tech indices",
+                    "All companies in the sector"
+                ]
+            },
+            {
+                "description": "Specific metrics for analysis",
+                "importance": "2",
+                "inquiry": "What specific metrics should be included in the tech sector performance analysis?",
+                "options": [
+                    "Stock price growth",
+                    "Revenue growth",
+                    "Profitability"
+                ]
+            },
+            {
+                "description": "User's purpose for analysis",
+                "importance": "2",
+                "inquiry": "What's the purpose of your analysis?",
+                "options": [
+                    "Investment decisions",
+                    "Research",
+                    "Comparison with other sectors"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3d97dc80-d318-412d-9172-94428a74fafa",
+        "category": "Scripting & Automation",
+        "task": "Develop a script to automate social media posts for my business.",
+        "missing_details": [
+            {
+                "description": "Targeted social media platforms",
+                "importance": "3",
+                "inquiry": "Which social media platforms would you like the automation script to target for posting content?",
+                "options": [
+                    "Facebook",
+                    "Twitter",
+                    "Instagram"
+                ]
+            },
+            {
+                "description": "Type of content to post",
+                "importance": "3",
+                "inquiry": "What type of content are you planning to post? (e.g., images, text updates, links, videos)",
+                "options": [
+                    "Images",
+                    "Text updates",
+                    "Links",
+                    "Videos"
+                ]
+            },
+            {
+                "description": "Frequency of posts",
+                "importance": "3",
+                "inquiry": "How often would you like to schedule your posts? (e.g., multiple times a day, daily, weekly)",
+                "options": [
+                    "Multiple times a day",
+                    "Daily",
+                    "Weekly"
+                ]
+            },
+            {
+                "description": "Timing or scheduling preferences",
+                "importance": "2",
+                "inquiry": "Do you have any specific timing or scheduling preferences for when the posts should go live?",
+                "options": [
+                    "Business hours",
+                    "Evenings",
+                    "Weekends"
+                ]
+            },
+            {
+                "description": "Technologies or languages for the script",
+                "importance": "2",
+                "inquiry": "Are there any specific technologies or programming languages you would prefer to use for the automation script?",
+                "options": [
+                    "Python",
+                    "JavaScript",
+                    "PHP"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2703cfcc-7088-4853-bbe4-cba173507c08",
+        "category": "Data Management",
+        "task": "Explain how to encrypt my emails for privacy.",
+        "missing_details": [
+            {
+                "description": "Email service provider",
+                "importance": "2",
+                "inquiry": "Which email service provider are you using for your emails?",
+                "options": [
+                    "Gmail",
+                    "Outlook",
+                    "Yahoo Mail"
+                ]
+            },
+            {
+                "description": "Technical expertise",
+                "importance": "2",
+                "inquiry": "Could you describe your technical expertise or familiarity with encryption?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Preferred encryption method",
+                "importance": "2",
+                "inquiry": "Do you have any preferred encryption methods or protocols you'd like to use?",
+                "options": [
+                    "PGP",
+                    "S/MIME",
+                    "Don't have a preference"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "86b42637-1928-4b12-bd96-84b6dc64154b",
+        "category": "Cybersecurity",
+        "task": "Devise a checklist for securing personal online accounts.",
+        "missing_details": [
+            {
+                "description": "Types of online accounts to secure",
+                "importance": "2",
+                "inquiry": "Could you specify which types of online accounts you'd like to focus on for security?",
+                "options": [
+                    "Social media",
+                    "Email",
+                    "Financial/Banking"
+                ]
+            },
+            {
+                "description": "User's familiarity with security measures",
+                "importance": "2",
+                "inquiry": "How familiar are you with online security measures?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Specific security features or concerns",
+                "importance": "2",
+                "inquiry": "Are there any specific security features or concerns you want to ensure the checklist addresses?",
+                "options": [
+                    "Two-factor authentication",
+                    "Password management",
+                    "Phishing protection"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d79e697f-fa9d-42c9-85fc-f0778589c1f3",
+        "category": "Travel",
+        "task": "Find the cheapest round-trip flights from New York to London next month.",
+        "missing_details": [
+            {
+                "description": "Specific dates of travel within the month",
+                "importance": "2",
+                "inquiry": "Do you have specific dates in mind for your departure and return, or are you flexible throughout the month?",
+                "options": [
+                    "Specific dates (please specify)",
+                    "Flexible within the month"
+                ]
+            },
+            {
+                "description": "Preferred airlines or alliances",
+                "importance": "1",
+                "inquiry": "Do you have any preferred airlines or alliances, or are you open to any options available?",
+                "options": [
+                    "Specific airlines or alliances (please specify)",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Preferred time of day for flying",
+                "importance": "1",
+                "inquiry": "Do you prefer to fly at a certain time of day, or are you open to any flight times available?",
+                "options": [
+                    "Morning",
+                    "Afternoon",
+                    "Evening",
+                    "No preference"
+                ]
+            },
+            {
+                "description": "Cabin class preference",
+                "importance": "1",
+                "inquiry": "Are you looking for a specific cabin class for your flights, such as economy, business, or first class?",
+                "options": [
+                    "Economy",
+                    "Business",
+                    "First class",
+                    "No preference"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d8a8672a-b27d-44ab-975d-8d0e41983a4e",
+        "category": "Personal Improvement",
+        "task": "Teach me how to improve my memory with effective techniques.",
+        "missing_details": [
+            {
+                "description": "User's current memory abilities or challenges",
+                "importance": "2",
+                "inquiry": "Could you describe your current memory abilities or the challenges you're facing with your memory?",
+                "options": [
+                    "Difficulty remembering names",
+                    "Forgetting important dates",
+                    "Trouble learning new concepts"
+                ]
+            },
+            {
+                "description": "Type of memory to improve",
+                "importance": "2",
+                "inquiry": "Which type of memory are you looking to improve?",
+                "options": [
+                    "Short-term memory",
+                    "Long-term memory",
+                    "Working memory"
+                ]
+            },
+            {
+                "description": "Context for memory improvement",
+                "importance": "2",
+                "inquiry": "In what context do you want to improve your memory? Is it for academic, professional, or personal reasons?",
+                "options": [
+                    "Academic studies",
+                    "Professional work",
+                    "Personal life"
+                ]
+            },
+            {
+                "description": "Preferred learning style",
+                "importance": "2",
+                "inquiry": "Do you have a preferred learning style or method when it comes to acquiring new skills?",
+                "options": [
+                    "Visual learning",
+                    "Auditory learning",
+                    "Kinesthetic learning"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "104135c1-996c-42d9-857f-d0cc0db55539",
+        "category": "Art Education",
+        "task": "Propose an idea for a community mural.",
+        "missing_details": [
+            {
+                "description": "Community characteristics",
+                "importance": "3",
+                "inquiry": "Could you tell me more about the community where the mural will be located? For instance, is it a residential area, a cultural district, or a school neighborhood?",
+                "options": [
+                    "Residential area",
+                    "Cultural district",
+                    "School neighborhood"
+                ]
+            },
+            {
+                "description": "Themes or messages",
+                "importance": "3",
+                "inquiry": "What themes or messages would you like the mural to convey? Are there any specific topics or values you want to highlight?",
+                "options": [
+                    "Cultural heritage",
+                    "Environmental conservation",
+                    "Community unity"
+                ]
+            },
+            {
+                "description": "Mural size",
+                "importance": "2",
+                "inquiry": "How large do you envision the mural to be? Do you have specific dimensions in mind or a particular wall or space where it will be painted?",
+                "options": [
+                    "Small wall section",
+                    "Entire building side",
+                    "Public space installation"
+                ]
+            },
+            {
+                "description": "Mural location",
+                "importance": "2",
+                "inquiry": "Where exactly do you plan to place the mural within the community? Is it in a central location, a park, or another type of venue?",
+                "options": [
+                    "Central plaza",
+                    "Community park",
+                    "Side of a prominent building"
+                ]
+            },
+            {
+                "description": "Artistic style preferences",
+                "importance": "2",
+                "inquiry": "Do you have any preferences regarding the artistic style of the mural? Are there any specific art movements or visual styles you're interested in?",
+                "options": [
+                    "Realism",
+                    "Abstract",
+                    "Graffiti art"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2d9039ce-9f8f-4294-ae9f-913be6c98a90",
+        "category": "Writing",
+        "task": "Outline the steps to write and publish a novel for a first-time author.",
+        "missing_details": [
+            {
+                "description": "Genre preference",
+                "importance": "2",
+                "inquiry": "Could you let me know what genre your novel falls into? It can help tailor the advice more closely to your needs.",
+                "options": [
+                    "Fantasy",
+                    "Romance",
+                    "Thriller"
+                ]
+            },
+            {
+                "description": "Publishing method",
+                "importance": "2",
+                "inquiry": "Do you plan to pursue traditional publishing with a literary agent and publisher, or are you considering self-publishing?",
+                "options": [
+                    "Traditional Publishing",
+                    "Self-Publishing"
+                ]
+            },
+            {
+                "description": "Budget constraints",
+                "importance": "2",
+                "inquiry": "Do you have a budget in mind for the publishing process that we should be aware of?",
+                "options": [
+                    "Under $500",
+                    "$500 - $2000",
+                    "No specific budget"
+                ]
+            },
+            {
+                "description": "Level of guidance needed",
+                "importance": "2",
+                "inquiry": "How detailed do you want each step to be? Are you looking for a brief overview or an in-depth guide?",
+                "options": [
+                    "Brief overview",
+                    "In-depth guide"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4e991104-0d8a-4d83-99bf-dd94da442437",
+        "category": "Health Management",
+        "task": "Devise a weekly exercise plan for a beginner.",
+        "missing_details": [
+            {
+                "description": "Individual's fitness goals",
+                "importance": "2",
+                "inquiry": "What are your specific fitness goals?",
+                "options": [
+                    "Weight loss",
+                    "Muscle building",
+                    "General fitness"
+                ]
+            },
+            {
+                "description": "Physical limitations or medical conditions",
+                "importance": "3",
+                "inquiry": "Do you have any physical limitations or medical conditions that should be considered?",
+                "options": [
+                    "Joint pain",
+                    "Heart condition",
+                    "None"
+                ]
+            },
+            {
+                "description": "Preferred types of exercise",
+                "importance": "2",
+                "inquiry": "What types of exercise do you prefer?",
+                "options": [
+                    "Cardio",
+                    "Strength training",
+                    "Flexibility exercises"
+                ]
+            },
+            {
+                "description": "Available time for exercise",
+                "importance": "2",
+                "inquiry": "How much time can you dedicate to exercise each week?",
+                "options": [
+                    "Less than 3 hours",
+                    "3-5 hours",
+                    "More than 5 hours"
+                ]
+            },
+            {
+                "description": "Available equipment",
+                "importance": "2",
+                "inquiry": "What exercise equipment do you have access to?",
+                "options": [
+                    "Gym membership",
+                    "Home workout equipment",
+                    "No equipment"
+                ]
+            },
+            {
+                "description": "Current fitness level",
+                "importance": "2",
+                "inquiry": "How would you describe your current fitness level?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "99a9159a-a7a5-48b8-a91b-d9b095b9f216",
+        "category": "Writing",
+        "task": "Write a summary of a given text file.",
+        "missing_details": [
+            {
+                "description": "Length of the summary",
+                "importance": "3",
+                "inquiry": "How long would you like the summary to be?",
+                "options": [
+                    "One paragraph",
+                    "200-300 words",
+                    "Half a page"
+                ]
+            },
+            {
+                "description": "Purpose of the summary",
+                "importance": "2",
+                "inquiry": "What is the purpose of the summary?",
+                "options": [
+                    "Academic use",
+                    "Business presentation",
+                    "Personal understanding"
+                ]
+            },
+            {
+                "description": "Subject matter of the text file",
+                "importance": "3",
+                "inquiry": "What is the subject matter of the text file you need summarized?",
+                "options": [
+                    "Scientific research",
+                    "Historical event",
+                    "Technical manual"
+                ]
+            },
+            {
+                "description": "Intended audience",
+                "importance": "2",
+                "inquiry": "Who is the intended audience for the summary?",
+                "options": [
+                    "Experts in the field",
+                    "General public",
+                    "Students"
+                ]
+            },
+            {
+                "description": "Style preferences",
+                "importance": "1",
+                "inquiry": "Do you have any specific style preferences for the summary?",
+                "options": [
+                    "Formal",
+                    "Conversational",
+                    "Bullet points"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ff7b2ba5-c820-430e-81be-e6de06dc8d41",
+        "category": "Education Planning",
+        "task": "Find the best online courses for learning data science.",
+        "missing_details": [
+            {
+                "description": "Expertise level for the course",
+                "importance": "2",
+                "inquiry": "What level of expertise are you looking for in a data science course?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Preferred learning style",
+                "importance": "2",
+                "inquiry": "Do you have a preferred learning style for the data science course?",
+                "options": [
+                    "Video lectures",
+                    "Interactive coding",
+                    "Textbook and articles"
+                ]
+            },
+            {
+                "description": "Budget for the course",
+                "importance": "2",
+                "inquiry": "What is your budget for the data science course?",
+                "options": [
+                    "Under $50",
+                    "Under $500",
+                    "$500 or more"
+                ]
+            },
+            {
+                "description": "Specific topics of interest within data science",
+                "importance": "2",
+                "inquiry": "Are there any specific topics within data science that you are particularly interested in learning more about?",
+                "options": [
+                    "Machine Learning",
+                    "Big Data",
+                    "Data Analysis"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9a7c1e4e-6a92-4500-99b3-1a39249c0b8a",
+        "category": "Lifestyle Guides",
+        "task": "Research the best plants for a small balcony garden.",
+        "missing_details": [
+            {
+                "description": "Climate zone of the balcony",
+                "importance": "3",
+                "inquiry": "Could you tell me the climate zone or the general location where your balcony is situated?",
+                "options": [
+                    "Tropical",
+                    "Temperate",
+                    "Cold"
+                ]
+            },
+            {
+                "description": "Preferred maintenance level",
+                "importance": "2",
+                "inquiry": "How much time and effort are you willing to dedicate to maintaining your balcony garden?",
+                "options": [
+                    "Low maintenance",
+                    "Moderate maintenance",
+                    "High maintenance"
+                ]
+            },
+            {
+                "description": "Sunlight exposure",
+                "importance": "2",
+                "inquiry": "How many hours of direct sunlight does your balcony receive each day?",
+                "options": [
+                    "Full sun (6+ hours)",
+                    "Partial sun (3-6 hours)",
+                    "Shade (<3 hours)"
+                ]
+            },
+            {
+                "description": "Types of plants interested in",
+                "importance": "2",
+                "inquiry": "What types of plants are you interested in growing on your balcony? Are you looking for flowers, vegetables, herbs, or a mix?",
+                "options": [
+                    "Flowers",
+                    "Vegetables",
+                    "Herbs",
+                    "Mixed variety"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "66483da3-0ced-4db5-a590-e7511207c7bd",
+        "category": "Culinary Science",
+        "task": "Devise a vegetarian recipe using only ingredients already in my pantry.",
+        "missing_details": [
+            {
+                "description": "List of available ingredients",
+                "importance": "3",
+                "inquiry": "Could you provide a list of ingredients that are currently available in your pantry?",
+                "options": [
+                    "List specific vegetables, grains, spices, etc.",
+                    "Take a picture of your pantry contents",
+                    "Describe the types of ingredients you generally keep"
+                ]
+            },
+            {
+                "description": "Preferred type of cuisine",
+                "importance": "2",
+                "inquiry": "Do you have a preferred type of cuisine for the recipe?",
+                "options": [
+                    "Italian",
+                    "Indian",
+                    "Mexican"
+                ]
+            },
+            {
+                "description": "Meal type",
+                "importance": "2",
+                "inquiry": "Are you looking for a specific type of meal, such as breakfast, lunch, dinner, or a snack?",
+                "options": [
+                    "Breakfast",
+                    "Lunch",
+                    "Dinner",
+                    "Snack"
+                ]
+            },
+            {
+                "description": "Nutritional goals",
+                "importance": "1",
+                "inquiry": "Do you have any specific nutritional goals for this recipe?",
+                "options": [
+                    "High protein",
+                    "Low carb",
+                    "Gluten-free"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cb8fc693-f172-49d0-a078-d9f67312a910",
+        "category": "Educational Tools",
+        "task": "Identify free online platforms for learning coding.",
+        "missing_details": [
+            {
+                "description": "Desired programming languages or technologies",
+                "importance": "2",
+                "inquiry": "Which programming languages or technologies are you looking to learn?",
+                "options": [
+                    "Python, JavaScript, HTML/CSS",
+                    "Java, C#, C++",
+                    "Data Science, Machine Learning, Web Development"
+                ]
+            },
+            {
+                "description": "Level of expertise",
+                "importance": "2",
+                "inquiry": "What is your current level of coding expertise?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Preferred learning format",
+                "importance": "2",
+                "inquiry": "What type of learning format do you prefer?",
+                "options": [
+                    "Video tutorials",
+                    "Interactive coding exercises",
+                    "Reading materials"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "787b7a40-3128-4346-b846-9f85f6a096be",
+        "category": "Programming Challenges",
+        "task": "Generate a small coding challenge I can use to practice my JavaScript skills.",
+        "missing_details": [
+            {
+                "description": "User's JavaScript proficiency level",
+                "importance": "2",
+                "inquiry": "What's your current proficiency level in JavaScript?",
+                "options": [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced"
+                ]
+            },
+            {
+                "description": "Type of challenge",
+                "importance": "2",
+                "inquiry": "What type of coding challenge are you interested in?",
+                "options": [
+                    "Algorithmic puzzles",
+                    "DOM manipulation tasks",
+                    "Asynchronous programming challenges"
+                ]
+            },
+            {
+                "description": "Specific JavaScript concepts to practice",
+                "importance": "2",
+                "inquiry": "Are there any specific JavaScript concepts you'd like to focus on while practicing?",
+                "options": [
+                    "Closures",
+                    "Promises",
+                    "ES6+ features"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "17c352b8-8b10-4551-a04d-254889366f59",
+        "category": "Travel Tips",
+        "task": "List tips for packing light on a week-long trip.",
+        "missing_details": [
+            {
+                "description": "Destination climate",
+                "importance": "2",
+                "inquiry": "Could you tell me about the climate of your destination? It will help tailor the packing tips to your needs.",
+                "options": [
+                    "Tropical",
+                    "Cold",
+                    "Temperate"
+                ]
+            },
+            {
+                "description": "Type of activities",
+                "importance": "2",
+                "inquiry": "What types of activities do you plan to do on your trip? This can affect what you'll need to pack.",
+                "options": [
+                    "Outdoor adventures",
+                    "City touring",
+                    "Business meetings"
+                ]
+            },
+            {
+                "description": "Event dress codes",
+                "importance": "2",
+                "inquiry": "Will you be attending any events that have a specific dress code during your trip?",
+                "options": [
+                    "Formal events",
+                    "Casual gatherings",
+                    "No specific dress code"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1606ffd4-df98-4b88-a6c8-7e9081cddb5c",
+        "category": "Personal Improvement",
+        "task": "Research and summarize the top five productivity apps for students.",
+        "missing_details": [
+            {
+                "description": "Criteria for ranking 'top' apps",
+                "importance": "2",
+                "inquiry": "What criteria would you like me to use to rank the 'top' productivity apps for students?",
+                "options": [
+                    "Most downloaded",
+                    "Best reviewed",
+                    "Most comprehensive features"
+                ]
+            },
+            {
+                "description": "Platform preference",
+                "importance": "2",
+                "inquiry": "Are you looking for productivity apps for a specific platform or operating system?",
+                "options": [
+                    "iOS",
+                    "Android",
+                    "Cross-platform"
+                ]
+            },
+            {
+                "description": "Budget constraint",
+                "importance": "1",
+                "inquiry": "Do you have any budget constraints for these apps? Should they be free, or are paid apps also an option?",
+                "options": [
+                    "Free only",
+                    "Paid options are fine",
+                    "Free with in-app purchases"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1bbc4eab-56e3-456a-812b-d5a4db0a92a2",
+        "category": "Data Analysis",
+        "task": "Determine the most efficient algorithm for predicting stock prices based on historical data.",
+        "missing_details": [
+            {
+                "description": "Type of algorithms to consider",
+                "importance": "2",
+                "inquiry": "Could you specify which types of algorithms you are considering for stock price prediction?",
+                "options": [
+                    "Machine learning",
+                    "Time series analysis",
+                    "Statistical arbitrage"
+                ]
+            },
+            {
+                "description": "Criteria for efficiency",
+                "importance": "2",
+                "inquiry": "What criteria do you consider as 'efficiency' for the algorithm? Is it accuracy, speed, or resource consumption?",
+                "options": [
+                    "Accuracy",
+                    "Speed",
+                    "Resource consumption"
+                ]
+            },
+            {
+                "description": "Specific stocks or market sectors",
+                "importance": "2",
+                "inquiry": "Do you have specific stocks or market sectors in mind for which you want to predict prices?",
+                "options": [
+                    "Tech sector",
+                    "Financial sector",
+                    "All sectors"
+                ]
+            },
+            {
+                "description": "Historical data timeframe and granularity",
+                "importance": "3",
+                "inquiry": "What is the timeframe and granularity of the historical data you would like to use for the prediction?",
+                "options": [
+                    "1 year, daily",
+                    "5 years, monthly",
+                    "10 years, weekly"
+                ]
+            },
+            {
+                "description": "Computational resources available",
+                "importance": "2",
+                "inquiry": "Could you provide details about the computational resources available for running the analysis?",
+                "options": [
+                    "Personal computer",
+                    "Cloud-based services",
+                    "University supercomputer"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b13a7013-f877-4f86-8632-8788fd6afecc",
+        "category": "Music Education and Activities",
+        "task": "Compose a simple melody for a beginner's piano lesson.",
+        "missing_details": [
+            {
+                "description": "Style or mood of the melody",
+                "importance": "2",
+                "inquiry": "What style or mood would you like for the beginner's piano melody?",
+                "options": [
+                    "Classical",
+                    "Pop",
+                    "Folk"
+                ]
+            },
+            {
+                "description": "Length of the composition",
+                "importance": "2",
+                "inquiry": "How long should the melody be for the piano lesson?",
+                "options": [
+                    "Short (4-8 measures)",
+                    "Medium (8-16 measures)",
+                    "Long (16+ measures)"
+                ]
+            },
+            {
+                "description": "Specific musical elements to include or avoid",
+                "importance": "2",
+                "inquiry": "Are there any specific musical elements or techniques you want to include or avoid in the melody?",
+                "options": [
+                    "Include simple scales",
+                    "Avoid complex rhythms",
+                    "Incorporate basic chords"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "16931ff3-516a-4f39-9c8c-8a3ab8a35a81",
+        "category": "Diet and Nutrition",
+        "task": "Lookup for a healthy diet plan for a 30 years old male.",
+        "missing_details": [
+            {
+                "description": "Dietary goals",
+                "importance": "3",
+                "inquiry": "What is your primary goal for this diet plan?",
+                "options": [
+                    "Weight loss",
+                    "Muscle gain",
+                    "Maintenance"
+                ]
+            },
+            {
+                "description": "Dietary restrictions",
+                "importance": "2",
+                "inquiry": "Do you have any dietary restrictions or preferences?",
+                "options": [
+                    "Vegan",
+                    "Gluten-free",
+                    "No restrictions"
+                ]
+            },
+            {
+                "description": "Activity level",
+                "importance": "2",
+                "inquiry": "What is your activity level?",
+                "options": [
+                    "Sedentary",
+                    "Active",
+                    "Very active"
+                ]
+            },
+            {
+                "description": "Specific health concerns",
+                "importance": "2",
+                "inquiry": "Do you have any specific health concerns that should be considered in the diet plan?",
+                "options": [
+                    "Diabetes",
+                    "Heart health",
+                    "No specific concerns"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "74a4265b-64ed-47ae-bc72-9c51e23b81df",
+        "category": "Animal Husbandry",
+        "task": "Establish a daily care schedule for a puppy Labrador.",
+        "missing_details": [
+            {
+                "description": "Puppy's age",
+                "importance": "3",
+                "inquiry": "Could you tell me how old your puppy Labrador is?",
+                "options": [
+                    "8-12 weeks old",
+                    "3-6 months old",
+                    "6-12 months old"
+                ]
+            },
+            {
+                "description": "Owner's daily availability",
+                "importance": "2",
+                "inquiry": "How much time can you dedicate to your puppy's care on a daily basis?",
+                "options": [
+                    "1-2 hours",
+                    "3-5 hours",
+                    "More than 5 hours"
+                ]
+            },
+            {
+                "description": "Special requirements or preferences",
+                "importance": "2",
+                "inquiry": "Do you have any special requirements or preferences for your puppy's care routine?",
+                "options": [
+                    "Training focused",
+                    "Socialization with other pets",
+                    "Specific dietary needs"
+                ]
+            },
+            {
+                "description": "Current health condition",
+                "importance": "2",
+                "inquiry": "Is your puppy currently experiencing any health issues that should be taken into consideration?",
+                "options": [
+                    "No health issues",
+                    "Minor health concerns",
+                    "Chronic or serious health conditions"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e23eb184-f05a-4603-bede-2338631f49e1",
+        "category": "Lifestyle Guides",
+        "task": "I'm new to photography; could you provide me with a beginner's guide to taking portraits?",
+        "missing_details": [
+            {
+                "description": "Specific interests in portrait photography",
+                "importance": "2",
+                "inquiry": "Could you tell me what specific aspects of portrait photography you're most interested in learning about?",
+                "options": [
+                    "Camera settings",
+                    "Lighting techniques",
+                    "Composition and posing"
+                ]
+            },
+            {
+                "description": "Equipment available to the user",
+                "importance": "2",
+                "inquiry": "What equipment do you currently have available for taking portraits?",
+                "options": [
+                    "DSLR camera",
+                    "Mirrorless camera",
+                    "Smartphone camera"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "efcb33b7-ac1b-4971-8ffe-11c1193cfefe",
+        "category": "Software Development",
+        "task": "Write unit tests for a simple Python program.",
+        "missing_details": [
+            {
+                "description": "Program functionality and components to be tested",
+                "importance": "3",
+                "inquiry": "Can you describe the functionality of the Python program and the specific components (like functions or classes) you want to test?",
+                "options": [
+                    "Calculator program",
+                    "Data processing script",
+                    "Web server application"
+                ]
+            },
+            {
+                "description": "Expected behavior of the components",
+                "importance": "3",
+                "inquiry": "What is the expected behavior of the components you want to test?",
+                "options": [
+                    "Should return the sum of two numbers",
+                    "Should filter and sort a dataset",
+                    "Should handle web requests and responses"
+                ]
+            },
+            {
+                "description": "Preferred testing framework or tool",
+                "importance": "2",
+                "inquiry": "Do you have a preferred testing framework or tool you'd like to use for writing the unit tests?",
+                "options": [
+                    "unittest",
+                    "pytest",
+                    "nose2"
+                ]
+            }
+        ]
+    }
+]

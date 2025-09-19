@@ -21,8 +21,6 @@ pip install -e .
 
 ## Quick Start
 
-Please first set up your OPENAI_API_KEY as environment variable.
-
 ```python
 import functiongym
 from functiongym import FunctionEnv, get_default_config

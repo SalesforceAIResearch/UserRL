@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.so
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# API Keys
+secret.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# customized
+test_human.py

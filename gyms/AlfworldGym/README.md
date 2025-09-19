@@ -74,8 +74,6 @@ data_path: '/path/to/your/AlfworldGym/alfworldgym/data/json_2.1.1/train'
 
 ## Quick Start
 
-Please first set up your OPENAI_API_KEY as environment variable.
-
 ```python
 import alfworldgym
 from alfworldgym import AlfworldEnv, get_default_config
