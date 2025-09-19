@@ -1,0 +1,7 @@
+gymnasium
+numpy
+pyyaml
+pytest
+
+# For tau-bench integration
+litellm 

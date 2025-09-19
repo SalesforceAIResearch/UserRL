@@ -39,7 +39,7 @@ print(f"Goal: {observation['goal']}")
 print(f"Missing details: {observation['total_missing_details']}")
 
 # Ask a clarifying question
-obs, reward, terminated, truncated, info = env.step("How long do you need this to take?")
+obs, reward, terminated, truncated, info = env.step("[action] How long do you need this to take?")
 print(f"User response: {obs['feedback']}")
 print(f"Coverage: {obs['coverage_ratio']:.1%}")
 print(f"Reward: {reward:.3f}")
@@ -55,13 +55,13 @@ env.close()
 
 The environment accepts actions in two specific formats:
 
-### 1. Clarifying Questions: Direct questions
+### 1. Clarifying Questions: `[action] <question>`
 
 Ask targeted questions to uncover missing details:
 
-- **Example**: `"How long do you need this to take?"` - Ask about time requirements
-- **Example**: `"What's your budget for this project?"` - Ask about budget constraints
-- **Example**: `"When do you need this completed?"` - Ask about deadlines
+- **Example**: `[action] How long do you need this to take?` - Ask about time requirements
+- **Example**: `[action] What's your budget for this project?` - Ask about budget constraints
+- **Example**: `[action] When do you need this completed?` - Ask about deadlines
 - **Purpose**: Uncover specific missing details through strategic questioning
 
 ### 2. Episode Termination: `[finish]`
@@ -81,9 +81,8 @@ from intentiongym import IntentionGymConfig
 config = IntentionGymConfig(
     max_steps=20,
     verbose=True,
-    data_mode="single",
-    data_source="task_id",
-    step_penalty=0.01,
+    data_mode="random",
+    step_penalty=0.0,
     multi_detail_penalty=0.2,
     normalize_rewards=True
 )
@@ -97,11 +96,11 @@ env = IntentionEnv(config)
 |-----------|-------------|---------|---------|
 | `max_steps` | Maximum questions per episode | `20` | Any positive integer |
 | `verbose` | Enable verbose logging | `False` | `True`/`False` |
-| `data_mode` | Task selection mode | `"single"` | `"random"`, `"single"`, `"list"` |
+| `data_mode` | Task selection mode | `"random"` | `"random"`, `"single"`, `"list"` |
 | `data_source` | Specific task ID(s) to use | `None` | Task ID string or list |
-| `step_penalty` | Penalty per question asked | `0.01` | Any float |
+| `step_penalty` | Penalty per question asked | `0.0` | Any float |
 | `multi_detail_penalty` | Penalty for unfocused questions | `0.2` | Any float |
-| `normalize_rewards` | Normalize rewards to [0,1] | `False` | `True`/`False` |
+| `normalize_rewards` | Normalize rewards to [0,1] | `True` | `True`/`False` |
 
 ## Gymnasium Registration
 
@@ -141,7 +140,7 @@ The environment follows a standard reinforcement learning cycle:
 - **Medium importance (2)**: **0.7** reward - Important but not critical details
 - **Low importance (1)**: **0.4** reward - Nice-to-have details for completeness
 - **Multi-detail penalty**: **-0.2** per extra detail covered in one question
-- **Step penalty**: **-0.01** per question asked
+- **Step penalty**: **-0.01** per question asked (configurable)
 
 ## Example Actions
 
@@ -149,24 +148,24 @@ The environment follows a standard reinforcement learning cycle:
 
 ```python
 # Time-related questions
-env.step("How long do you need this to take?")
-env.step("When do you need this completed?")
-env.step("What's your preferred timeline?")
+env.step("[action] How long do you need this to take?")
+env.step("[action] When do you need this completed?")
+env.step("[action] What's your preferred timeline?")
 
 # Budget and resource questions
-env.step("What's your budget for this project?")
-env.step("Do you have any budget constraints?")
-env.step("What resources are available?")
+env.step("[action] What's your budget for this project?")
+env.step("[action] Do you have any budget constraints?")
+env.step("[action] What resources are available?")
 
 # Experience and skill questions
-env.step("What's your experience level with this?")
-env.step("Do you have any relevant skills?")
-env.step("Have you done this before?")
+env.step("[action] What's your experience level with this?")
+env.step("[action] Do you have any relevant skills?")
+env.step("[action] Have you done this before?")
 
 # Specific requirement questions
-env.step("What specific features do you need?")
-env.step("Are there any must-have requirements?")
-env.step("What's your preferred approach?")
+env.step("[action] What specific features do you need?")
+env.step("[action] Are there any must-have requirements?")
+env.step("[action] What's your preferred approach?")
 
 # End conversation
 env.step("[finish]")
@@ -176,10 +175,10 @@ env.step("[finish]")
 
 ```python
 # Target high-importance details first
-env.step("What's your budget for this project?")  # High importance
-env.step("When do you need this completed?")      # High importance
-env.step("What's your experience level?")         # Medium importance
-env.step("Any specific preferences?")             # Low importance
-env.step("[finish]")                              # End when satisfied
+env.step("[action] What's your budget for this project?")  # High importance
+env.step("[action] When do you need this completed?")      # High importance
+env.step("[action] What's your experience level?")         # Medium importance
+env.step("[action] Any specific preferences?")             # Low importance
+env.step("[finish]")                                       # End when satisfied
 ```
 
