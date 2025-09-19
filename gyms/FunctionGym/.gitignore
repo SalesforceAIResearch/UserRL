@@ -20,5 +20,3 @@ secret.json
 # OS
 .DS_Store
 
-# customized
-test_human.py

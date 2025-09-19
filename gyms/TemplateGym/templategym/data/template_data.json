@@ -1,0 +1,14 @@
+{
+  "template_1": {
+    "id": "template_1",
+    "description": "Template task description. Replace with your domain-specific content.",
+    "goal": "Complete this template task.",
+    "ground_truth": "template answer"
+  },
+  "template_2": {
+    "id": "template_2",
+    "description": "Another template task. Customize for your domain.",
+    "goal": "Solve this template problem.",
+    "ground_truth": "another answer"
+  }
+}

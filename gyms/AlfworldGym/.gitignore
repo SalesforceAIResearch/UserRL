@@ -20,8 +20,6 @@ secret.json
 # OS
 .DS_Store
 
-# customized
-test_human.py
 
 alfworldgym/config/eval_config.yaml
 alfworldgym/config/base_config.yaml
