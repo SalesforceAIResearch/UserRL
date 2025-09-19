@@ -197,7 +197,7 @@ def compute_response_mask(data: DataProto):
     return attention_mask[:, -response_length:]
 
 
-def compute_advantage(data: DataProto, adv_estimator, gamma=1.0, lam=1.0, num_repeat=1, multi_turn=False, norm_adv_by_std_in_grpo=True, config=None):
+def compute_advantage(data: DataProto, adv_estimator, gamma=1.0, lam=1.0, num_repeat=1, multi_turn=False, turn_level_method="Equalized", trajectory_score_method="Sum", norm_adv_by_std_in_grpo=True, config=None):
     """Compute advantage estimates for policy optimization.
 
     This function computes advantage estimates using various estimators like GAE, GRPO, REINFORCE++, etc.
@@ -210,6 +210,8 @@ def compute_advantage(data: DataProto, adv_estimator, gamma=1.0, lam=1.0, num_re
         lam (float, optional): Lambda parameter for GAE. Defaults to 1.0.
         num_repeat (int, optional): Number of times to repeat the computation. Defaults to 1.
         multi_turn (bool, optional): Whether the data is from a multi-turn conversation. Defaults to False.
+        turn_level_method (str, optional): Method to assign credits to turns, "Equalized" or "R2G" or "EM". Defaults to "Equalized".
+        trajectory_score_method (str, optional): Method to compute trajectory score, "Sum" or "R2G". Defaults to "Sum".
         norm_adv_by_std_in_grpo (bool, optional): Whether to normalize advantages by standard deviation in GRPO. Defaults to True.
         config (dict, optional): Configuration dictionary for algorithm settings. Defaults to None.
 
@@ -274,28 +276,8 @@ def compute_advantage(data: DataProto, adv_estimator, gamma=1.0, lam=1.0, num_re
             index=data.non_tensor_batch["uid"],
             gamma=gamma,
             norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
-        )
-        data.batch["advantages"] = advantages
-        data.batch["returns"] = returns
-    elif adv_estimator == AdvantageEstimator.GRPO_TRAVEL:
-        grpo_calculation_mask = data.batch["response_mask"]
-        if multi_turn:
-            # If multi-turn, replace the mask with the relevant part of loss_mask
-            response_length = grpo_calculation_mask.size(1)  # Get length from the initial response mask
-            grpo_calculation_mask = data.batch["loss_mask"][:, -response_length:]  # This mask is the one intended for GRPO
-        # Extract conversation histories from non_tensor_batch
-        conversation_histories = data.non_tensor_batch["conversation_histories"].tolist()
-        conversation_histories = [c[0] for c in conversation_histories]  # unwrap from list
-        data_sources = data.non_tensor_batch["data_source"].tolist()  # unwrap from list
-        advantages, returns = core_algos.compute_grpo_travel_advantage(
-            token_level_rewards=data.batch["token_level_rewards"],
-            response_mask=grpo_calculation_mask,
-            turn_boundaries=data.batch["turn_boundaries"],
-            conversation_histories=conversation_histories,
-            data_sources=data_sources,
-            index=data.non_tensor_batch["uid"],
-            gamma=gamma,
-            norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
+            turn_level_method=turn_level_method,
+            trajectory_score_method=trajectory_score_method,
         )
         data.batch["advantages"] = advantages
         data.batch["returns"] = returns
@@ -383,7 +365,6 @@ class RayPPOTrainer:
             AdvantageEstimator.OPO,
             AdvantageEstimator.REINFORCE_PLUS_PLUS_BASELINE,
             AdvantageEstimator.GRPO_MULTITURN,
-            AdvantageEstimator.GRPO_TRAVEL,
         ]:
             self.use_critic = False
         else:
@@ -510,7 +491,7 @@ class RayPPOTrainer:
         # check multi_turn with tool config
         if config.actor_rollout_ref.rollout.multi_turn.enable:
             assert config.actor_rollout_ref.rollout.multi_turn.tool_config_path is not None, "tool_config_path must be set when enabling multi_turn with tool, due to no role-playing support"
-            assert config.algorithm.adv_estimator in [AdvantageEstimator.GRPO, AdvantageEstimator.GRPO_MULTITURN, AdvantageEstimator.GRPO_TRAVEL], "only GRPO is tested for multi-turn with tool"
+            assert config.algorithm.adv_estimator in [AdvantageEstimator.GRPO, AdvantageEstimator.GRPO_MULTITURN], "only GRPO is tested for multi-turn with tool"
 
         print("[validate_config] All configuration checks passed successfully!")
 
@@ -1178,48 +1159,10 @@ class RayPPOTrainer:
                             num_repeat=self.config.actor_rollout_ref.rollout.n,
                             norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
                             multi_turn=self.config.actor_rollout_ref.rollout.multi_turn.enable,
+                            turn_level_method=self.config.actor_rollout_ref.rollout.multi_turn.turn_level_method,
+                            trajectory_score_method=self.config.actor_rollout_ref.rollout.multi_turn.trajectory_score_method,
                             config=self.config.algorithm,
                         )
-                        
-                        # batch = compute_advantage(
-                        #     batch,
-                        #     adv_estimator="grpo",
-                        #     gamma=self.config.algorithm.gamma,
-                        #     lam=self.config.algorithm.lam,
-                        #     num_repeat=self.config.actor_rollout_ref.rollout.n,
-                        #     norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
-                        #     multi_turn=self.config.actor_rollout_ref.rollout.multi_turn.enable,
-                        #     config=self.config.algorithm,
-                        # )
-
-                        # batch = compute_advantage(
-                        #     batch,
-                        #     adv_estimator="grpo_multiturn",
-                        #     gamma=self.config.algorithm.gamma,
-                        #     lam=self.config.algorithm.lam,
-                        #     num_repeat=self.config.actor_rollout_ref.rollout.n,
-                        #     norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
-                        #     multi_turn=self.config.actor_rollout_ref.rollout.multi_turn.enable,
-                        #     config=self.config.algorithm,
-                        # )
-
-                        # print("================ Multiturn advantages ================")
-                        # print(batch.batch["multiturn_advantages"])
-                        # print("================ Single turn advantages ================")
-                        # print(batch.batch["advantages"])
-
-                        # multiturn_advantages = batch.batch.get("multiturn_advantages", None)
-                        # advantages = batch.batch["advantages"]
-
-                        # for b in range(advantages.shape[0]):
-                        #     if torch.abs(torch.sum((advantages[b] - multiturn_advantages[b]))) < 1e-5:
-                        #         print(f"Info: In batch {b} advantages and multiturn_advantages are the same.")
-                        #     else:
-                        #         print(f"Warning: In batch {b} advantages and multiturn_advantages are different !!!")
-                        #     print(f"advantages: {advantages[b]}")
-                        #     print(f"multiturn_advantages: {multiturn_advantages[b]}")
-
-                        # from IPython import embed; embed()
                             
                     # update critic
                     if self.use_critic:

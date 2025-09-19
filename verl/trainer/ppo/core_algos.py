@@ -81,7 +81,6 @@ class AdvantageEstimator(str, Enum):
     OPO = "opo"
     GRPO_PASSK = "grpo_passk"
     GRPO_MULTITURN = "grpo_multiturn"
-    GRPO_TRAVEL = "grpo_travel"
 
 
 class AdaptiveKLController:
@@ -680,7 +679,7 @@ def kl_penalty(logprob: torch.FloatTensor, ref_logprob: torch.FloatTensor, kl_pe
     raise NotImplementedError
 
 
-def compute_turn_credits(conversation_history, data_source, gamma=0.8):
+def compute_turn_credits(conversation_history, gamma=0.8, turn_level_method="Equalized", trajectory_score_method="Sum"):
     """
     Assign credits to each turn based on contribution and timing
     
@@ -695,41 +694,42 @@ def compute_turn_credits(conversation_history, data_source, gamma=0.8):
     
     turn_rewards = [step["reward"] for step in conversation_history]
 
-    trajectory_score = 0
-    for turn_idx, step in enumerate(conversation_history[::-1]):
-        if turn_idx == 0:
-            trajectory_score = step["reward"]
-        else:
-            trajectory_score = step["reward"] + gamma * trajectory_score
+    if trajectory_score_method == "R2G":
+        trajectory_score = 0
+        for turn_idx, step in enumerate(conversation_history[::-1]):
+            if turn_idx == 0:
+                trajectory_score = step["reward"]
+            else:
+                trajectory_score = step["reward"] + gamma * trajectory_score
+    elif trajectory_score_method == "Sum":
+        trajectory_score = round(sum(turn_rewards) / len(turn_rewards), 4) if turn_rewards else 0.0
+    else:
+        raise ValueError(f"Invalid trajectory_score_method: {trajectory_score_method}")
 
-    # trajectory_score = round(sum(turn_rewards) / len(turn_rewards), 4) if turn_rewards else 0.0
- 
-    # New 1: mapped reward function
-    # def map_reward(x, k=2.0):
-    #     """
-    #     Map reward x ∈ [0, 1] to higher values in [0.5, 1] using exponential scaling.
-    #     `k` controls curvature; larger k pushes low values higher.
-    #     """
-    #     numerator = 1 - math.exp(-k * x)
-    #     denominator = 1 - math.exp(-k)
-    #     return 0.5 + 0.5 * (numerator / denominator)
-    # mapped_turn_rewards = [round(map_reward(r), 4) for r in turn_rewards]
-
-    # New 2: All are same
-    mapped_turn_rewards = [1.0 for _ in turn_rewards]
+    if turn_level_method == "Equalized":
+        turn_credits = [1.0 for _ in turn_rewards]
+    elif turn_level_method == "R2G":
+        turn_credits = [0.0] * len(turn_rewards)
+        for turn_idx, step in enumerate(conversation_history[::-1]):
+            if turn_idx == 0:
+                turn_credits[turn_idx] = step["reward"]
+            else:
+                turn_credits[turn_idx] = step["reward"] + gamma * turn_credits[turn_idx - 1]
+        turn_credits = turn_credits[::-1]
+    elif turn_level_method == "EM":
+        def map_reward(x, k=2.0):
+            """
+            Map reward x ∈ [0, 1] to higher values in [0.5, 1] using exponential scaling.
+            `k` controls curvature; larger k pushes low values higher.
+            """
+            numerator = 1 - math.exp(-k * x)
+            denominator = 1 - math.exp(-k)
+            return 0.5 + 0.5 * (numerator / denominator)
+        turn_credits = [round(map_reward(r), 4) for r in turn_rewards]
+    else:
+        raise ValueError(f"Invalid turn_level_method: {turn_level_method}")
     
-    return mapped_turn_rewards, trajectory_score
-
-    # if "travel" in data_source.lower():
-    #     # Calculate this reward-to-go algorithm just using gamma
-    #     turn_credits = [0.0] * len(conversation_history)
-    #     for turn_idx, step in enumerate(conversation_history[::-1]):
-    #         if turn_idx == 0:
-    #             turn_credits[turn_idx] = step["reward"]
-    #         else:
-    #             turn_credits[turn_idx] = step["reward"] + gamma * turn_credits[turn_idx - 1]
-    #     turn_credits = turn_credits[::-1]
-        
+    return turn_credits, trajectory_score
 
 
 def compute_grpo_multiturn_advantage(
@@ -742,6 +742,8 @@ def compute_grpo_multiturn_advantage(
     gamma: float = 0.8,
     epsilon: float = 1e-6,
     norm_adv_by_std_in_grpo: bool = True,
+    turn_level_method: str = "Equalized", # "Equalized" or "R2G" or "EM"
+    trajectory_score_method: str = "Sum", # "Sum" or "R2G"
 ):
     """
     Turn-attributed GRPO with balanced action-answer credit assignment and max-reward normalization.
@@ -758,15 +760,14 @@ def compute_grpo_multiturn_advantage(
         action_credit_ratio: Credit ratio for action turns relative to answer turns
         epsilon: Numerical stability constant
         norm_adv_by_std_in_grpo: Whether to normalize by standard deviation
+        turn_level_method: Method to assign credits to turns, "Equalized" or "R2G" or "EM"
+        trajectory_score_method: Method to compute trajectory score, "Sum" or "R2G"
         
     Returns:
         advantages: (bs, response_length)
         returns: (bs, response_length)
     """
 
-    # [a1, a2, a3, a4, a5, a6] -> sum up to trjectory score
-    # applying mask: [a1, a1, a1, 0, 0, 0, a2, a2, 0, 0, 0, 0, ]
-    
     with torch.no_grad():
         advantages = torch.zeros_like(token_level_rewards)
         trajectory_scores = []
@@ -775,7 +776,7 @@ def compute_grpo_multiturn_advantage(
         for b in range(bsz):
             # Compute turn credits using conversation history
             if b < len(conversation_histories) and b < len(data_sources):
-                turn_credits, trajectory_score = compute_turn_credits(conversation_histories[b], data_sources[b], gamma)
+                turn_credits, trajectory_score = compute_turn_credits(conversation_histories[b], gamma, turn_level_method, trajectory_score_method)
             else:
                 # Fallback if no conversation history available
                 turn_credits, trajectory_score = [0.0] * torch.sum(turn_boundaries[b]).item(), 0.0
@@ -802,158 +803,9 @@ def compute_grpo_multiturn_advantage(
         # Apply GRPO group baseline (same as original GRPO)
         trajectory_scores = torch.tensor(trajectory_scores, device=advantages.device)
         
-        # Group baseline computation (identical to original GRPO)
-        id2score = defaultdict(list)
-        id2mean = {}
-        id2std = {}
-        
-        for i in range(bsz):
-            id2score[index[i]].append(trajectory_scores[i])
-        
-        for idx in id2score:
-            if len(id2score[idx]) == 1:
-                id2mean[idx] = torch.tensor(0.0, device=advantages.device)
-                id2std[idx] = torch.tensor(1.0, device=advantages.device)
-            elif len(id2score[idx]) > 1:
-                scores_tensor = torch.stack(id2score[idx])
-                id2mean[idx] = torch.mean(scores_tensor)
-                id2std[idx] = torch.std(scores_tensor)
-        
-        # Apply group baseline normalization
-        for b in range(bsz):
-            group_idx = index[b]
-            # if trajectory_scores[b] != 0:
-            if norm_adv_by_std_in_grpo:
-                normalization_factor = (trajectory_scores[b] - id2mean[group_idx]) / (id2std[group_idx] + epsilon)
-            else:
-                normalization_factor = trajectory_scores[b] - id2mean[group_idx]
-                
-            # episode_sum = torch.sum(advantages[b]) # trajectory_scores[b]
-            # if episode_sum != 0:
-            #     num_non_zero = torch.count_nonzero(advantages[b])
-            #     scaling_factor = normalization_factor * num_non_zero / episode_sum 
-            #     advantages[b] *= scaling_factor
-
-            # TODO: just a try of turning the advantage directly by normalization_factor, given all previous value is 1.0
-            advantages[b] *= normalization_factor
-
-        # Apply response mask
-        advantages = advantages * response_mask
-        
-        # For outcome supervision, returns = advantages
-        returns = advantages.clone()
-    
-    print(f"GRPO Multiturn Advantage: {advantages.shape}")
-    print(advantages)
-        
-    return advantages, returns
-
-
-############################################################################
-####                           Travel Variant                           ####
-############################################################################
-
-
-def compute_travel_credits(conversation_history, data_source, gamma=0.8):
-    """
-    Assign credits to each turn based on contribution and timing
-    
-    Args:
-        conversation_history: List of conversation steps with choice/reward info
-        gamma_efficiency: Discount for later success (efficiency bonus)
-        action_credit_ratio: How much credit action turns get relative to answer turns
-    
-    Returns:
-        turn_credits: List of credit values for each turn
-    """
-    
-    turn_rewards = [step["reward"] for step in conversation_history]
-
-    trajectory_score = 0
-    for turn_idx, step in enumerate(conversation_history[::-1]):
-        if turn_idx == 0:
-            trajectory_score = step["reward"]
-        else:
-            trajectory_score = step["reward"] + gamma * trajectory_score
-
-    # trajectory_score = round(sum(turn_rewards) / len(turn_rewards), 4) if turn_rewards else 0.0
- 
-    # New 1: mapped reward function
-    def map_reward(x, k=2.0):
-        """
-        Map reward x ∈ [0, 1] to higher values in [0.5, 1] using exponential scaling.
-        `k` controls curvature; larger k pushes low values higher.
-        """
-        numerator = 1 - math.exp(-k * x)
-        denominator = 1 - math.exp(-k)
-        return 0.5 + 0.5 * (numerator / denominator)
-    mapped_turn_rewards = [round(map_reward(r), 4) for r in turn_rewards]
-
-    # New 2: All are same
-    # mapped_turn_rewards = [1.0 for _ in turn_rewards]
-
-    # New 3: Use reward-to-go as turn credits
-    # mapped_turn_rewards = []
-    # for turn_idx, step in enumerate(conversation_history[::-1]):
-    #     if turn_idx == 0:
-    #         mapped_turn_rewards.append(step["reward"])
-    #     else:
-    #         mapped_turn_rewards.append(step["reward"] + gamma * mapped_turn_rewards[-1])
-    # mapped_turn_rewards = mapped_turn_rewards[::-1]
-    
-    return mapped_turn_rewards, trajectory_score
-
-
-def compute_grpo_travel_advantage(
-    token_level_rewards: torch.Tensor,
-    response_mask: torch.Tensor,
-    turn_boundaries: torch.Tensor,
-    conversation_histories: list,
-    data_sources: list,
-    index: np.ndarray,
-    gamma: float = 0.9,
-    epsilon: float = 1e-6,
-    norm_adv_by_std_in_grpo: bool = True,
-):
-
-    with torch.no_grad():
-        advantages = torch.zeros_like(token_level_rewards)
-        trajectory_scores = []
-        bsz, seq_len = token_level_rewards.shape
-        
-        for b in range(bsz):
-            # Compute turn credits using conversation history
-            if b < len(conversation_histories) and b < len(data_sources):
-                turn_credits, trajectory_score = compute_travel_credits(conversation_histories[b], data_sources[b], gamma)
-            else:
-                # Fallback if no conversation history available
-                turn_credits, trajectory_score = [0.0] * torch.sum(turn_boundaries[b]).item(), 0.0
-            
-            # Trajectory score is the sum of turn credits
-            trajectory_scores.append(trajectory_score)
-
-            # Find turn boundaries for this sequence
-            turn_starts = torch.where(turn_boundaries[b] == 1)[0].tolist()
-            if not turn_starts:
-                turn_starts = [0]
-            turn_starts.append(seq_len)
-            
-            # Assign credits to tokens within each turn
-            for turn_idx in range(len(turn_starts) - 1):
-                turn_start = turn_starts[turn_idx]
-                turn_end = turn_starts[turn_idx + 1]
-                
-                if turn_idx < len(turn_credits):
-                    turn_credit = turn_credits[turn_idx]
-                    # All tokens in this turn get the same credit
-                    advantages[b, turn_start:turn_end] = turn_credit
-
         # mask invalid tokens in advance
         advantages = advantages * response_mask
 
-        # Apply GRPO group baseline (same as original GRPO)
-        trajectory_scores = torch.tensor(trajectory_scores, device=advantages.device)
-        
         # Group baseline computation (identical to original GRPO)
         id2score = defaultdict(list)
         id2mean = {}
@@ -986,9 +838,6 @@ def compute_grpo_travel_advantage(
                 advantages[b] *= scaling_factor
             else:
                 advantages[b] *= 0.0
-
-            # TODO: just a try of turning the advantage directly by normalization_factor, given all previous value is 1.0
-            # advantages[b] *= normalization_factor
         
         # For outcome supervision, returns = advantages
         returns = advantages.clone()
