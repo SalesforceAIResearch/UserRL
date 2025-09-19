@@ -1,6 +1,15 @@
-# UserRL: User-Centric Reinforcement Learning for Large Language Models
+<p align="center">
+  <img src="assets/logo.png" alt="UserRL Logo" width="200"/>
+</p>
 
-A comprehensive framework for training LLM using reinforcement learning across diverse multi-turn user-centric gym environments. UserRL implements Group Relative Policy Optimization (GRPO) with multi-turn credit assignment for effective learning in interactive scenarios.
+# UserRL: UserRL: Training Proactive User-Centric Agent via Reinforcement Learning
+| [**📖 Paper**](https://arxiv.org/pdf/XXX) | [**📊 Dataset**](https://github.com/SalesforceAIResearch/UserRL/tree/main/data) |
+
+This is the official repository for paper "UserRL: UserRL: Training Proactive User-Centric Agent via Reinforcement Learning".
+
+We provide a comprehensive framework for training LLM using reinforcement learning across diverse multi-turn user-centric gym environments. UserRL implements Group Relative Policy Optimization (GRPO) with multi-turn credit assignment for effective learning in interactive scenarios.
+
+![DataPipeline](assets/main.png)
 
 ## 🎯 Overview
 
