@@ -24,6 +24,7 @@ pip install -e .
 Before using TauGym, you need to install tau-bench from source:
 
 ```bash
+cd ../utils
 git clone https://github.com/sierra-research/tau-bench.git
 cd tau-bench
 pip install -e .

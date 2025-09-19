@@ -1,0 +1,22 @@
+tools:
+  - class_name: "verl.tools.interact_tool.InteractTool"
+    config: {}
+    tool_schema:
+      type: "function"
+      function:
+        name: "interact_with_env"
+        description: "A tool for interact with a target environment. The detailed environment description and action space is provided in the system prompt, so please follow the system prompt. You can use this tool to analyze and interact with the environment step by step."
+        parameters:
+          type: "object"
+          properties:
+            thought:
+              type: "string"
+              description: "Your thought of what to do next, including your reasons, analysis of your choice, and why."
+            choice:
+              type: "string"
+              enum: ["action", "answer", "search"]
+              description: "Your choice of what to do next, must be one of `action`, `answer` or `search`. Please follow system instruction about the scope of choices you can make and how to decide your choice."
+            content:
+              type: "string"
+              description: "The content of your choice, must be a string. If you choose `action`, you should provide the action you want to take. If you choose `answer`, you should provide the answer that you want to submit. If you choose `search`, you should provide the search query. The specific format of the content is determined by the environment description in the system instruction. Please follow the format strictly in order to invocate this tool."
+          required: ["thought", "choice", "content"]

@@ -1,0 +1,20 @@
+hydra:
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ppo_trainer
+  - _self_
+
+algorithm:
+  action_credit_ratio: 0.8
+
+actor_rollout_ref:
+  hybrid_engine: True
+  rollout:
+    name: sglang
+    multi_turn:
+      enable: True
+      max_turns: 16
+      format: qwen
+      model_name: Qwen3-32b

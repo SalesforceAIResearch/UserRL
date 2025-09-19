@@ -60,7 +60,6 @@ The pipeline evaluates models across 8 diverse environments:
 
 #### Step 1: Merge Model Checkpoints
 ```bash
-cd /fsx/home/cqian/projects/UserRL/eval
 ./merge.sh
 ```
 
@@ -79,7 +78,6 @@ This script converts trained model checkpoints to HuggingFace format:
 
 #### Step 2: Host Model
 ```bash
-cd /fsx/home/cqian/projects/UserRL/eval
 ./host.sh
 ```
 
@@ -110,7 +108,6 @@ Deploy the merged model using vLLM with:
 
 #### For API Models
 ```bash
-cd /fsx/home/cqian/projects/UserRL/eval
 ./eval.sh
 ```
 
@@ -141,7 +138,6 @@ python eval.py \
 
 #### Process Results
 ```bash
-cd /fsx/home/cqian/projects/UserRL/eval
 python analyze.py
 ```
 

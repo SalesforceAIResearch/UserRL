@@ -26,6 +26,7 @@ To use AlfworldGym effectively, you need to set up the underlying alfworld envir
 ### 1. Clone the Original Alfworld Repository
 
 ```bash
+cd ../utils
 git clone https://github.com/alfworld/alfworld.git
 cd alfworld
 ```
