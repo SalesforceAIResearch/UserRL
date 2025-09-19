@@ -22,4 +22,5 @@ sglang[srt]==0.4.7
 wandb
 packaging>=20.0
 uvicorn
+torch_memory_saver
 fastapi

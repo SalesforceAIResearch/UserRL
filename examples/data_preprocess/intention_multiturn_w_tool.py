@@ -23,20 +23,17 @@ import json
 from datasets import Dataset
 import numpy as np
 
-from verl.utils.hdfs_io import copy, makedirs
-
 np.random.seed(42)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--local_dir", default="/fsx/home/cqian/projects/dataset/intention_multiturn")
-    parser.add_argument("--hdfs_dir", default=None)
+    parser.add_argument("--local_dir", default="./data/intention_multiturn")
 
     args = parser.parse_args()
 
-    train_data_source = "/fsx/home/cqian/projects/IntentionGym/intentiongym/data/all_intentions_refined.json"
-    test_data_source = "/fsx/home/cqian/projects/IntentionGym/intentiongym/data/all_intentions_test.json"
+    train_data_source = "./gyms/IntentionGym/intentiongym/data/all_intentions_refined.json"
+    test_data_source = "./gyms/IntentionGym/intentiongym/data/all_intentions_test.json"
     train_dataset = json.load(open(train_data_source))
     test_dataset = json.load(open(test_data_source))
     
@@ -96,9 +93,6 @@ if __name__ == "__main__":
                 "tools_kwargs": {
                     "interact_with_env": {
                         "create_kwargs": {"env_name": "IntentionGym", "task": task, "category": category, "id": id},
-                        # "execute_kwargs": {},
-                        # "calc_reward_kwargs": {},
-                        # "release_kwargs": {},
                     },
                 },
             },
@@ -114,13 +108,8 @@ if __name__ == "__main__":
     test_dataset = Dataset.from_list(test_dataset)
 
     local_dir = args.local_dir
-    hdfs_dir = args.hdfs_dir
     
     os.makedirs(local_dir, exist_ok=True)
 
     train_dataset.to_parquet(os.path.join(local_dir, "train.parquet"))
     test_dataset.to_parquet(os.path.join(local_dir, "test.parquet"))
-    
-    if hdfs_dir is not None:
-        makedirs(hdfs_dir)
-        copy(src=local_dir, dst=hdfs_dir)

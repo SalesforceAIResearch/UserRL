@@ -1,18 +1,3 @@
-# Copyright 2024 Bytedance Ltd. and/or its affiliates
-# Copyright 2023-2024 SGLang Team
-# Copyright 2025 ModelBest Inc. and/or its affiliates
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 """
 Preprocess the TravelGym dataset to parquet format
 """
@@ -23,16 +8,15 @@ import re
 import json
 from datasets import Dataset
 import numpy as np
-from verl.utils.hdfs_io import copy, makedirs
 
 
 def main(wanted_num, one_choice_per_aspect):
 
-    local_dir = f"/fsx/home/cqian/projects/dataset/travel{wanted_num}_multiturn"
+    local_dir = f"./data/travel{wanted_num}_multiturn"
     if one_choice_per_aspect:
         local_dir += "_onechoice"
 
-    data_source = f"/fsx/home/cqian/projects/TravelGym/travelgym/data/travelgym_data_{wanted_num}.json"
+    data_source = f"./gyms/TravelGym/travelgym/data/travelgym_data_{wanted_num}.json"
     dataset = json.load(open(data_source))
     dataset_len = len(dataset)
     
@@ -123,7 +107,7 @@ def main(wanted_num, one_choice_per_aspect):
 
 if __name__ == "__main__":
     for wanted_num in ["2222", "444", "334", "333", "233", "44", "22", "33"]:
-        for one_choice_per_aspect in [False, True]:
+        for one_choice_per_aspect in [True]:
             np.random.seed(42)
             print(f"Processing wanted_num: {wanted_num}, one_choice_per_aspect: {one_choice_per_aspect}")
             main(wanted_num, one_choice_per_aspect)

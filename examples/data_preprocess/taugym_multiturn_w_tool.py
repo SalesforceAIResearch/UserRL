@@ -1,20 +1,5 @@
-# Copyright 2024 Bytedance Ltd. and/or its affiliates
-# Copyright 2023-2024 SGLang Team
-# Copyright 2025 ModelBest Inc. and/or its affiliates
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 """
-Preprocess the SearchGym dataset to parquet format
+Preprocess the TauGym dataset to parquet format
 """
 
 import argparse
@@ -23,8 +8,6 @@ import re
 import json
 from datasets import Dataset
 import numpy as np
-
-from verl.utils.hdfs_io import copy, makedirs
 
 np.random.seed(42)
 
@@ -42,14 +25,13 @@ def preprocess_tau_dataset(dataset):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--local_dir", default="/fsx/home/cqian/projects/dataset/tau_multiturn")
-    parser.add_argument("--hdfs_dir", default=None)
+    parser.add_argument("--local_dir", default="./data/tau_multiturn")
 
     args = parser.parse_args()
 
-    data_source = "/fsx/home/cqian/projects/TauGym/taugym/data/tau_train.json"
+    data_source = "./gyms/TauGym/taugym/data/tau_train.json"
     train_dataset = json.load(open(data_source))
-    test_data_source = "/fsx/home/cqian/projects/TauGym/taugym/data/tau_test.json"
+    test_data_source = "./gyms/TauGym/taugym/data/tau_test.json"
     test_dataset = json.load(open(test_data_source))
 
     train_dataset = preprocess_tau_dataset(train_dataset)
@@ -115,13 +97,8 @@ if __name__ == "__main__":
     test_dataset = Dataset.from_list(test_dataset)
 
     local_dir = args.local_dir
-    hdfs_dir = args.hdfs_dir
     
     os.makedirs(local_dir, exist_ok=True)
     
     train_dataset.to_parquet(os.path.join(local_dir, "train.parquet"))
     test_dataset.to_parquet(os.path.join(local_dir, "test.parquet"))
-    
-    if hdfs_dir is not None:
-        makedirs(hdfs_dir)
-        copy(src=local_dir, dst=hdfs_dir)

@@ -941,7 +941,7 @@ class SGLangRollout(BaseRollout):
 
                 print(f"[Rank {self._rank}] Preprocessed {len(req_list)} requests for async rollout")
 
-                sem = asyncio.Semaphore(64)  # Limit the concurrency of async requests
+                sem = asyncio.Semaphore(128)  # Limit the concurrency of async requests to ensure the stability of the system
                 loop = asyncio.get_event_loop()
                 output_req_list = loop.run_until_complete(
                     asyncio.gather(
@@ -952,15 +952,6 @@ class SGLangRollout(BaseRollout):
                     )
                 )
                 
-                # loop = asyncio.get_event_loop()
-                # output_req_list = loop.run_until_complete(
-                #     asyncio.gather(
-                #         *[
-                #             self._async_rollout_a_request(req, do_sample, is_validate, **kwargs)
-                #             for req in req_list
-                #         ],
-                #     )
-                # )
                 sorted_output_req_list = sorted(
                     output_req_list, key=lambda x: (x.batch_data_id, x.rollout_offset)
                 )
@@ -1104,7 +1095,7 @@ class SGLangRollout(BaseRollout):
             batch=batch,
             non_tensor_batch={
                 "messages": np.array(messages),
-                "conversation_histories": np.array([[x] for x in conversation_histories], dtype=object), # np.array(conversation_histories, dtype=object),
+                "conversation_histories": np.array([[x] for x in conversation_histories], dtype=object),
                 "reward_scores": np.array(reward_scores),
             },
         )

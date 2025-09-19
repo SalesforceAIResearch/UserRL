@@ -16,5 +16,6 @@ actor_rollout_ref:
     multi_turn:
       enable: True
       max_turns: 16
-      format: qwen
-      model_name: Qwen3-32b
+      model_name: gpt-4o
+      turn_level_method: Equalized
+      trajectory_score_method: Sum

@@ -80,26 +80,15 @@ class NaiveRewardManager:
             reward_diction = data_item.non_tensor_batch["reward_model"]
 
             # customized for interaction gym reward computation (already calculated in the rollout)
+            # Note that the score here is only for logging purpose, not for training purpose
             if data_source.startswith("interact"):
                 conversation_histories = data_item.non_tensor_batch["conversation_histories"][0]
                 turn_rewards = [conversation_history["reward"] for conversation_history in conversation_histories]
-
                 sum_score = sum(turn_rewards)
                 max_score = max(turn_rewards)
-
-                to_go_score = turn_rewards[-1]
-                for score in turn_rewards[::-1][1:]:
-                    to_go_score = score + gamma * to_go_score
-                
-                to_go_score_08 = turn_rewards[-1]
-                for score in turn_rewards[::-1][1:]:
-                    to_go_score_08 = score + 0.8 * to_go_score_08
-                
                 score = {
                     "score": sum_score,
-                    "score_togo": to_go_score,
                     "score_max": max_score,
-                    "score_togo_08": to_go_score_08
                 }
             else:
                 score = self.compute_score(
@@ -108,33 +97,10 @@ class NaiveRewardManager:
                     ground_truth=reward_diction,
                     extra_info=extra_info,
                 )
-            
-            # Add additional travel gym score
-            if "travelgym" in data_source:
-                conversation_histories = data_item.non_tensor_batch["conversation_histories"][0]
-                data_id = reward_diction["id"]
-                total_aspects = len(data_id.split("|"))
-                aspect_answers = {}
-                for conv in conversation_histories:
-                    reward = conv["reward"]
-                    choice = conv["choice"]
-                    content = conv["content"]
-                    if choice == "answer" and len(content) > 0:
-                        option_initial = content[0]
-                        if option_initial not in aspect_answers:
-                            aspect_answers[option_initial] = 0
-                        if reward > aspect_answers[option_initial]:
-                            aspect_answers[option_initial] = reward
-                score_travel = sum(list(aspect_answers.values())) / total_aspects
-                score["score_travel"] = score_travel
-            else:
-                score["score_travel"] = 0.0
 
+            # Note that the score here is only for logging purpose, not for training purpose
             if isinstance(score, dict):
-                if data_source.startswith("interact"):
-                    reward = score["score_togo"]
-                else:
-                    reward = score["score"]
+                reward = score["score"]
                 # Store the information including original reward
                 for key, value in score.items():
                     reward_extra_info[key].append(value)
