@@ -2,10 +2,10 @@
   <img src="assets/logo.png" alt="UserRL Logo" width="200"/>
 </p>
 
-# UserRL: UserRL: Training Proactive User-Centric Agent via Reinforcement Learning
-| [**📖 Paper**](https://arxiv.org/pdf/XXX) | [**📊 Dataset**](https://github.com/SalesforceAIResearch/UserRL/tree/main/data) |
+# UserRL: Training Proactive User-Centric Agent via Reinforcement Learning
+| [**📖 Paper**](https://arxiv.org/pdf/2509.19736) | [**📊 Dataset**](https://github.com/SalesforceAIResearch/UserRL/tree/main/data) |
 
-This is the official repository for paper "UserRL: UserRL: Training Proactive User-Centric Agent via Reinforcement Learning".
+This is the official repository for paper "UserRL: Training Proactive User-Centric Agent via Reinforcement Learning".
 
 We provide a comprehensive framework for training LLM using reinforcement learning across diverse multi-turn user-centric gym environments. UserRL implements Group Relative Policy Optimization (GRPO) with multi-turn credit assignment for effective learning in interactive scenarios.
 
@@ -243,7 +243,12 @@ We welcome contributions! Please see individual component READMEs:
 ## 📝 Citation
 
 ```bibtex
-TBD
+@article{qian2025userrl,
+  title={UserRL: Training Interactive User-Centric Agent via Reinforcement Learning},
+  author={Qian, Cheng and Liu, Zuxin and Prabhakar, Akshara and Qiu, Jielin and Liu, Zhiwei and Chen, Haolin and Kokane, Shirley and Ji, Heng and Yao, Weiran and Heinecke, Shelby and Savarese, Silvio and Xiong, Caiming and Wang, Huan},
+  journal={arXiv preprint arXiv:2509.19736},
+  year={2025}
+}
 ```
 
 ## 🙏 Acknowledgments
