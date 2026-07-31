@@ -39,6 +39,14 @@ A comprehensive collection of Gymnasium-compatible environments for reinforcemen
 **Action Types**: `[search]`, `[answer]`, `[finish]`  
 **Dependencies**: OpenAI API, Serper API
 
+### 💻 SWEGym
+**Domain**: User/coding-agent sessions  
+**Description**: Agents work through real software engineering tasks with a user who reveals requirements only when asked or when the agent drifts.  
+**Key Features**: Requirement elicitation, rubric-graded submissions, reconstructed sessions  
+**Action Types**: `[action]`, `[answer]`, `[finish]`  
+**Data Source**: [SWE-Together](https://arxiv.org/pdf/2606.29957) (Wu et al., 2026)  
+**Dependencies**: OpenAI API
+
 ### 🛠️ TauGym
 **Domain**: Tool-agent-user interactions  
 **Description**: Agents learn to use tools and interact with users in complex multi-agent scenarios.  

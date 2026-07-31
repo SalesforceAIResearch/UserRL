@@ -26,7 +26,7 @@ async def load_data(env_name, one_choice=True, split="test"):
     for i in range(len(df)):
         data.append({
             "env_name": env_name,
-            "gold": str(df.iloc[i]["reward_model"]["id"]) if (env_name == "intention" or env_name == "persuasion" or env_name == "bamboogle" or env_name == "alfworld" or env_name == "tau" or env_name == "function" or "travel" in env_name) else str(df.iloc[i]["reward_model"]["title"]),
+            "gold": str(df.iloc[i]["reward_model"]["id"]) if (env_name == "intention" or env_name == "persuasion" or env_name == "bamboogle" or env_name == "alfworld" or env_name == "tau" or env_name == "function" or env_name == "swe" or "travel" in env_name) else str(df.iloc[i]["reward_model"]["title"]),
             "messages": list(df.iloc[i]["prompt"]),
         })
     print(f"Loaded {len(data)} data from {path}")
@@ -134,6 +134,16 @@ async def build_env(data, max_turns):
         else:
             config.task_split = "test"
         env = taugym.TauEnv(config=config)
+        env.reset()
+        return env
+    elif env_name == "swe":
+        import swegym
+        config = swegym.get_default_config()
+        config.max_steps = max_turns
+        config.data_mode = "single"
+        config.data_source = gold
+        config.model_name = model_name
+        env = swegym.SWEEnv(config=config)
         env.reset()
         return env
     elif env_name == "function":

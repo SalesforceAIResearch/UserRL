@@ -41,7 +41,7 @@ UserRL/eval/
 
 ## Supported Environments
 
-The pipeline evaluates models across 8 diverse environments:
+The pipeline evaluates models across 9 diverse environments:
 
 | Environment | Description | Key Features |
 |-------------|-------------|--------------|
@@ -53,6 +53,7 @@ The pipeline evaluates models across 8 diverse environments:
 | **IntentionGym** | AI intention guessing | Preference inference, conversation |
 | **TelepathyGym** | Mind reading games | Strategic questioning, logical reasoning |
 | **SearchGym** | Search-based question answering | Web search, information synthesis |
+| **SWEGym** | User/coding-agent sessions ([SWE-Together](https://arxiv.org/pdf/2606.29957)) | Requirement elicitation, rubric-graded submissions |
 
 ## Usage Instructions
 
