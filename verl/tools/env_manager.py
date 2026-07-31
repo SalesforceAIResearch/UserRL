@@ -50,6 +50,8 @@ class EnvironmentManager:
             env = self._create_taugym_environment(**kwargs)
         elif env_name == "FunctionGym":
             env = self._create_functiongym_environment(**kwargs)
+        elif env_name == "SWEGym":
+            env = self._create_swegym_environment(**kwargs)
         else:
             raise ValueError(f"Unknown environment type: {env_name}")
         
@@ -159,6 +161,27 @@ class EnvironmentManager:
         env_config.model_name = model_name
 
         env = intentiongym.IntentionEnv(config=env_config)
+        env.reset()
+
+        return env
+
+    def _create_swegym_environment(self, **kwargs):
+        """Create SWEGym environment."""
+        import swegym
+
+        env_config = swegym.get_default_config()
+
+        # Configure from kwargs
+        max_turns = kwargs.get("max_turns", 15)
+        model_name = kwargs.get("model_name", "gpt-4o-mini")
+        id = kwargs.get("id")
+
+        env_config.max_steps = max_turns
+        env_config.data_mode = "single"
+        env_config.data_source = id
+        env_config.model_name = model_name
+
+        env = swegym.SWEEnv(config=env_config)
         env.reset()
 
         return env

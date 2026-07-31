@@ -30,6 +30,7 @@ GYMS=(
     "IntentionGym"
     "PersuadeGym"
     "SearchGym"
+    "SWEGym"
     "TauGym"
     "TelepathyGym"
     "TravelGym"
@@ -45,4 +46,4 @@ for gym in "${GYMS[@]}"; do
 done
 
 echo "🎉 All gyms installed successfully!"
-echo "Run: python -c \"import alfworldgym, functiongym, intentiongym, persuadegym, searchgym, taugym, telepathygym, travelgym, turtlegym; print('All gyms imported successfully!')\""
+echo "Run: python -c \"import alfworldgym, functiongym, intentiongym, persuadegym, searchgym, swegym, taugym, telepathygym, travelgym, turtlegym; print('All gyms imported successfully!')\""

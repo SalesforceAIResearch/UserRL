@@ -104,6 +104,7 @@ UserRL includes 10+ specialized gym environments:
 | **IntentionGym** | Intent Recognition | User intention inference through conversation |
 | **PersuadeGym** | Persuasion | Strategic persuasive communication |
 | **SearchGym** | Information Retrieval | Web search and information synthesis |
+| **SWEGym** | Software Engineering | Requirement elicitation in user/coding-agent sessions ([SWE-Together](https://arxiv.org/pdf/2606.29957)) |
 | **TauGym** | Tool Usage | Multi-agent tool interaction scenarios |
 | **TelepathyGym** | Mind Reading | Entity guessing through strategic questions |
 | **TravelGym** | Travel Planning | Preference elicitation and recommendation |
